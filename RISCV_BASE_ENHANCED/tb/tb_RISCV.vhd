@@ -1,0 +1,144 @@
+library ieee;
+use ieee.std_logic_1164.all;
+use ieee.numeric_std.all;
+
+library work;
+use work.risc_package.all;
+
+entity tb_RISCV is
+end tb_RISCV;
+
+architecture dut of tb_RISCV is
+
+component RISCV is
+	port(
+	--in
+	clk					: in std_logic;
+	rst					: in std_logic;
+	instruction_ID_in	: in std_logic_vector(instruction_parallelism-1 downto 0);
+	Read_data_WB_in		: in std_logic_vector(data_parallelism-1 downto 0);
+	--out
+	PCWrite_ID_out      :out std_logic; --from ID stage
+	PCSrc_MEM_out		:out std_logic; --from MEM stage
+	IF_ID_Write_ID_out  :out std_logic; --from ID stage
+	ALUout_EX_out       :out std_logic_vector(data_parallelism-1 downto 0);--from EX stage
+	ALU_bypass_EX_out   :out std_logic_vector(data_parallelism-1 downto 0);--from EX stage
+	MemRead	            :out std_logic;
+	MemWrite            :out std_logic;
+	mux_IF_out          :out std_logic_vector(address_parallelism-1 downto 0)
+	);
+end component;
+
+component data_memory is
+port (
+			ADDR: 	 		in std_logic_vector(address_parallelism-1 downto 0);
+			DATA_IN:  		in std_logic_vector(data_parallelism-1 downto 0);
+			RAM_WR:   		in std_logic;
+			RAM_RD:   		in std_logic;
+			CLK: 			in std_logic;
+			DATA_OUT: 		out std_logic_vector(data_parallelism-1 downto 0);
+			rst:				in std_logic
+			);
+end component;
+
+component instruction_memory is
+	port (
+			ADDR: 	 		 in std_logic_vector(address_parallelism-1 downto 0);
+			DATA_IN: 		 in std_logic_vector(instruction_parallelism-1 downto 0);
+			RAM_WR:  		 in std_logic;
+			CLK: 		 	 in std_logic;
+			DATA_OUT: 		 out std_logic_vector(instruction_parallelism-1 downto 0);
+			IF_ID_write:     	in std_logic;
+			PC_write:        	in std_logic;
+			PC_src:			 in std_logic;
+			rst:		 	 in std_logic
+			);
+end component;
+
+
+--RISCV signals
+--in
+signal clk						:std_logic:='0';
+signal rst						:std_logic:='0';
+signal instruction_ID_in_s		:std_logic_vector(instruction_parallelism-1 downto 0);
+signal Read_data_WB_in_s		:std_logic_vector(data_parallelism-1 downto 0);
+--out
+signal mux_IF_out_s				:std_logic_vector(instruction_parallelism-1 downto 0);
+signal IF_ID_Write_ID_out_s		:std_logic;
+signal ALUout_EX_out_s			:std_logic_vector(data_parallelism-1 downto 0);
+signal ALU_bypass_EX_out_s		:std_logic_vector(data_parallelism-1 downto 0);
+signal PC_Write_ID_out_s		:std_logic;
+signal MemWrite_s				:std_logic;
+signal MemRead_s	           	:std_logic;
+signal PC_src_s					:std_logic;
+
+--IM signals
+
+signal DATA_IN_s: 			std_logic_vector(instruction_parallelism-1 downto 0):=(others=>'0'); --no input in IM
+signal RAM_WR_s:			std_logic:='0'; --read always
+
+	begin
+	
+	--components declaration
+	--riscv declaration
+	RISCV_comp : RISCV
+	port map(
+											
+	clk					=> clk,				 
+	rst					=> rst,				 
+	instruction_ID_in	=> instruction_ID_in_s,
+	Read_data_WB_in		=> Read_data_WB_in_s,
+						
+	mux_IF_out			=> mux_IF_out_s,
+	IF_ID_Write_ID_out	=> IF_ID_Write_ID_out_s,
+	ALUout_EX_out		=> ALUout_EX_out_s,
+	ALU_bypass_EX_out	=> ALU_bypass_EX_out_s,
+	PCWrite_ID_out		=> PC_Write_ID_out_s,
+	PCSrc_MEM_out		=>PC_src_s,
+	MemWrite			=> MemWrite_s,
+	MemRead	           	 => MemRead_s	         
+	);
+	
+	
+	--IM declaration
+	IM_comp : instruction_memory
+	port map(
+	ADDR			=> mux_IF_out_s, 	
+	DATA_IN			=> DATA_IN_s,
+	RAM_WR 			=> RAM_WR_s,
+	CLK				=> clk, 		
+	DATA_OUT		=> instruction_ID_in_s,
+	IF_ID_write		=> IF_ID_Write_ID_out_s,
+	PC_write   		=> PC_Write_ID_out_s,
+	PC_src			=> PC_src_s,
+	rst				=> rst
+	);
+	
+	
+	--DM declaration
+	DM_comp	: data_memory
+	port map(
+	ADDR 	 	=> ALUout_EX_out_s,
+	DATA_IN  	=> ALU_bypass_EX_out_s,
+	RAM_WR   	=> MemWrite_s,
+	RAM_RD		=> MemRead_s,	
+	CLK  		=> clk,
+	DATA_OUT	=> Read_data_WB_in_s,
+	rst	        => rst
+		
+	);
+	
+	--stimuli
+	clk <= not(clk) after 20 ns;--periodo 40 ns
+	
+	stimuli: process
+	begin 
+
+	rst<='1';
+	wait for 40 ns;
+	rst<='0';
+	wait;
+	
+	end process stimuli;
+	
+	end architecture;

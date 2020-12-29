@@ -1,0 +1,916 @@
+# Reading C:/intelFPGA_lite/19.1/modelsim_ase/tcl/vsim/pref.tcl
+do C:/Users/gianl/Desktop/lab3/RISCV_sim_27_12_2020/sim/script_soruce_riscv.do
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:23:19 on Dec 27,2020
+# vcom -reportprogress 300 -93 -work ./work ../src/risc_package.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling package risc_package
+# End time: 15:23:20 on Dec 27,2020, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:23:20 on Dec 27,2020
+# vcom -reportprogress 300 -93 -work ./work ../src/AddSum.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package risc_package
+# -- Compiling entity AddSum
+# -- Compiling architecture structural of AddSum
+# End time: 15:23:20 on Dec 27,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:23:20 on Dec 27,2020
+# vcom -reportprogress 300 -93 -work ./work ../src/ALU.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package risc_package
+# -- Compiling entity ALU
+# -- Compiling architecture behavioural of ALU
+# End time: 15:23:20 on Dec 27,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:23:20 on Dec 27,2020
+# vcom -reportprogress 300 -93 -work ./work ../src/ALU_control.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package risc_package
+# -- Compiling entity ALU_control
+# -- Compiling architecture structural of ALU_control
+# End time: 15:23:20 on Dec 27,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:23:20 on Dec 27,2020
+# vcom -reportprogress 300 -93 -work ./work ../src/AND_Gate.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package risc_package
+# -- Compiling entity AND_Gate
+# -- Compiling architecture behavioural of AND_Gate
+# End time: 15:23:20 on Dec 27,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:23:20 on Dec 27,2020
+# vcom -reportprogress 300 -93 -work ./work ../src/OR_Gate.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package risc_package
+# -- Compiling entity OR_Gate
+# -- Compiling architecture behavioural of OR_Gate
+# End time: 15:23:21 on Dec 27,2020, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:23:21 on Dec 27,2020
+# vcom -reportprogress 300 -93 -work ./work ../src/CU.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package risc_package
+# -- Compiling entity CU
+# -- Compiling architecture arch of CU
+# End time: 15:23:21 on Dec 27,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:23:21 on Dec 27,2020
+# vcom -reportprogress 300 -93 -work ./work ../src/forwarding_unit.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package risc_package
+# -- Compiling entity forwarding_unit
+# -- Compiling architecture structural of forwarding_unit
+# End time: 15:23:21 on Dec 27,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:23:21 on Dec 27,2020
+# vcom -reportprogress 300 -93 -work ./work ../src/HDU.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package risc_package
+# -- Compiling entity HDU
+# -- Compiling architecture arch of HDU
+# End time: 15:23:21 on Dec 27,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:23:21 on Dec 27,2020
+# vcom -reportprogress 300 -93 -work ./work ../src/imm_gen.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package risc_package
+# -- Compiling entity imm_gen
+# -- Compiling architecture structural of imm_gen
+# End time: 15:23:21 on Dec 27,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:23:21 on Dec 27,2020
+# vcom -reportprogress 300 -93 -work ./work ../src/instruction_memory.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package risc_package
+# -- Compiling entity instruction_memory
+# -- Compiling architecture Behavioral of instruction_memory
+# ** Error: ../src/instruction_memory.vhd(49): near ")": syntax error
+# ** Error: ../src/instruction_memory.vhd(82): Illegal target for signal assignment.
+# ** Error: ../src/instruction_memory.vhd(82): (vcom-1136) Unknown identifier "RAM".
+# ** Error: ../src/instruction_memory.vhd(85): (vcom-1136) Unknown identifier "RAM".
+# ** Error: ../src/instruction_memory.vhd(124): VHDL Compiler exiting
+# End time: 15:23:22 on Dec 27,2020, Elapsed time: 0:00:01
+# Errors: 5, Warnings: 0
+# ** Error: C:/intelFPGA_lite/19.1/modelsim_ase/win32aloem/vcom failed.
+# Error in macro C:\Users\gianl\Desktop\lab3\RISCV_sim_27_12_2020\sim\script_soruce_riscv.do line 11
+# C:/intelFPGA_lite/19.1/modelsim_ase/win32aloem/vcom failed.
+#     while executing
+# "vcom -93 -work ./work ../src/instruction_memory.vhd"
+do C:/Users/gianl/Desktop/lab3/RISCV_sim_27_12_2020/sim/script_soruce_riscv.do
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:23:40 on Dec 27,2020
+# vcom -reportprogress 300 -93 -work ./work ../src/risc_package.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling package risc_package
+# End time: 15:23:40 on Dec 27,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:23:40 on Dec 27,2020
+# vcom -reportprogress 300 -93 -work ./work ../src/AddSum.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package risc_package
+# -- Compiling entity AddSum
+# -- Compiling architecture structural of AddSum
+# End time: 15:23:40 on Dec 27,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:23:40 on Dec 27,2020
+# vcom -reportprogress 300 -93 -work ./work ../src/ALU.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package risc_package
+# -- Compiling entity ALU
+# -- Compiling architecture behavioural of ALU
+# End time: 15:23:40 on Dec 27,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:23:40 on Dec 27,2020
+# vcom -reportprogress 300 -93 -work ./work ../src/ALU_control.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package risc_package
+# -- Compiling entity ALU_control
+# -- Compiling architecture structural of ALU_control
+# End time: 15:23:41 on Dec 27,2020, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:23:41 on Dec 27,2020
+# vcom -reportprogress 300 -93 -work ./work ../src/AND_Gate.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package risc_package
+# -- Compiling entity AND_Gate
+# -- Compiling architecture behavioural of AND_Gate
+# End time: 15:23:41 on Dec 27,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:23:41 on Dec 27,2020
+# vcom -reportprogress 300 -93 -work ./work ../src/OR_Gate.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package risc_package
+# -- Compiling entity OR_Gate
+# -- Compiling architecture behavioural of OR_Gate
+# End time: 15:23:41 on Dec 27,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:23:41 on Dec 27,2020
+# vcom -reportprogress 300 -93 -work ./work ../src/CU.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package risc_package
+# -- Compiling entity CU
+# -- Compiling architecture arch of CU
+# End time: 15:23:41 on Dec 27,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:23:41 on Dec 27,2020
+# vcom -reportprogress 300 -93 -work ./work ../src/forwarding_unit.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package risc_package
+# -- Compiling entity forwarding_unit
+# -- Compiling architecture structural of forwarding_unit
+# End time: 15:23:41 on Dec 27,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:23:41 on Dec 27,2020
+# vcom -reportprogress 300 -93 -work ./work ../src/HDU.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package risc_package
+# -- Compiling entity HDU
+# -- Compiling architecture arch of HDU
+# End time: 15:23:42 on Dec 27,2020, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:23:42 on Dec 27,2020
+# vcom -reportprogress 300 -93 -work ./work ../src/imm_gen.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package risc_package
+# -- Compiling entity imm_gen
+# -- Compiling architecture structural of imm_gen
+# End time: 15:23:42 on Dec 27,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:23:42 on Dec 27,2020
+# vcom -reportprogress 300 -93 -work ./work ../src/instruction_memory.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package risc_package
+# -- Compiling entity instruction_memory
+# -- Compiling architecture Behavioral of instruction_memory
+# End time: 15:23:42 on Dec 27,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:23:42 on Dec 27,2020
+# vcom -reportprogress 300 -93 -work ./work ../src/mux_ID.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package risc_package
+# -- Compiling entity mux_ID
+# -- Compiling architecture behavioural of mux_ID
+# End time: 15:23:42 on Dec 27,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:23:42 on Dec 27,2020
+# vcom -reportprogress 300 -93 -work ./work ../src/mux21.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package risc_package
+# -- Compiling entity mux21
+# -- Compiling architecture structural of mux21
+# End time: 15:23:42 on Dec 27,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:23:42 on Dec 27,2020
+# vcom -reportprogress 300 -93 -work ./work ../src/mux31.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package risc_package
+# -- Compiling entity mux31
+# -- Compiling architecture structural of mux31
+# End time: 15:23:42 on Dec 27,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:23:42 on Dec 27,2020
+# vcom -reportprogress 300 -93 -work ./work ../src/PC.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package risc_package
+# -- Compiling entity PC
+# -- Compiling architecture behavioural of PC
+# End time: 15:23:42 on Dec 27,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:23:43 on Dec 27,2020
+# vcom -reportprogress 300 -93 -work ./work ../src/PC_instr_mem.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package risc_package
+# -- Compiling entity PC_instr_mem
+# -- Compiling architecture behavioural of PC_instr_mem
+# End time: 15:23:43 on Dec 27,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:23:43 on Dec 27,2020
+# vcom -reportprogress 300 -93 -work ./work ../src/reg.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package risc_package
+# -- Compiling entity reg
+# -- Compiling architecture behavioural of reg
+# End time: 15:23:43 on Dec 27,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:23:43 on Dec 27,2020
+# vcom -reportprogress 300 -93 -work ./work ../src/reg_zero.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package risc_package
+# -- Compiling entity reg_zero
+# -- Compiling architecture behavioural of reg_zero
+# End time: 15:23:43 on Dec 27,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:23:43 on Dec 27,2020
+# vcom -reportprogress 300 -93 -work ./work ../src/reg_NOP.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package risc_package
+# -- Compiling entity reg_NOP
+# -- Compiling architecture behavioural of reg_NOP
+# End time: 15:23:43 on Dec 27,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:23:43 on Dec 27,2020
+# vcom -reportprogress 300 -93 -work ./work ../src/reg_jal_PC_IF_ID.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package risc_package
+# -- Compiling entity reg_jal_PC_IF_ID
+# -- Compiling architecture behavioural of reg_jal_PC_IF_ID
+# End time: 15:23:44 on Dec 27,2020, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:23:44 on Dec 27,2020
+# vcom -reportprogress 300 -93 -work ./work ../src/register_file.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package risc_package
+# -- Compiling entity register_file
+# -- Compiling architecture behavioural of register_file
+# End time: 15:23:44 on Dec 27,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:23:44 on Dec 27,2020
+# vcom -reportprogress 300 -93 -work ./work ../src/EX_stage.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package risc_package
+# -- Compiling entity EX_stage
+# -- Compiling architecture structural of EX_stage
+# End time: 15:23:44 on Dec 27,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:23:44 on Dec 27,2020
+# vcom -reportprogress 300 -93 -work ./work ../src/ID_stage.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package risc_package
+# -- Compiling entity ID_stage
+# -- Compiling architecture behavioural of ID_stage
+# End time: 15:23:44 on Dec 27,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:23:44 on Dec 27,2020
+# vcom -reportprogress 300 -93 -work ./work ../src/IF_stage.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package risc_package
+# -- Compiling entity IF_stage
+# -- Compiling architecture behavioral of IF_stage
+# End time: 15:23:44 on Dec 27,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:23:44 on Dec 27,2020
+# vcom -reportprogress 300 -93 -work ./work ../src/MEM_stage.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package risc_package
+# -- Compiling entity MEM_stage
+# -- Compiling architecture behavioural of MEM_stage
+# End time: 15:23:44 on Dec 27,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:23:44 on Dec 27,2020
+# vcom -reportprogress 300 -93 -work ./work ../src/WB_stage.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package risc_package
+# -- Compiling entity WB_stage
+# -- Compiling architecture behavior of WB_stage
+# End time: 15:23:44 on Dec 27,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:23:45 on Dec 27,2020
+# vcom -reportprogress 300 -93 -work ./work ../src/RISCV.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package risc_package
+# -- Compiling entity RISCV
+# -- Compiling architecture structural of RISCV
+# ** Error: ../src/RISCV.vhd(579): near ";": (vcom-1576) expecting ',' or ')'.
+# ** Error: ../src/RISCV.vhd(584): Statement cannot be labeled.
+# ** Error: ../src/RISCV.vhd(600): VHDL Compiler exiting
+# End time: 15:23:45 on Dec 27,2020, Elapsed time: 0:00:00
+# Errors: 3, Warnings: 0
+# ** Error: C:/intelFPGA_lite/19.1/modelsim_ase/win32aloem/vcom failed.
+# Error in macro C:\Users\gianl\Desktop\lab3\RISCV_sim_27_12_2020\sim\script_soruce_riscv.do line 29
+# C:/intelFPGA_lite/19.1/modelsim_ase/win32aloem/vcom failed.
+#     while executing
+# "vcom -93 -work ./work ../src/RISCV.vhd"
+do C:/Users/gianl/Desktop/lab3/RISCV_sim_27_12_2020/sim/script_soruce_riscv.do
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:25:01 on Dec 27,2020
+# vcom -reportprogress 300 -93 -work ./work ../src/risc_package.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling package risc_package
+# End time: 15:25:01 on Dec 27,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:25:01 on Dec 27,2020
+# vcom -reportprogress 300 -93 -work ./work ../src/AddSum.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package risc_package
+# -- Compiling entity AddSum
+# -- Compiling architecture structural of AddSum
+# End time: 15:25:01 on Dec 27,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:25:01 on Dec 27,2020
+# vcom -reportprogress 300 -93 -work ./work ../src/ALU.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package risc_package
+# -- Compiling entity ALU
+# -- Compiling architecture behavioural of ALU
+# End time: 15:25:01 on Dec 27,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:25:01 on Dec 27,2020
+# vcom -reportprogress 300 -93 -work ./work ../src/ALU_control.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package risc_package
+# -- Compiling entity ALU_control
+# -- Compiling architecture structural of ALU_control
+# End time: 15:25:01 on Dec 27,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:25:01 on Dec 27,2020
+# vcom -reportprogress 300 -93 -work ./work ../src/AND_Gate.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package risc_package
+# -- Compiling entity AND_Gate
+# -- Compiling architecture behavioural of AND_Gate
+# End time: 15:25:02 on Dec 27,2020, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:25:02 on Dec 27,2020
+# vcom -reportprogress 300 -93 -work ./work ../src/OR_Gate.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package risc_package
+# -- Compiling entity OR_Gate
+# -- Compiling architecture behavioural of OR_Gate
+# End time: 15:25:02 on Dec 27,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:25:02 on Dec 27,2020
+# vcom -reportprogress 300 -93 -work ./work ../src/CU.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package risc_package
+# -- Compiling entity CU
+# -- Compiling architecture arch of CU
+# End time: 15:25:02 on Dec 27,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:25:02 on Dec 27,2020
+# vcom -reportprogress 300 -93 -work ./work ../src/forwarding_unit.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package risc_package
+# -- Compiling entity forwarding_unit
+# -- Compiling architecture structural of forwarding_unit
+# End time: 15:25:02 on Dec 27,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:25:02 on Dec 27,2020
+# vcom -reportprogress 300 -93 -work ./work ../src/HDU.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package risc_package
+# -- Compiling entity HDU
+# -- Compiling architecture arch of HDU
+# End time: 15:25:02 on Dec 27,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:25:02 on Dec 27,2020
+# vcom -reportprogress 300 -93 -work ./work ../src/imm_gen.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package risc_package
+# -- Compiling entity imm_gen
+# -- Compiling architecture structural of imm_gen
+# End time: 15:25:03 on Dec 27,2020, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:25:03 on Dec 27,2020
+# vcom -reportprogress 300 -93 -work ./work ../src/instruction_memory.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package risc_package
+# -- Compiling entity instruction_memory
+# -- Compiling architecture Behavioral of instruction_memory
+# End time: 15:25:03 on Dec 27,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:25:03 on Dec 27,2020
+# vcom -reportprogress 300 -93 -work ./work ../src/mux_ID.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package risc_package
+# -- Compiling entity mux_ID
+# -- Compiling architecture behavioural of mux_ID
+# End time: 15:25:03 on Dec 27,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:25:03 on Dec 27,2020
+# vcom -reportprogress 300 -93 -work ./work ../src/mux21.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package risc_package
+# -- Compiling entity mux21
+# -- Compiling architecture structural of mux21
+# End time: 15:25:03 on Dec 27,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:25:03 on Dec 27,2020
+# vcom -reportprogress 300 -93 -work ./work ../src/mux31.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package risc_package
+# -- Compiling entity mux31
+# -- Compiling architecture structural of mux31
+# End time: 15:25:03 on Dec 27,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:25:03 on Dec 27,2020
+# vcom -reportprogress 300 -93 -work ./work ../src/PC.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package risc_package
+# -- Compiling entity PC
+# -- Compiling architecture behavioural of PC
+# End time: 15:25:03 on Dec 27,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:25:03 on Dec 27,2020
+# vcom -reportprogress 300 -93 -work ./work ../src/PC_instr_mem.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package risc_package
+# -- Compiling entity PC_instr_mem
+# -- Compiling architecture behavioural of PC_instr_mem
+# End time: 15:25:04 on Dec 27,2020, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:25:04 on Dec 27,2020
+# vcom -reportprogress 300 -93 -work ./work ../src/reg.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package risc_package
+# -- Compiling entity reg
+# -- Compiling architecture behavioural of reg
+# End time: 15:25:04 on Dec 27,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:25:04 on Dec 27,2020
+# vcom -reportprogress 300 -93 -work ./work ../src/reg_zero.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package risc_package
+# -- Compiling entity reg_zero
+# -- Compiling architecture behavioural of reg_zero
+# End time: 15:25:04 on Dec 27,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:25:04 on Dec 27,2020
+# vcom -reportprogress 300 -93 -work ./work ../src/reg_NOP.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package risc_package
+# -- Compiling entity reg_NOP
+# -- Compiling architecture behavioural of reg_NOP
+# End time: 15:25:04 on Dec 27,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:25:04 on Dec 27,2020
+# vcom -reportprogress 300 -93 -work ./work ../src/reg_jal_PC_IF_ID.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package risc_package
+# -- Compiling entity reg_jal_PC_IF_ID
+# -- Compiling architecture behavioural of reg_jal_PC_IF_ID
+# End time: 15:25:04 on Dec 27,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:25:04 on Dec 27,2020
+# vcom -reportprogress 300 -93 -work ./work ../src/register_file.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package risc_package
+# -- Compiling entity register_file
+# -- Compiling architecture behavioural of register_file
+# End time: 15:25:05 on Dec 27,2020, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:25:05 on Dec 27,2020
+# vcom -reportprogress 300 -93 -work ./work ../src/EX_stage.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package risc_package
+# -- Compiling entity EX_stage
+# -- Compiling architecture structural of EX_stage
+# End time: 15:25:05 on Dec 27,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:25:05 on Dec 27,2020
+# vcom -reportprogress 300 -93 -work ./work ../src/ID_stage.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package risc_package
+# -- Compiling entity ID_stage
+# -- Compiling architecture behavioural of ID_stage
+# End time: 15:25:05 on Dec 27,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:25:05 on Dec 27,2020
+# vcom -reportprogress 300 -93 -work ./work ../src/IF_stage.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package risc_package
+# -- Compiling entity IF_stage
+# -- Compiling architecture behavioral of IF_stage
+# End time: 15:25:05 on Dec 27,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:25:05 on Dec 27,2020
+# vcom -reportprogress 300 -93 -work ./work ../src/MEM_stage.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package risc_package
+# -- Compiling entity MEM_stage
+# -- Compiling architecture behavioural of MEM_stage
+# End time: 15:25:05 on Dec 27,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:25:05 on Dec 27,2020
+# vcom -reportprogress 300 -93 -work ./work ../src/WB_stage.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package risc_package
+# -- Compiling entity WB_stage
+# -- Compiling architecture behavior of WB_stage
+# End time: 15:25:05 on Dec 27,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:25:05 on Dec 27,2020
+# vcom -reportprogress 300 -93 -work ./work ../src/RISCV.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package risc_package
+# -- Compiling entity RISCV
+# -- Compiling architecture structural of RISCV
+# End time: 15:25:06 on Dec 27,2020, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+do C:/Users/gianl/Desktop/lab3/RISCV_sim_27_12_2020/sim/script_mem_tb.do
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:25:12 on Dec 27,2020
+# vcom -reportprogress 300 -93 -work ./work ../src/risc_package.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling package risc_package
+# End time: 15:25:12 on Dec 27,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:25:12 on Dec 27,2020
+# vcom -reportprogress 300 -93 -work ./work ../src/instruction_memory.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package risc_package
+# -- Compiling entity instruction_memory
+# -- Compiling architecture Behavioral of instruction_memory
+# End time: 15:25:12 on Dec 27,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:25:12 on Dec 27,2020
+# vcom -reportprogress 300 -93 -work ./work ../src/data_memory.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package risc_package
+# -- Compiling entity data_memory
+# -- Compiling architecture Behavioral of data_memory
+# End time: 15:25:13 on Dec 27,2020, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:25:13 on Dec 27,2020
+# vcom -reportprogress 300 -93 -work ./work ../tb/tb_RISCV.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package risc_package
+# -- Compiling entity tb_RISCV
+# -- Compiling architecture dut of tb_RISCV
+# End time: 15:25:13 on Dec 27,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim work.tb_RISCV 
+# Start time: 15:25:13 on Dec 27,2020
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.risc_package
+# Loading work.tb_riscv(dut)
+# Loading work.riscv(structural)
+# Loading work.if_stage(behavioral)
+# Loading work.mux21(structural)
+# Loading work.reg_jal_pc_if_id(behavioural)
+# Loading work.reg_zero(behavioural)
+# Loading work.id_stage(behavioural)
+# Loading work.imm_gen(structural)
+# Loading work.register_file(behavioural)
+# Loading work.hdu(arch)
+# Loading work.mux_id(behavioural)
+# Loading work.cu(arch)
+# Loading work.or_gate(behavioural)
+# Loading work.reg_nop(behavioural)
+# Loading work.ex_stage(structural)
+# Loading work.mux31(structural)
+# Loading work.alu(behavioural)
+# Loading work.alu_control(structural)
+# Loading work.addsum(structural)
+# Loading work.forwarding_unit(structural)
+# Loading work.mem_stage(behavioural)
+# Loading work.and_gate(behavioural)
+# Loading work.reg(behavioural)
+# Loading work.wb_stage(behavior)
+# Loading work.instruction_memory(behavioral)
+# Loading work.data_memory(behavioral)
+restart
+run 200 us
+# ** Fatal: (vsim-3734) Index value 22 is out of range 0 to 21.
+#    Time: 4700 ns  Iteration: 0  Process: /tb_riscv/IM_comp/line__75 File: ../src/instruction_memory.vhd
+# Fatal error in Process line__75 at ../src/instruction_memory.vhd line 85
+# 
+# HDL call sequence:
+# Stopped at ../src/instruction_memory.vhd 85 Process line__75
+# 
+vcom -93 -work ./work C:/Users/gianl/Desktop/lab3/RISCV_sim_27_12_2020/src/instruction_memory.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:40:01 on Dec 27,2020
+# vcom -reportprogress 300 -93 -work ./work C:/Users/gianl/Desktop/lab3/RISCV_sim_27_12_2020/src/instruction_memory.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package risc_package
+# -- Compiling entity instruction_memory
+# -- Compiling architecture Behavioral of instruction_memory
+# End time: 15:40:01 on Dec 27,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+RESTART
+# invalid command name "RESTART"
+
+restart
+# Loading work.instruction_memory(behavioral)
+run 10 us
+add wave -position insertpoint  \
+sim:/tb_riscv/RISCV_comp/EX/ALUcomp/in1 \
+sim:/tb_riscv/RISCV_comp/EX/ALUcomp/in2 \
+sim:/tb_riscv/RISCV_comp/EX/ALUcomp/output
+restart
+run 10 us
+add wave -position insertpoint  \
+sim:/tb_riscv/DM_comp/RAM
+restart
+run 10 us
+# End time: 15:57:56 on Dec 27,2020, Elapsed time: 0:32:43
+# Errors: 3, Warnings: 0
