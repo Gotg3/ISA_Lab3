@@ -262,8 +262,10 @@
 /software/synopsys/syn_current_64.18/auxx/gui/dv/dv_path_cat_view.tcl
 /software/synopsys/syn_current_64.18/auxx/gui/common/table/table.tcl
 /software/synopsys/syn_current_64.18/auxx/gui/common/table/table_internal.tcl
-/home/isa30/Desktop/Lab_3/RISCV_sim_FUNZIONANTE/syn/script_RISCV.tcl
+/home/isa30/Desktop/Lab_3/RISCV_sim_FUNZIONANTE/syn/script/script_RISCV.tcl
 /home/isa30/Desktop/Lab_3/RISCV_sim_FUNZIONANTE/src/risc_package.vhd
+/software/dk/nangate45/synopsys/NangateOpenCellLibrary_typical_ecsm_nowlm.db
+/software/synopsys/syn_current_64.18/libraries/syn/dw_foundation.sldb
 /home/isa30/Desktop/Lab_3/RISCV_sim_FUNZIONANTE/src/AddSum.vhd
 /home/isa30/Desktop/Lab_3/RISCV_sim_FUNZIONANTE/src/ALU.vhd
 /home/isa30/Desktop/Lab_3/RISCV_sim_FUNZIONANTE/src/ALU_control.vhd
@@ -291,3 +293,9 @@
 /home/isa30/Desktop/Lab_3/RISCV_sim_FUNZIONANTE/src/RISCV.vhd
 /software/synopsys/syn_current_64.18/libraries/syn/gtech.db
 /software/synopsys/syn_current_64.18/libraries/syn/standard.sldb
+/home/isa30/Desktop/Lab_3/RISCV_sim_FUNZIONANTE/syn/script/script_apply_constraints_fm_RISCV.tcl
+/home/isa30/synopsys_cache_O-2018.06-SP4/DW01/DW01_add/rpl/32/NangateOpenCellLibrary_typical_ecsm_nowlm_5697/element.ddc
+/home/isa30/synopsys_cache_O-2018.06-SP4/DW01/DW01_sub/rpl/32/NangateOpenCellLibrary_typical_ecsm_nowlm_5697/element.ddc
+/home/isa30/synopsys_cache_O-2018.06-SP4/DW01/DW01_add/rpl/32/NangateOpenCellLibrary_typical_ecsm_nowlm_5697_7183_4702/element.ddc
+/home/isa30/synopsys_cache_O-2018.06-SP4/DW01/DW01_sub/rpl/32/NangateOpenCellLibrary_typical_ecsm_nowlm_5697_7183_4702/element.ddc
+/software/dk/nangate45/synopsys/NangateOpenCellLibrary_typical_ecsm_nowlm.db

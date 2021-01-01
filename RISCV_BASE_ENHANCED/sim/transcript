@@ -1270,3 +1270,5 @@ vcom -93 -work ./work C:/Users/gianl/Desktop/lab3/RISCV_BASE_ENHANCED/src/data_m
 restart
 # Loading work.data_memory(behavioral)
 run 10 us
+# End time: 18:35:57 on Dec 29,2020, Elapsed time: 1:13:28
+# Errors: 62, Warnings: 1
