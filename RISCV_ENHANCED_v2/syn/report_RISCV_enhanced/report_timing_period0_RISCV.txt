@@ -1,0 +1,81 @@
+Information: Updating design information... (UID-85)
+Warning: Design 'RISCV' contains 1 high-fanout nets. A fanout number of 1000 will be used for delay calculations involving these nets. (TIM-134)
+Warning: There are infeasible paths detected in your design that were ignored during optimization. Please run 'report_timing -attributes' and/or 'create_qor_snapshot/query_qor_snapshot -infeasible_paths' to identify these paths.  (OPT-1721)
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : RISCV
+Version: O-2018.06-SP4
+Date   : Tue Jan  5 06:35:41 2021
+****************************************
+
+ # A fanout number of 1000 was used for high fanout net computations.
+
+Operating Conditions: typical   Library: NangateOpenCellLibrary
+Wire Load Model Mode: top
+
+  Startpoint: reg_rd_EX_MEM/q_reg[3]
+              (rising edge-triggered flip-flop clocked by MY_CLK)
+  Endpoint: ALUout_EX_out[27]
+            (output port clocked by MY_CLK)
+  Path Group: MY_CLK
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  RISCV              5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock MY_CLK (rise edge)                                0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  reg_rd_EX_MEM/q_reg[3]/CK (DFFR_X1)                     0.00 #     0.00 r
+  reg_rd_EX_MEM/q_reg[3]/QN (DFFR_X1)                     0.07       0.07 f
+  U4967/ZN (AND3_X1)                                      0.05       0.12 f
+  U6441/ZN (NAND3_X1)                                     0.03       0.14 r
+  U6442/ZN (NAND2_X1)                                     0.03       0.17 f
+  U4976/ZN (NOR3_X1)                                      0.05       0.22 r
+  U4978/ZN (INV_X1)                                       0.02       0.24 f
+  U4977/ZN (NOR2_X1)                                      0.04       0.28 r
+  U5112/ZN (NAND2_X1)                                     0.03       0.32 f
+  U5034/ZN (AND2_X2)                                      0.05       0.37 f
+  U5182/Z (BUF_X1)                                        0.04       0.41 f
+  U8620/ZN (NAND2_X1)                                     0.03       0.44 r
+  U8623/ZN (OAI211_X1)                                    0.05       0.49 f
+  U4800/ZN (AOI22_X2)                                     0.07       0.56 r
+  U4398/ZN (NAND2_X1)                                     0.07       0.62 f
+  U9171/ZN (INV_X1)                                       0.06       0.68 r
+  add_0_root_EX/ALUcomp/add_132_ni/A[21] (RISCV_DW01_inc_3)
+                                                          0.00       0.68 r
+  add_0_root_EX/ALUcomp/add_132_ni/U347/ZN (NAND2_X1)     0.04       0.72 f
+  add_0_root_EX/ALUcomp/add_132_ni/U207/ZN (NOR2_X2)      0.07       0.79 r
+  add_0_root_EX/ALUcomp/add_132_ni/U259/ZN (NAND2_X1)     0.04       0.83 f
+  add_0_root_EX/ALUcomp/add_132_ni/U320/ZN (NOR2_X1)      0.04       0.87 r
+  add_0_root_EX/ALUcomp/add_132_ni/U301/ZN (AND2_X1)      0.04       0.91 r
+  add_0_root_EX/ALUcomp/add_132_ni/U300/Z (XOR2_X1)       0.06       0.97 r
+  add_0_root_EX/ALUcomp/add_132_ni/SUM[27] (RISCV_DW01_inc_3)
+                                                          0.00       0.97 r
+  U9194/ZN (AOI22_X1)                                     0.03       1.00 f
+  U9195/ZN (INV_X1)                                       0.03       1.03 r
+  U5016/ZN (NAND2_X1)                                     0.02       1.05 f
+  U5017/ZN (AND3_X1)                                      0.04       1.10 f
+  U5054/ZN (NOR2_X1)                                      0.05       1.14 r
+  ALUout_EX_out[27] (out)                                 0.02       1.16 r
+  data arrival time                                                  1.16
+
+  clock MY_CLK (rise edge)                                0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  clock uncertainty                                      -0.07      -0.07
+  output external delay                                  -0.50      -0.57
+  data required time                                                -0.57
+  --------------------------------------------------------------------------
+  data required time                                                -0.57
+  data arrival time                                                 -1.16
+  --------------------------------------------------------------------------
+  slack (VIOLATED)                                                  -1.73
+
+
+1
