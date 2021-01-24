@@ -1,0 +1,125 @@
+m255
+13
+cModel Technology
+d/home/isa30/Desktop/Lab_3/RISCV_BASE_VERSION_newfolder/sim
+T_opt
+V?lN<FVZSKjWkjWlkd=EgX1
+06 8 3 ./work tb_riscv dut 0
+o-quiet -auto_acc_if_foreign -work work -L /software/dk/nangate45/verilog/msim6.2g -sdftyp /tb_RISCV/RISCV_comp=../netlist/RISCV.sdf -suppress 1948
+tExplicit 1
+OE;O;6.2g;35
+Edata_memory
+w1611063784
+DP work risc_package 7idCgN:lMNdg2a;?LFPGg1
+DP ieee numeric_std =NSdli^?T5OD8;4F<blj<3
+DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
+8../src/data_memory.vhd
+F../src/data_memory.vhd
+l0
+L7
+V_eQ=96Xm[BfAj^K6eAdB93
+OE;C;6.2g;35
+31
+o-93 -work ./work
+tExplicit 1
+Abehavioral
+DP work risc_package 7idCgN:lMNdg2a;?LFPGg1
+DP ieee numeric_std =NSdli^?T5OD8;4F<blj<3
+DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
+DE work data_memory _eQ=96Xm[BfAj^K6eAdB93
+l60
+L19
+VE]@XU7MhT`FHnCNP@bXIC0
+OE;C;6.2g;35
+31
+M3 ieee std_logic_1164
+M2 ieee numeric_std
+M1 work risc_package
+o-93 -work ./work
+tExplicit 1
+Einstruction_memory
+w1611063786
+DP work risc_package 7idCgN:lMNdg2a;?LFPGg1
+DP ieee numeric_std =NSdli^?T5OD8;4F<blj<3
+DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
+8../src/instruction_memory.vhd
+F../src/instruction_memory.vhd
+l0
+L7
+VjUcR[0lmQN=80ohC7ViNX0
+OE;C;6.2g;35
+31
+o-93 -work ./work
+tExplicit 1
+Abehavioral
+DP work risc_package 7idCgN:lMNdg2a;?LFPGg1
+DP ieee numeric_std =NSdli^?T5OD8;4F<blj<3
+DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
+DE work instruction_memory jUcR[0lmQN=80ohC7ViNX0
+l70
+L21
+V5TD1[]^H08^03?f^DILX;2
+OE;C;6.2g;35
+31
+M3 ieee std_logic_1164
+M2 ieee numeric_std
+M1 work risc_package
+o-93 -work ./work
+tExplicit 1
+Prisc_package
+DP ieee numeric_std =NSdli^?T5OD8;4F<blj<3
+DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
+w1611063790
+8../src/risc_package.vhd
+F../src/risc_package.vhd
+l0
+L5
+V7idCgN:lMNdg2a;?LFPGg1
+OE;C;6.2g;35
+31
+M2 ieee std_logic_1164
+M1 ieee numeric_std
+o-93 -work ./work
+tExplicit 1
+vRISCV
+IL1aeWSXzEH9Zg8?eaaIZ]3
+VJ<^>3TBXPkJWo2[PRoacN3
+w1611434959
+8../netlist/RISCV.v
+F../netlist/RISCV.v
+L0 8
+VJ<^>3TBXPkJWo2[PRoacN3
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@r@i@s@c@v
+Etb_riscv
+w1611239348
+DP work risc_package 7idCgN:lMNdg2a;?LFPGg1
+DP ieee numeric_std =NSdli^?T5OD8;4F<blj<3
+DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
+8../tb/tb_RISCV.vhd
+F../tb/tb_RISCV.vhd
+l0
+L8
+Vfji:;Ng`eo=Nda;j8CJI70
+OE;C;6.2g;35
+31
+o-93 -work ./work
+tExplicit 1
+Adut
+DP work risc_package 7idCgN:lMNdg2a;?LFPGg1
+DP ieee numeric_std =NSdli^?T5OD8;4F<blj<3
+DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
+DE work tb_riscv fji:;Ng`eo=Nda;j8CJI70
+l79
+L11
+VAWL8[<>]Z9l=a8@kRolAQ3
+OE;C;6.2g;35
+31
+M3 ieee std_logic_1164
+M2 ieee numeric_std
+M1 work risc_package
+o-93 -work ./work
+tExplicit 1
