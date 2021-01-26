@@ -1,0 +1,38 @@
+ 
+****************************************
+Report : resources
+Design : RISCV
+Version: O-2018.06-SP4
+Date   : Sat Jan 23 08:59:26 2021
+****************************************
+
+Resource Sharing Report for design RISCV in file ../src/IF_stage.vhd
+
+===============================================================================
+|          |              |            | Contained     |                      |
+| Resource | Module       | Parameters | Resources     | Contained Operations |
+===============================================================================
+| r396     | DW01_add     | width=32   |               | EX/ALUcomp/add_48    |
+|          |              |            |               | EX/ALUcomp/add_51    |
+|          |              |            |               | EX/ALUcomp/add_60    |
+|          |              |            |               | EX/ALUcomp/add_63    |
+|          |              |            |               | EX/ALUcomp/add_66    |
+| r419     | DW01_add     | width=32   |               | IF_block/add_33      |
+| r421     | DW_cmp       | width=5    |               | ID/RF/eq_46          |
+| r423     | DW_cmp       | width=5    |               | ID/RF/eq_157         |
+| r425     | DW_cmp       | width=5    |               | ID/Hazard/eq_30_2    |
+| r427     | DW_cmp       | width=5    |               | ID/Hazard/eq_30_3    |
+| r429     | DW_sra       | A_width=32 |               | EX/ALUcomp/sra_54    |
+|          |              | SH_width=5 |               |                      |
+| r431     | DW_cmp       | width=32   |               | EX/ALUcomp/lte_74    |
+| r433     | DW01_sub     | width=32   |               | EX/ALUcomp/sub_87    |
+| r435     | DW01_add     | width=32   |               | EX/AddSumcomp/add_29 |
+| r437     | DW_cmp       | width=5    |               | EX/forwarding_unitcomp/eq_34_2 |
+| r439     | DW_cmp       | width=5    |               | EX/forwarding_unitcomp/eq_40_2 |
+| r441     | DW_cmp       | width=5    |               | EX/forwarding_unitcomp/eq_59_2 |
+| r443     | DW_cmp       | width=5    |               | EX/forwarding_unitcomp/eq_65_2 |
+===============================================================================
+
+
+No implementations to report
+1

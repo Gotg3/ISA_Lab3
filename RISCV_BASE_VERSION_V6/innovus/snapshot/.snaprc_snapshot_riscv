@@ -1,0 +1,21 @@
+#----------------------------------------------------------
+# snapshot/.snaprc_snapshot_RISCV : snapshot resource file                          
+# label = snapshot_RISCV                                      
+#----------------------------------------------------------
+set tmpstr ""
+set tmpbar ""
+lappend tmpstr "dir" $sdir
+lappend tmpstr "label" snapshot_RISCV
+lappend tmpstr "fplan" $sdir/ss_snapshot_RISCV.fplan.gif
+lappend tmpstr "amoeba" $sdir/ss_snapshot_RISCV.amoeba.gif
+lappend tmpstr "place" $sdir/ss_snapshot_RISCV.place.gif
+lappend tmpstr "trgGlbOverflowPctH" 0
+lappend tmpstr "trgGlbOverflowPctV" 0
+lappend tmpbar "Congestion"
+lappend tmpstr "Congestion" 0
+lappend tmpbar WNS
+lappend tmpstr WNS -0.094
+lappend tmpbar TNS
+lappend tmpstr TNS -0.911
+lappend tmpbar Overlap
+lappend tmpstr Overlap 0
