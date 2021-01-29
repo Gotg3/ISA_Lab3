@@ -1,0 +1,63 @@
+H 2141964 11 3 0 27 32 0 0 0 0
+L 4 ieee 19 $MODEL_TECH/../ieee
+L 3 std 18 $MODEL_TECH/../std
+L 4 work 6 ./work
+D 25 ./work.addsum(structural) n]MZ6LDhPg:gBOCRUO:?g3 14 1
+D 23 ./work.alu(behavioural) z1^UF4>Jh4XZYJG8LBhJW3 12 1
+D 30 ./work.alu_control(structural) al`jzR8l8_]G5H[_GmF;>0 13 1
+D 28 ./work.and_gate(behavioural) [9[17]R;W@[b@1XTIlA9K1 17 1
+D 15 ./work.cu(arch) QN27`Jfch9FVRkG@zl8=D1 8 1
+D 30 ./work.data_memory(behavioral) E]@XU7MhT`FHnCNP@bXIC0 22 1
+D 27 ./work.ex_stage(structural) S3b5dF]bIhBg]OJnFeimA2 16 1
+D 34 ./work.forwarding_unit(structural) BJOZ<fgFF;i_fIKlDE@iA1 15 1
+D 16 ./work.hdu(arch) OTTc[gbX[Z_[Ha0kYIdV<1 23 1
+D 28 ./work.id_stage(behavioural) >z@[0fm=_BU_CLZcRR8H<0 24 1
+D 27 ./work.if_stage(behavioral) L]PG9dEW5j7nUCLh>GAnP2 2 1
+D 26 ./work.imm_gen(structural) ^[^]SG<?MVH?oiDQLzh2>3 5 1
+D 37 ./work.instruction_memory(behavioral) cK0K7^feiBjd^mQ<F;PMO2 21 1
+D 29 ./work.mem_stage(behavioural) >k5zO`S1Wkf><iPWZM^Wn1 18 1
+D 24 ./work.mux21(structural) L638KbL_XLzk``2Q6[?Io2 1 1
+D 24 ./work.mux31(structural) DaVlVIiLLSbnX<K1h<kgB3 11 1
+D 26 ./work.mux_id(behavioural) ?k]FM6Li@YaL@@NM09hTb2 7 1
+D 27 ./work.or_gate(behavioural) <NKB@kfBiA_k=8eEP8UPX2 9 1
+D 23 ./work.reg(behavioural) JWdXiPKE>T:NEX8<Ehi351 19 1
+D 36 ./work.reg_jal_pc_if_id(behavioural) PhDkj3JGaaRcFZ;h5^Ph@3 3 1
+D 27 ./work.reg_nop(behavioural) ?OH5UZ8oPk@LUf8cDTzE`2 10 1
+D 28 ./work.reg_zero(behavioural) m5O2;@A>XfL1OMX72DPe?0 4 1
+D 33 ./work.register_file(behavioural) E:l1Nh8dB=JC]X>zZ?BH;3 6 1
+D 19 ./work.risc_package 7idCgN:lMNdg2a;?LFPGg1 0 1
+D 24 ./work.riscv(structural) fmn]F8KH5BD`0kb28;H__0 25 1
+D 20 ./work.tb_riscv(dut) AWL8[<>]Z9l=a8@kRolAQ3 26 1
+D 25 ./work.wb_stage(behavior) J9Cj;Ih<^JnYd<gegLK=b3 20 1
+2 0  0 66?Hz3LjB3mOXR_5<nE>f3 27 24 1
+2 0  0 EKBD:lFeRZ]RziV8focTA3 26 23 1
+2 0  1 RFW9CBh71SblZJn0S78jG3 2 2 1
+2 0  1 3X3:d6b`dV@eIVWO62bSR2 31 26 1
+2 0  1 Q2=_OXXGn8J?Bom914VD^3 30 25 1
+2 0  0 KXkm4UOakMI5o6fXmeH9]3 0 0 1
+2 0  1 kFP5WP==8BjWh1V>_3KHI2 1 1 1
+2 0  0 H2W@hBz>kg2E^IZdO:5J71 3 3 1
+2 0  0 Yab0j1?3J=Nn]U:<M4m>M3 4 4 1
+2 0  0 J]5`EMglC0W4SdW:6mY:P2 5 5 1
+2 0  0 [=1OR_8O`cQAi=hhZV2Gd1 6 6 1
+2 0  0 EMNK5zE<JHi[l3MPJ9b^T1 7 7 1
+2 0  0 iah`ciU?Kb7i1HMd5BB?D0 8 8 1
+2 0  0 ]?K3oe]oVYGi?oNRz[]RG3 9 9 1
+2 0  1 a@cUG3M@2J9i2>Ah=[]a?2 10 10 1
+2 0  2 ^jljBMlgF@Hj22]PK:M8T1 28 10 1
+2 0  3 e8MQ=9PL]3^9Dn3<]QL`l0 11 10 1
+2 0  4 CJn<c?NRUWl4QH;No8ie=3 12 10 1
+2 0  5 6Saz_[8VF_L<LIYF:UhXB2 13 10 1
+2 0  0 01V96W0iV2kH5;3eV3<?@2 14 11 1
+2 0  0 4NodledQV?HJ=8WmhSzh60 15 12 1
+2 0  0 FY4MJJEG9E7K`DbG:?LzA0 16 13 1
+2 0  0 314[dEd9kQX5_fJX]Bz_@1 17 14 1
+2 0  0 `3BnAg?A?BaW9:7mMYA4S1 18 15 1
+2 0  0 3M]IE3_JR:P6I54eVJeSg3 19 16 1
+2 0  0 H72nW7n9AB1BiGZSRcdBn2 20 17 1
+2 0  0 nO4A19omIgC]3VcLRXYm=0 21 18 1
+2 0  1 XGNSFO@Sjb0LBGEc`8=BX1 22 19 1
+2 0  2 zZ=]X>L^Q2ZVA12H`EPTJ0 29 19 1
+2 0  0 ??7J[[6mBhXQznPG;E]572 23 20 1
+2 0  0 8=PTIIGEN:OKzOZjjBcc91 24 21 1
+2 0  0 <NG[dC;9>N=1YJ7faHG::3 25 22 1

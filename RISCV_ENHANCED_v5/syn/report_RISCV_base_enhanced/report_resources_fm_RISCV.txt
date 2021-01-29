@@ -1,0 +1,54 @@
+ 
+****************************************
+Report : resources
+Design : RISCV
+Version: O-2018.06-SP4
+Date   : Fri Jan 29 08:52:02 2021
+****************************************
+
+Resource Sharing Report for design RISCV in file ../src/IF_stage.vhd
+
+===============================================================================
+|          |              |            | Contained     |                      |
+| Resource | Module       | Parameters | Resources     | Contained Operations |
+===============================================================================
+| r441     | DW01_add     | width=32   |               | EX/ALUcomp/add_51    |
+|          |              |            |               | EX/ALUcomp/add_54    |
+|          |              |            |               | EX/ALUcomp/add_63    |
+|          |              |            |               | EX/ALUcomp/add_66    |
+|          |              |            |               | EX/ALUcomp/add_69    |
+| r468     | DW01_add     | width=32   |               | IF_block/add_33      |
+| r470     | DW_cmp       | width=5    |               | ID/RF/eq_46          |
+| r472     | DW_cmp       | width=5    |               | ID/RF/eq_157         |
+| r474     | DW_cmp       | width=5    |               | ID/Hazard/eq_30_2    |
+| r476     | DW_cmp       | width=5    |               | ID/Hazard/eq_30_3    |
+| r478     | DW_sra       | A_width=32 |               | EX/ALUcomp/sra_57    |
+|          |              | SH_width=5 |               |                      |
+| r480     | DW_cmp       | width=32   |               | EX/ALUcomp/lte_77    |
+| r482     | DW01_sub     | width=32   |               | EX/ALUcomp/sub_90    |
+| r488     | DW01_add     | width=32   |               | EX/AddSumcomp/add_29 |
+| r490     | DW_cmp       | width=5    |               | EX/forwarding_unitcomp/eq_34_2 |
+| r492     | DW_cmp       | width=5    |               | EX/forwarding_unitcomp/eq_40_2 |
+| r494     | DW_cmp       | width=5    |               | EX/forwarding_unitcomp/eq_59_2 |
+| r496     | DW_cmp       | width=5    |               | EX/forwarding_unitcomp/eq_65_2 |
+| r1080    | DW01_sub     | width=32   |               | sub_1_root_EX/ALUcomp/add_132_ni |
+| r1082    | DW01_inc     | width=32   |               | add_0_root_EX/ALUcomp/add_132_ni |
+===============================================================================
+
+
+Implementation Report
+===============================================================================
+|                    |                  | Current            | Set            |
+| Cell               | Module           | Implementation     | Implementation |
+===============================================================================
+| EX/AddSumcomp/add_29                  |                    |                |
+|                    | DW01_add         | pparch (area,speed)                 |
+| IF_block/add_33    | DW01_add         | pparch (area,speed)                 |
+| add_0_root_EX/ALUcomp/add_132_ni      |                    |                |
+|                    | DW01_inc         | pparch (area,speed)                 |
+| EX/ALUcomp/sub_90  | DW01_sub         | pparch (area,speed)                 |
+| r441               | DW01_add         | pparch (area,speed)                 |
+| EX/ALUcomp/lte_77  | DW_cmp           | apparch (area)     |                |
+===============================================================================
+
+1
