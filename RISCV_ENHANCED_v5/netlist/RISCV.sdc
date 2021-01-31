@@ -106,7 +106,7 @@ set_load -pin_load 3.40189 [get_ports {mux_IF_out[3]}]
 set_load -pin_load 3.40189 [get_ports {mux_IF_out[2]}]
 set_load -pin_load 3.40189 [get_ports {mux_IF_out[1]}]
 set_load -pin_load 3.40189 [get_ports {mux_IF_out[0]}]
-create_clock [get_ports clk]  -name MY_CLK  -period 1.99  -waveform {0 0.995}
+create_clock [get_ports clk]  -name MY_CLK  -period 2.8  -waveform {0 0.995}
 set_clock_uncertainty 0.07  [get_clocks MY_CLK]
 set_input_delay -clock MY_CLK  -max 0.5  [get_ports rst]
 set_input_delay -clock MY_CLK  -max 0.5  [get_ports {instruction_ID_in[31]}]

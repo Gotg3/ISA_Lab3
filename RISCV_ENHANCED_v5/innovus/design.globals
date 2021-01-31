@@ -1,7 +1,7 @@
 ## CUSTOMIZE
 
 set IN_DIR "../netlist"
-set TopLevelDesign "myiir"
+set TopLevelDesign "RISCV"
 set in_verilog_filename "${IN_DIR}/${TopLevelDesign}.v"
 set in_sdc_filename "${IN_DIR}/${TopLevelDesign}.sdc"
 
