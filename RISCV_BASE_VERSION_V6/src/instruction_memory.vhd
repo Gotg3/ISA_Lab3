@@ -55,17 +55,7 @@ signal data_out_s : std_logic_vector(address_parallelism-1 downto 0):=(others=>'
 signal PC_out_s   :std_logic_vector(address_parallelism-1 downto 0);
 signal ADDR_s : std_logic_vector(address_parallelism-1 downto 0);
 signal DATA_IN_s: std_logic_vector(address_parallelism-1 downto 0):=(others=>'0');
---component reg_instruction_IF_ID
---	port (
---      clk: in std_logic;
---		rst: in std_logic;
---		IF_ID_write: in std_logic;
---		d :  in std_logic_vector(address_parallelism-1 downto 0);
---		q :  out std_logic_vector(address_parallelism-1 downto 0));
---	end component;
-	
 
-   
 	
 begin
 
@@ -107,20 +97,6 @@ if(CLK'EVENT AND CLK='1') then
      end if;
 end if;
 end process;
-
-
-
-
-
---reg_instr_IF_ID : reg_instruction_IF_ID --out pipe stage (NOP insertion)
---port map(
---
---	clk=> CLK,
---	rst => rst,
---	IF_ID_write=>IF_ID_write,
---	d=>data_out_s,
---	q=>data_out
---);
 
 
 end Behavioral;
