@@ -576,7 +576,7 @@ architecture structural of RISCV is
 												clk => clk,
 	                                            rst => rst,
 	                                            d   => rd_MEM_out_s,
-						    N_en=> PCsrc_s,
+												N_en=> PCsrc_s,
 	                                            q  	=> rd_WB_in_s
 												);												
 	
