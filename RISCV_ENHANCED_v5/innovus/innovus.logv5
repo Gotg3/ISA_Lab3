@@ -1,0 +1,111 @@
+[02/02 23:17:48      0s] 
+[02/02 23:17:48      0s] Cadence Innovus(TM) Implementation System.
+[02/02 23:17:48      0s] Copyright 2017 Cadence Design Systems, Inc. All rights reserved worldwide.
+[02/02 23:17:48      0s] 
+[02/02 23:17:48      0s] Version:	v17.11-s080_1, built Fri Aug 4 11:13:11 PDT 2017
+[02/02 23:17:48      0s] Options:	
+[02/02 23:17:48      0s] Date:		Tue Feb  2 23:17:48 2021
+[02/02 23:17:48      0s] Host:		localhost.localdomain (x86_64 w/Linux 3.10.0-957.5.1.el7.x86_64) (1core*2cpus*Westmere E56xx/L56xx/X56xx (Nehalem-C) 4096KB)
+[02/02 23:17:48      0s] OS:		CentOS Linux release 7.6.1810 (Core) 
+[02/02 23:17:48      0s] 
+[02/02 23:17:48      0s] License:
+[02/02 23:17:48      0s] 		invs	Innovus Implementation System	17.1	checkout succeeded
+[02/02 23:17:48      0s] 		8 CPU jobs allowed with the current license(s). Use setMultiCpuUsage to set your required CPU count.
+[02/02 23:22:34     23s] @(#)CDS: Innovus v17.11-s080_1 (64bit) 08/04/2017 11:13 (Linux 2.6.18-194.el5)
+[02/02 23:22:34     23s] @(#)CDS: NanoRoute 17.11-s080_1 NR170721-2155/17_11-UB (database version 2.30, 390.7.1) {superthreading v1.44}
+[02/02 23:22:34     23s] @(#)CDS: AAE 17.11-s034 (64bit) 08/04/2017 (Linux 2.6.18-194.el5)
+[02/02 23:22:34     23s] @(#)CDS: CTE 17.11-s053_1 () Aug  1 2017 23:31:41 ( )
+[02/02 23:22:34     23s] @(#)CDS: SYNTECH 17.11-s012_1 () Jul 21 2017 02:29:12 ( )
+[02/02 23:22:34     23s] @(#)CDS: CPE v17.11-s095
+[02/02 23:22:34     23s] @(#)CDS: IQRC/TQRC 16.1.1-s215 (64bit) Thu Jul  6 20:18:10 PDT 2017 (Linux 2.6.18-194.el5)
+[02/02 23:22:34     23s] @(#)CDS: OA 22.50-p063 Fri Feb  3 19:45:13 2017
+[02/02 23:22:34     23s] @(#)CDS: SGN 10.10-p124 (19-Aug-2014) (64 bit executable)
+[02/02 23:22:34     23s] @(#)CDS: RCDB 11.10
+[02/02 23:22:34     23s] --- Running on localhost.localdomain (x86_64 w/Linux 3.10.0-957.5.1.el7.x86_64) (1core*2cpus*Westmere E56xx/L56xx/X56xx (Nehalem-C) 4096KB) ---
+[02/02 23:22:35     23s] Create and set the environment variable TMPDIR to /tmp/innovus_temp_23505_localhost.localdomain_isa30_Wg65Ri.
+
+[02/02 23:22:35     23s] Change the soft stacksize limit to 0.2%RAM (31 mbytes). Set global soft_stack_size_limit to change the value.
+[02/02 23:22:50     24s] 
+[02/02 23:22:50     24s] **INFO:  MMMC transition support version v31-84 
+[02/02 23:22:50     24s] 
+[02/02 23:22:50     24s] <CMD> set_global _enable_mmmc_by_default_flow      $CTE::mmmc_default
+[02/02 23:22:50     24s] <CMD> suppressMessage ENCEXT-2799
+[02/02 23:22:55     24s] <CMD> getDrawView
+[02/02 23:22:55     24s] <CMD> loadWorkspace -name Physical
+[02/02 23:22:56     24s] <CMD> win
+[02/02 23:23:45     26s] <CMD> encMessage warning 0
+[02/02 23:23:45     26s] Suppress "**WARN ..." messages.
+[02/02 23:23:45     26s] <CMD> encMessage debug 0
+[02/02 23:23:45     26s] <CMD> encMessage info 0
+[02/02 23:23:50     26s] **WARN: (GLOBAL-100):	Global 'timing_enable_default_delay_arc' has become obsolete. It will be removed in the next release.
+[02/02 23:23:52     26s] Loading view definition file from /home/isa30/Desktop/Lab_3/RISCV_ENHANCED_v5/innovus/RISCV_02_02.dat/viewDefinition.tcl
+[02/02 23:23:52     27s] **WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'ZN' of cell 'AND2_X1' is not defined in the library. (File /software/dk/nangate45/liberty/NangateOpenCellLibrary_typical_ecsm_nowlm.lib)
+[02/02 23:23:52     27s] **WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'ZN' of cell 'AND2_X2' is not defined in the library. (File /software/dk/nangate45/liberty/NangateOpenCellLibrary_typical_ecsm_nowlm.lib)
+[02/02 23:23:52     27s] **WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'ZN' of cell 'AND2_X4' is not defined in the library. (File /software/dk/nangate45/liberty/NangateOpenCellLibrary_typical_ecsm_nowlm.lib)
+[02/02 23:23:52     27s] **WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'ZN' of cell 'AND3_X1' is not defined in the library. (File /software/dk/nangate45/liberty/NangateOpenCellLibrary_typical_ecsm_nowlm.lib)
+[02/02 23:23:53     27s] **WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'ZN' of cell 'AND3_X2' is not defined in the library. (File /software/dk/nangate45/liberty/NangateOpenCellLibrary_typical_ecsm_nowlm.lib)
+[02/02 23:23:53     27s] **WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'ZN' of cell 'AND3_X4' is not defined in the library. (File /software/dk/nangate45/liberty/NangateOpenCellLibrary_typical_ecsm_nowlm.lib)
+[02/02 23:23:53     27s] **WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'ZN' of cell 'AND4_X1' is not defined in the library. (File /software/dk/nangate45/liberty/NangateOpenCellLibrary_typical_ecsm_nowlm.lib)
+[02/02 23:23:53     27s] **WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'ZN' of cell 'AND4_X2' is not defined in the library. (File /software/dk/nangate45/liberty/NangateOpenCellLibrary_typical_ecsm_nowlm.lib)
+[02/02 23:23:53     27s] **WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'ZN' of cell 'AND4_X4' is not defined in the library. (File /software/dk/nangate45/liberty/NangateOpenCellLibrary_typical_ecsm_nowlm.lib)
+[02/02 23:23:53     27s] **WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'ZN' of cell 'AOI21_X1' is not defined in the library. (File /software/dk/nangate45/liberty/NangateOpenCellLibrary_typical_ecsm_nowlm.lib)
+[02/02 23:23:53     27s] **WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'ZN' of cell 'AOI21_X2' is not defined in the library. (File /software/dk/nangate45/liberty/NangateOpenCellLibrary_typical_ecsm_nowlm.lib)
+[02/02 23:23:53     27s] **WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'ZN' of cell 'AOI21_X4' is not defined in the library. (File /software/dk/nangate45/liberty/NangateOpenCellLibrary_typical_ecsm_nowlm.lib)
+[02/02 23:23:53     27s] **WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'ZN' of cell 'AOI22_X1' is not defined in the library. (File /software/dk/nangate45/liberty/NangateOpenCellLibrary_typical_ecsm_nowlm.lib)
+[02/02 23:23:53     27s] **WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'ZN' of cell 'AOI22_X2' is not defined in the library. (File /software/dk/nangate45/liberty/NangateOpenCellLibrary_typical_ecsm_nowlm.lib)
+[02/02 23:23:53     27s] **WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'ZN' of cell 'AOI22_X4' is not defined in the library. (File /software/dk/nangate45/liberty/NangateOpenCellLibrary_typical_ecsm_nowlm.lib)
+[02/02 23:23:54     27s] **WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'ZN' of cell 'AOI211_X1' is not defined in the library. (File /software/dk/nangate45/liberty/NangateOpenCellLibrary_typical_ecsm_nowlm.lib)
+[02/02 23:23:54     27s] **WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'ZN' of cell 'AOI211_X2' is not defined in the library. (File /software/dk/nangate45/liberty/NangateOpenCellLibrary_typical_ecsm_nowlm.lib)
+[02/02 23:23:54     27s] **WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'ZN' of cell 'AOI211_X4' is not defined in the library. (File /software/dk/nangate45/liberty/NangateOpenCellLibrary_typical_ecsm_nowlm.lib)
+[02/02 23:23:54     27s] **WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'ZN' of cell 'AOI221_X1' is not defined in the library. (File /software/dk/nangate45/liberty/NangateOpenCellLibrary_typical_ecsm_nowlm.lib)
+[02/02 23:23:55     27s] **WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'ZN' of cell 'AOI221_X2' is not defined in the library. (File /software/dk/nangate45/liberty/NangateOpenCellLibrary_typical_ecsm_nowlm.lib)
+[02/02 23:24:15     29s] *** End library_loading (cpu=0.04min, real=0.38min, mem=29.9M, fe_cpu=0.49min, fe_real=6.45min, fe_mem=531.3M) ***
+[02/02 23:24:21     29s] *** Netlist is unique.
+[02/02 23:24:23     29s] Loading preference file /home/isa30/Desktop/Lab_3/RISCV_ENHANCED_v5/innovus/RISCV_02_02.dat/gui.pref.tcl ...
+[02/02 23:24:24     29s] **WARN: (IMPTCM-77):	Option "-drouteStartIteration" for command setNanoRouteMode is obsolete and will be removed in a future release. The obsolete option still works in this release but to avoid this warning and to ensure compatibility with future releases, remove the obsolete option from your script.
+[02/02 23:24:46     31s] **WARN: (GLOBAL-100):	Global 'timing_enable_default_delay_arc' has become obsolete. It will be removed in the next release.
+[02/02 23:25:12     33s] <CMD> saveDesign RISCV_02_02.enc
+[02/02 23:25:12     33s] #% Begin save design ... (date=02/02 23:25:12, mem=678.4M)
+[02/02 23:25:13     33s] % Begin Save netlist data ... (date=02/02 23:25:12, mem=679.1M)
+[02/02 23:25:13     33s] Writing Binary DB to RISCV_02_02.enc.dat/RISCV.v.bin in single-threaded mode...
+[02/02 23:25:13     33s] % End Save netlist data ... (date=02/02 23:25:13, total cpu=0:00:00.1, real=0:00:01.0, peak res=680.2M, current mem=680.2M)
+[02/02 23:25:13     33s] % Begin Save AAE data ... (date=02/02 23:25:13, mem=680.2M)
+[02/02 23:25:13     33s] Saving AAE Data ...
+[02/02 23:25:14     33s] % End Save AAE data ... (date=02/02 23:25:13, total cpu=0:00:00.0, real=0:00:01.0, peak res=680.3M, current mem=680.3M)
+[02/02 23:25:14     33s] % Begin Save clock tree data ... (date=02/02 23:25:14, mem=680.7M)
+[02/02 23:25:15     33s] % End Save clock tree data ... (date=02/02 23:25:14, total cpu=0:00:00.0, real=0:00:01.0, peak res=680.7M, current mem=680.7M)
+[02/02 23:25:15     33s] Saving preference file RISCV_02_02.enc.dat/gui.pref.tcl ...
+[02/02 23:25:15     33s] Saving mode setting ...
+[02/02 23:25:15     33s] Saving global file ...
+[02/02 23:25:16     33s] % Begin Save floorplan data ... (date=02/02 23:25:16, mem=681.4M)
+[02/02 23:25:16     33s] Saving floorplan file ...
+[02/02 23:25:17     33s] % End Save floorplan data ... (date=02/02 23:25:17, total cpu=0:00:00.1, real=0:00:01.0, peak res=681.7M, current mem=681.7M)
+[02/02 23:25:17     33s] Saving Drc markers ...
+[02/02 23:25:17     33s] ... No Drc file written since there is no markers found.
+[02/02 23:25:17     33s] % Begin Save placement data ... (date=02/02 23:25:17, mem=681.7M)
+[02/02 23:25:17     33s] ** Saving stdCellPlacement_binary (version# 1) ...
+[02/02 23:25:17     33s] *** Completed savePlace (cpu=0:00:00.0 real=0:00:00.0 mem=825.2M) ***
+[02/02 23:25:17     33s] % End Save placement data ... (date=02/02 23:25:17, total cpu=0:00:00.0, real=0:00:00.0, peak res=682.1M, current mem=682.1M)
+[02/02 23:25:19     33s] % Begin Save routing data ... (date=02/02 23:25:17, mem=682.1M)
+[02/02 23:25:19     33s] Saving route file ...
+[02/02 23:25:24     33s] *** Completed saveRoute (cpu=0:00:00.2 real=0:00:05.0 mem=825.2M) ***
+[02/02 23:25:24     33s] % End Save routing data ... (date=02/02 23:25:24, total cpu=0:00:00.2, real=0:00:05.0, peak res=683.2M, current mem=683.2M)
+[02/02 23:25:24     33s] Saving property file RISCV_02_02.enc.dat/RISCV.prop
+[02/02 23:25:25     33s] *** Completed saveProperty (cpu=0:00:00.0 real=0:00:01.0 mem=825.2M) ***
+[02/02 23:25:25     33s] % Begin Save power constraints data ... (date=02/02 23:25:25, mem=683.4M)
+[02/02 23:25:26     33s] % End Save power constraints data ... (date=02/02 23:25:25, total cpu=0:00:00.0, real=0:00:01.0, peak res=683.4M, current mem=683.4M)
+[02/02 23:25:30     34s] Generated self-contained design RISCV_02_02.enc.dat
+[02/02 23:25:31     34s] #% End save design ... (date=02/02 23:25:30, total cpu=0:00:01.1, real=0:00:19.0, peak res=684.3M, current mem=684.3M)
+[02/02 23:25:31     34s] *** Message Summary: 0 warning(s), 0 error(s)
+[02/02 23:25:31     34s] 
+[02/02 23:27:04     37s] 
+[02/02 23:27:04     37s] *** Memory Usage v#1 (Current mem = 836.371M, initial mem = 179.684M) ***
+[02/02 23:27:04     37s] 
+[02/02 23:27:04     37s] *** Summary of all messages that are not suppressed in this session:
+[02/02 23:27:04     37s] Severity  ID               Count  Summary                                  
+[02/02 23:27:04     37s] WARNING   IMPTCM-77            1  Option "%s" for command %s is obsolete a...
+[02/02 23:27:04     37s] WARNING   GLOBAL-100           2  Global '%s' has become obsolete. It will...
+[02/02 23:27:04     37s] WARNING   TECHLIB-436         20  Attribute '%s' on '%s' pin '%s' of cell ...
+[02/02 23:27:04     37s] *** Message Summary: 23 warning(s), 0 error(s)
+[02/02 23:27:04     37s] 
+[02/02 23:27:04     37s] --- Ending "Innovus" (totcpu=0:00:37.0, real=0:09:16, mem=836.4M) ---
