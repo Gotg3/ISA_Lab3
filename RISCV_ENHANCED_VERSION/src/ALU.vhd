@@ -24,7 +24,6 @@ end entity;
 	signal in2_s	:std_logic_vector(data_parallelism-1 downto 0):=(others=>'0');
 	signal z_s      :std_logic:='0';
 	signal shamt_s	:std_logic_vector(srx-1 downto 0);
-	--signal sub		:signed(data_parallelism-1 downto 0):=(others=>'0'); --sub of in1 and in2
 	constant one		:integer := 1;
 	constant zero		:integer := 0;
 	
@@ -102,17 +101,6 @@ end entity;
 										
 									end if;
 									
-									--if(signed(in1_s) = signed(in2_s)) then
-									--
-									--	z_s<='1'; --1 = take branch
-									--	output_s<=(others=>'0');
-									--	
-									--	
-									--else
-									--	z_s<='0';
-									--	output_s<=(others=>'0');
-									--	
-									--end if;
 
 					when "1011" => --LUI
 
