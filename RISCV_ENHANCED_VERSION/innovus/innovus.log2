@@ -1,0 +1,1155 @@
+
+Cadence Innovus(TM) Implementation System.
+Copyright 2017 Cadence Design Systems, Inc. All rights reserved worldwide.
+
+Version:	v17.11-s080_1, built Fri Aug 4 11:13:11 PDT 2017
+Options:	
+Date:		Sun Jan 31 12:21:06 2021
+Host:		localhost.localdomain (x86_64 w/Linux 3.10.0-957.5.1.el7.x86_64) (1core*2cpus*Westmere E56xx/L56xx/X56xx (Nehalem-C) 4096KB)
+OS:		CentOS Linux release 7.6.1810 (Core) 
+
+License:
+		invs	Innovus Implementation System	17.1	checkout succeeded
+		8 CPU jobs allowed with the current license(s). Use setMultiCpuUsage to set your required CPU count.
+Change the soft stacksize limit to 0.2%RAM (31 mbytes). Set global soft_stack_size_limit to change the value.
+
+**INFO:  MMMC transition support version v31-84 
+
+<CMD> set_global _enable_mmmc_by_default_flow      $CTE::mmmc_default
+<CMD> suppressMessage ENCEXT-2799
+<CMD> getDrawView
+<CMD> loadWorkspace -name Physical
+<CMD> win
+<CMD> encMessage warning 0
+Suppress "**WARN ..." messages.
+<CMD> encMessage debug 0
+<CMD> encMessage info 0
+**WARN: (GLOBAL-100):	Global 'timing_enable_default_delay_arc' has become obsolete. It will be removed in the next release.
+my_rc
+Loading view definition file from /home/isa30/Desktop/Lab_3/RISCV_ENHANCED_v5/innovus/RISCV.enc.dat/viewDefinition.tcl
+**WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'ZN' of cell 'AND2_X1' is not defined in the library. (File /software/dk/nangate45/liberty/NangateOpenCellLibrary_typical_ecsm_nowlm.lib)
+**WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'ZN' of cell 'AND2_X2' is not defined in the library. (File /software/dk/nangate45/liberty/NangateOpenCellLibrary_typical_ecsm_nowlm.lib)
+**WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'ZN' of cell 'AND2_X4' is not defined in the library. (File /software/dk/nangate45/liberty/NangateOpenCellLibrary_typical_ecsm_nowlm.lib)
+**WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'ZN' of cell 'AND3_X1' is not defined in the library. (File /software/dk/nangate45/liberty/NangateOpenCellLibrary_typical_ecsm_nowlm.lib)
+**WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'ZN' of cell 'AND3_X2' is not defined in the library. (File /software/dk/nangate45/liberty/NangateOpenCellLibrary_typical_ecsm_nowlm.lib)
+**WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'ZN' of cell 'AND3_X4' is not defined in the library. (File /software/dk/nangate45/liberty/NangateOpenCellLibrary_typical_ecsm_nowlm.lib)
+**WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'ZN' of cell 'AND4_X1' is not defined in the library. (File /software/dk/nangate45/liberty/NangateOpenCellLibrary_typical_ecsm_nowlm.lib)
+**WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'ZN' of cell 'AND4_X2' is not defined in the library. (File /software/dk/nangate45/liberty/NangateOpenCellLibrary_typical_ecsm_nowlm.lib)
+**WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'ZN' of cell 'AND4_X4' is not defined in the library. (File /software/dk/nangate45/liberty/NangateOpenCellLibrary_typical_ecsm_nowlm.lib)
+**WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'ZN' of cell 'AOI21_X1' is not defined in the library. (File /software/dk/nangate45/liberty/NangateOpenCellLibrary_typical_ecsm_nowlm.lib)
+**WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'ZN' of cell 'AOI21_X2' is not defined in the library. (File /software/dk/nangate45/liberty/NangateOpenCellLibrary_typical_ecsm_nowlm.lib)
+**WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'ZN' of cell 'AOI21_X4' is not defined in the library. (File /software/dk/nangate45/liberty/NangateOpenCellLibrary_typical_ecsm_nowlm.lib)
+**WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'ZN' of cell 'AOI22_X1' is not defined in the library. (File /software/dk/nangate45/liberty/NangateOpenCellLibrary_typical_ecsm_nowlm.lib)
+**WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'ZN' of cell 'AOI22_X2' is not defined in the library. (File /software/dk/nangate45/liberty/NangateOpenCellLibrary_typical_ecsm_nowlm.lib)
+**WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'ZN' of cell 'AOI22_X4' is not defined in the library. (File /software/dk/nangate45/liberty/NangateOpenCellLibrary_typical_ecsm_nowlm.lib)
+**WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'ZN' of cell 'AOI211_X1' is not defined in the library. (File /software/dk/nangate45/liberty/NangateOpenCellLibrary_typical_ecsm_nowlm.lib)
+**WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'ZN' of cell 'AOI211_X2' is not defined in the library. (File /software/dk/nangate45/liberty/NangateOpenCellLibrary_typical_ecsm_nowlm.lib)
+**WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'ZN' of cell 'AOI211_X4' is not defined in the library. (File /software/dk/nangate45/liberty/NangateOpenCellLibrary_typical_ecsm_nowlm.lib)
+**WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'ZN' of cell 'AOI221_X1' is not defined in the library. (File /software/dk/nangate45/liberty/NangateOpenCellLibrary_typical_ecsm_nowlm.lib)
+**WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'ZN' of cell 'AOI221_X2' is not defined in the library. (File /software/dk/nangate45/liberty/NangateOpenCellLibrary_typical_ecsm_nowlm.lib)
+*** End library_loading (cpu=0.04min, real=0.37min, mem=22.4M, fe_cpu=0.55min, fe_real=7.37min, fe_mem=531.3M) ***
+*** Netlist is unique.
+Loading preference file /home/isa30/Desktop/Lab_3/RISCV_ENHANCED_v5/innovus/RISCV.enc.dat/gui.pref.tcl ...
+**WARN: (IMPTCM-77):	Option "-drouteStartIteration" for command setNanoRouteMode is obsolete and will be removed in a future release. The obsolete option still works in this release but to avoid this warning and to ensure compatibility with future releases, remove the obsolete option from your script.
+**WARN: (GLOBAL-100):	Global 'timing_enable_default_delay_arc' has become obsolete. It will be removed in the next release.
+'set_default_switching_activity' finished successfully.
+<CMD> setDrawView ameba
+<CMD> setDrawView place
+<CMD> get_time_unit
+<CMD> report_timing -machine_readable -max_paths 10000 -max_slack 0.75 -path_exceptions all -early > top.mtarpt
+Starting SI iteration 1 using Infinite Timing Windows
+#################################################################################
+# Design Stage: PostRoute
+# Design Name: RISCV
+# Design Mode: 90nm
+# Analysis Mode: MMMC OCV 
+# Parasitics Mode: No SPEF/RCDB
+# Signoff Settings: SI On 
+#################################################################################
+Extraction called for design 'RISCV' of instances=20973 and nets=7088 using extraction engine 'postRoute' at effort level 'low' .
+**WARN: (IMPEXT-3530):	The process node is not set. Use the command setDesignMode -process <process node> prior to extraction for maximum accuracy and optimal automatic threshold setting.
+Type 'man IMPEXT-3530' for more detail.
+PostRoute (effortLevel low) RC Extraction called for design RISCV.
+RC Extraction called in multi-corner(1) mode.
+Process corner(s) are loaded.
+ Corner: my_rc
+extractDetailRC Option : -outfile /tmp/innovus_temp_4768_localhost.localdomain_isa30_w1xMhY/RISCV_4768_ghCeg6.rcdb.d  -extended
+RC Mode: PostRoute -effortLevel low [Extended CapTable, RC Table Resistances]
+      RC Corner Indexes            0   
+Capacitance Scaling Factor   : 1.00000 
+Coupling Cap. Scaling Factor : 1.00000 
+Resistance Scaling Factor    : 1.00000 
+Clock Cap. Scaling Factor    : 1.00000 
+Clock Res. Scaling Factor    : 1.00000 
+Shrink Factor                : 1.00000
+Initializing multi-corner capacitance tables ... 
+Initializing multi-corner resistance tables ...
+Checking LVS Completed (CPU Time= 0:00:00.0  MEM= 964.6M)
+Extracted 10.0015% (CPU Time= 0:00:00.3  MEM= 1039.6M)
+Extracted 20.0018% (CPU Time= 0:00:00.3  MEM= 1042.6M)
+Extracted 30.0021% (CPU Time= 0:00:00.4  MEM= 1042.6M)
+Extracted 40.0013% (CPU Time= 0:00:00.5  MEM= 1043.6M)
+Extracted 50.0017% (CPU Time= 0:00:00.6  MEM= 1044.6M)
+Extracted 60.002% (CPU Time= 0:00:00.7  MEM= 1046.6M)
+Extracted 70.0012% (CPU Time= 0:00:00.8  MEM= 1047.6M)
+Extracted 80.0016% (CPU Time= 0:00:00.9  MEM= 1048.6M)
+Extracted 90.0019% (CPU Time= 0:00:01.1  MEM= 1048.6M)
+Extracted 100% (CPU Time= 0:00:01.6  MEM= 1055.7M)
+Number of Extracted Resistors     : 136595
+Number of Extracted Ground Cap.   : 143437
+Number of Extracted Coupling Cap. : 221220
+Filtering XCap in 'relativeOnly' mode using values relative_c_threshold=0.03 and total_c_threshold=5fF.
+ Corner: my_rc
+Checking LVS Completed (CPU Time= 0:00:00.0  MEM= 1039.6M)
+PostRoute (effortLevel low) RC Extraction DONE (CPU Time: 0:00:02.1  Real Time: 0:00:22.0  MEM: 1039.629M)
+AAE_INFO: 1 threads acquired from CTE.
+Calculate late delays in OCV mode...
+Calculate early delays in OCV mode...
+Start delay calculation (fullDC) (1 T). (MEM=1039.63)
+Initializing multi-corner capacitance tables ... 
+Initializing multi-corner resistance tables ...
+AAE_INFO: 1 threads acquired from CTE.
+Total number of fetched objects 8172
+AAE_INFO-618: Total number of nets in the design is 7088,  100.0 percent of the nets selected for SI analysis
+End delay calculation. (MEM=1277.22 CPU=0:00:06.8 REAL=0:01:06)
+End delay calculation (fullDC). (MEM=1179.85 CPU=0:00:07.6 REAL=0:01:14)
+Loading CTE timing window with TwFlowType 0...(CPU = 0:00:00.0, REAL = 0:00:00.0, MEM = 1179.8M)
+Add other clocks and setupCteToAAEClockMapping during iter 1
+Loading CTE timing window is completed (CPU = 0:00:00.1, REAL = 0:00:00.0, MEM = 1179.8M)
+Starting SI iteration 2
+Calculate late delays in OCV mode...
+Calculate early delays in OCV mode...
+Start delay calculation (fullDC) (1 T). (MEM=1187.89)
+Glitch Analysis: View MyAnView -- Total Number of Nets Skipped = 0. 
+Glitch Analysis: View MyAnView -- Total Number of Nets Analyzed = 100. 
+Total number of fetched objects 8172
+AAE_INFO-618: Total number of nets in the design is 7088,  0.0 percent of the nets selected for SI analysis
+End delay calculation. (MEM=1155.89 CPU=0:00:00.2 REAL=0:00:01.0)
+End delay calculation (fullDC). (MEM=1155.89 CPU=0:00:00.3 REAL=0:00:02.0)
+<CMD> load_timing_debug_report -name default_report top.mtarpt
+Parsing file top.mtarpt...
+<CMD> selectObject Net clk
+<CMD> selectObject Net {ALU_backward_MEM_out_s[30]}
+<CMD> selectInst reg_ALUout_MEM_WB_q_reg_30_
+<CMD> selectInst reg_ALUout_EX_MEM_q_reg_30_
+<CMD> selectObject IO_Pin clk
+<CMD> deselectObject Net clk
+<CMD> deselectObject Net {ALU_backward_MEM_out_s[30]}
+<CMD> deselectInst reg_ALUout_MEM_WB_q_reg_30_
+<CMD> deselectInst reg_ALUout_EX_MEM_q_reg_30_
+<CMD> deselectObject IO_Pin clk
+<CMD> selectInst reg_ALUout_EX_MEM_q_reg_30_
+<CMD> deselectInst reg_ALUout_EX_MEM_q_reg_30_
+<CMD> selectInst reg_ALUout_EX_MEM_q_reg_30_
+<CMD> deselectInst reg_ALUout_EX_MEM_q_reg_30_
+<CMD> selectInst reg_ALUout_MEM_WB_q_reg_30_
+<CMD> deselectInst reg_ALUout_MEM_WB_q_reg_30_
+<CMD> selectInst reg_ALUout_EX_MEM_q_reg_30_
+/home/isa30/Desktop/Lab_3/RISCV_ENHANCED_v5/innovus/RISCV.enc.dat/libs/mmmc/RISCV.sdc
+INFO:  processing SDC file "/home/isa30/Desktop/Lab_3/RISCV_ENHANCED_v5/innovus/RISCV.enc.dat/libs/mmmc/RISCV.sdc" for SDC<->STA report cross-probing....
+INFO(/home/isa30/Desktop/Lab_3/RISCV_ENHANCED_v5/innovus/RISCV.enc.dat/libs/mmmc/RISCV.sdc, line 8,8) : Command "set_units" will not be registered for SDC cross-probing, because it is unsupported, or contained an unsupported command in one of its options.
+INFO:  processed 268 commands in 275 lines from file "/home/isa30/Desktop/Lab_3/RISCV_ENHANCED_v5/innovus/RISCV.enc.dat/libs/mmmc/RISCV.sdc", with 1 errors.
+INFO:  registered 267 SDC constraints for cross-probing.
+INFO:  The following commands were not registered for SDC cross-probing, for reasons
+       detailed previously in the logfile, or because they are not relevant to SDC:
+       cross-probing.
+/home/isa30/Desktop/Lab_3/RISCV_ENHANCED_v5/innovus/RISCV.enc.dat/libs/mmmc/RISCV.sdc
+<CMD> selectInst reg_ALUout_MEM_WB_q_reg_30_
+<CMD> deselectInst reg_ALUout_MEM_WB_q_reg_30_
+<CMD> selectInst reg_ALUout_EX_MEM_q_reg_30_
+<CMD> deselectInst reg_ALUout_EX_MEM_q_reg_30_
+<CMD> selectObject Net clk
+<CMD> deselectObject Net clk
+<CMD> selectInst reg_ALUout_MEM_WB_q_reg_30_
+<CMD> deselectInst reg_ALUout_MEM_WB_q_reg_30_
+<CMD> selectInst reg_ALUout_EX_MEM_q_reg_30_
+<CMD> deselectInst reg_ALUout_EX_MEM_q_reg_30_
+<CMD> selectObject Net clk
+<CMD> deselectObject Net clk
+<CMD> selectInst reg_ALUout_EX_MEM_q_reg_30_
+<CMD> deselectInst reg_ALUout_EX_MEM_q_reg_30_
+<CMD> selectInst reg_ALUout_MEM_WB_q_reg_30_
+<CMD> deselectInst reg_ALUout_MEM_WB_q_reg_30_
+<CMD> selectInst reg_ALUout_EX_MEM_q_reg_30_
+<CMD> deselectInst reg_ALUout_EX_MEM_q_reg_30_
+<CMD> selectObject Pin reg_ALUout_MEM_WB_q_reg_30_/RN
+<CMD> deselectObject Pin reg_ALUout_MEM_WB_q_reg_30_/RN
+<CMD> selectObject Net clk
+<CMD> deselectObject Net clk
+<CMD> selectInst reg_ALUout_EX_MEM_q_reg_30_
+<CMD> deselectInst reg_ALUout_EX_MEM_q_reg_30_
+<CMD> selectInst reg_ALUout_MEM_WB_q_reg_30_
+<CMD> deselectInst reg_ALUout_MEM_WB_q_reg_30_
+<CMD> selectInst reg_ALUout_MEM_WB_q_reg_30_
+<CMD> deselectInst reg_ALUout_MEM_WB_q_reg_30_
+<CMD> selectInst reg_ALUout_EX_MEM_q_reg_30_
+<CMD> deselectAll
+<CMD> selectInst reg_ALUout_MEM_WB_q_reg_30_
+<CMD> ecoChangeCell -inst reg_ALUout_MEM_WB_q_reg_30_ -cell DFFR_X2
+#################################################################################
+# Design Stage: PostRoute
+# Design Name: RISCV
+# Design Mode: 90nm
+# Analysis Mode: MMMC OCV 
+# Parasitics Mode: SPEF/RCDB
+# Signoff Settings: SI On 
+#################################################################################
+Starting SI iteration 1 using Infinite Timing Windows
+#################################################################################
+# Design Stage: PostRoute
+# Design Name: RISCV
+# Design Mode: 90nm
+# Analysis Mode: MMMC OCV 
+# Parasitics Mode: SPEF/RCDB
+# Signoff Settings: SI On 
+#################################################################################
+AAE_INFO: 1 threads acquired from CTE.
+Calculate early delays in OCV mode...
+Calculate late delays in OCV mode...
+Start delay calculation (fullDC) (1 T). (MEM=1131.62)
+Total number of fetched objects 8172
+AAE_INFO-618: Total number of nets in the design is 7088,  100.0 percent of the nets selected for SI analysis
+End delay calculation. (MEM=1198.92 CPU=0:00:06.6 REAL=0:01:00.0)
+End delay calculation (fullDC). (MEM=1198.92 CPU=0:00:07.1 REAL=0:01:05)
+Loading CTE timing window with TwFlowType 0...(CPU = 0:00:00.0, REAL = 0:00:00.0, MEM = 1198.9M)
+Add other clocks and setupCteToAAEClockMapping during iter 1
+Loading CTE timing window is completed (CPU = 0:00:00.1, REAL = 0:00:00.0, MEM = 1198.9M)
+Starting SI iteration 2
+AAE_INFO: 1 threads acquired from CTE.
+Calculate early delays in OCV mode...
+Calculate late delays in OCV mode...
+Start delay calculation (fullDC) (1 T). (MEM=1206.97)
+Glitch Analysis: View MyAnView -- Total Number of Nets Skipped = 0. 
+Glitch Analysis: View MyAnView -- Total Number of Nets Analyzed = 8172. 
+Total number of fetched objects 8172
+AAE_INFO-618: Total number of nets in the design is 7088,  0.0 percent of the nets selected for SI analysis
+End delay calculation. (MEM=1174.96 CPU=0:00:00.2 REAL=0:00:01.0)
+End delay calculation (fullDC). (MEM=1174.96 CPU=0:00:00.3 REAL=0:00:02.0)
+Design State:
+    #signal nets       :  7080
+    #routed signal nets:  7009
+    #clock nets        :  1
+    #routed clock nets :  1
+#################################################################################
+# Design Stage: PostRoute
+# Design Name: RISCV
+# Design Mode: 90nm
+# Analysis Mode: MMMC OCV 
+# Parasitics Mode: SPEF/RCDB
+# Signoff Settings: SI On 
+#################################################################################
+Estimated cell power/ground rail width = 0.197 um
+*** Starting refinePlace (0:01:40 mem=1175.0M) ***
+Total net bbox length = 9.520e+04 (4.147e+04 5.373e+04) (ext = 2.017e+04)
+**ERROR: (IMPSP-2002):	Density too high (100.0%), stopping detail placement.
+Type 'man IMPSP-2002' for more detail.
+Total net bbox length = 9.520e+04 (4.147e+04 5.373e+04) (ext = 2.017e+04)
+Runtime: CPU: 0:00:00.0 REAL: 0:00:01.0 MEM: 1175.0MB
+*** Finished refinePlace (0:01:40 mem=1175.0M) ***
+**WARN: (IMPOPT-3549):	Timing updation on term reg_ALUout_MEM_WB_q_reg_30_/RN will only happen in the late mode. Updation in both min/max modes cannot be done by ECO commands. This might cause inconsistency in timing number if you are in OCV mode and updation required for both the modes.
+Resize reg_ALUout_MEM_WB_q_reg_30_ (DFFR_X1) to DFFR_X2.
+<CMD> deleteFiller -cell LOGIC1_X1 LOGIC0_X1 FILLCELL_X8 FILLCELL_X4 FILLCELL_X32 FILLCELL_X2 FILLCELL_X16 FILLCELL_X1
+Deleted 0 physical inst  (cell LOGIC1_X1 / prefix -).
+Deleted 0 physical inst  (cell LOGIC0_X1 / prefix -).
+Deleted 1867 physical insts (cell FILLCELL_X8 / prefix -).
+Deleted 3251 physical insts (cell FILLCELL_X4 / prefix -).
+Deleted 17 physical insts (cell FILLCELL_X32 / prefix -).
+Deleted 0 physical inst  (cell FILLCELL_X2 / prefix -).
+Deleted 170 physical insts (cell FILLCELL_X16 / prefix -).
+Deleted 9116 physical insts (cell FILLCELL_X1 / prefix -).
+Total physical insts deleted = 14421.
+<CMD> getFillerMode -quiet
+<CMD> addFiller -cell FILLCELL_X8 FILLCELL_X4 FILLCELL_X32 FILLCELL_X2 FILLCELL_X16 FILLCELL_X1 -prefix FILLER
+**WARN: (IMPSP-5217):	addFiller command is running on a postRoute database. It is recommended to be followed by ecoRoute -target command to make the DRC clean.
+Type 'man IMPSP-5217' for more detail.
+For 14421 new insts, *** Applied 2 GNC rules (cpu = 0:00:00.0)
+*INFO: Adding fillers to top-module.
+*INFO:   Added 17 filler insts (cell FILLCELL_X32 / prefix FILLER).
+*INFO:   Added 170 filler insts (cell FILLCELL_X16 / prefix FILLER).
+*INFO:   Added 1867 filler insts (cell FILLCELL_X8 / prefix FILLER).
+*INFO:   Added 3251 filler insts (cell FILLCELL_X4 / prefix FILLER).
+*INFO:   Added 0 filler inst  (cell FILLCELL_X2 / prefix FILLER).
+*INFO:   Added 9116 filler insts (cell FILLCELL_X1 / prefix FILLER).
+*INFO: Total 14421 filler insts added - prefix FILLER (CPU: 0:00:01.7).
+For 0 new insts, *** Applied 0 GNC rules.
+<CMD> redirect -quiet {set honorDomain [getAnalysisMode -honorClockDomains]} > /dev/null
+<CMD> timeDesign -postRoute -hold -pathReports -slackReports -numPaths 50 -prefix RISCV_postRoute -outDir timingReports
+ Reset EOS DB
+Ignoring AAE DB Resetting ...
+Extraction called for design 'RISCV' of instances=20973 and nets=7088 using extraction engine 'postRoute' at effort level 'low' .
+**WARN: (IMPEXT-3530):	The process node is not set. Use the command setDesignMode -process <process node> prior to extraction for maximum accuracy and optimal automatic threshold setting.
+Type 'man IMPEXT-3530' for more detail.
+PostRoute (effortLevel low) RC Extraction called for design RISCV.
+RC Extraction called in multi-corner(1) mode.
+Process corner(s) are loaded.
+ Corner: my_rc
+extractDetailRC Option : -outfile /tmp/innovus_temp_4768_localhost.localdomain_isa30_w1xMhY/RISCV_4768_ghCeg6.rcdb.d -maxResLength 200  -extended
+RC Mode: PostRoute -effortLevel low [Extended CapTable, RC Table Resistances]
+      RC Corner Indexes            0   
+Capacitance Scaling Factor   : 1.00000 
+Coupling Cap. Scaling Factor : 1.00000 
+Resistance Scaling Factor    : 1.00000 
+Clock Cap. Scaling Factor    : 1.00000 
+Clock Res. Scaling Factor    : 1.00000 
+Shrink Factor                : 1.00000
+Initializing multi-corner capacitance tables ... 
+Initializing multi-corner resistance tables ...
+Checking LVS Completed (CPU Time= 0:00:00.0  MEM= 1132.0M)
+Extracted 10.0015% (CPU Time= 0:00:00.3  MEM= 1209.1M)
+Extracted 20.0018% (CPU Time= 0:00:00.4  MEM= 1209.1M)
+Extracted 30.0021% (CPU Time= 0:00:00.4  MEM= 1209.1M)
+Extracted 40.0013% (CPU Time= 0:00:00.5  MEM= 1209.1M)
+Extracted 50.0017% (CPU Time= 0:00:00.6  MEM= 1209.1M)
+Extracted 60.002% (CPU Time= 0:00:00.7  MEM= 1209.1M)
+Extracted 70.0012% (CPU Time= 0:00:00.8  MEM= 1209.1M)
+Extracted 80.0016% (CPU Time= 0:00:01.0  MEM= 1209.1M)
+Extracted 90.0019% (CPU Time= 0:00:01.2  MEM= 1209.1M)
+Extracted 100% (CPU Time= 0:00:01.6  MEM= 1214.1M)
+Number of Extracted Resistors     : 136595
+Number of Extracted Ground Cap.   : 143437
+Number of Extracted Coupling Cap. : 221220
+Filtering XCap in 'relativeOnly' mode using values relative_c_threshold=0.03 and total_c_threshold=5fF.
+ Corner: my_rc
+Checking LVS Completed (CPU Time= 0:00:00.0  MEM= 1190.8M)
+PostRoute (effortLevel low) RC Extraction DONE (CPU Time: 0:00:02.1  Real Time: 0:00:23.0  MEM: 1190.809M)
+Starting SI iteration 1 using Infinite Timing Windows
+#################################################################################
+# Design Stage: PostRoute
+# Design Name: RISCV
+# Design Mode: 90nm
+# Analysis Mode: MMMC OCV 
+# Parasitics Mode: SPEF/RCDB
+# Signoff Settings: SI On 
+#################################################################################
+AAE_INFO: 1 threads acquired from CTE.
+Calculate late delays in OCV mode...
+Calculate early delays in OCV mode...
+Start delay calculation (fullDC) (1 T). (MEM=1128.48)
+Initializing multi-corner capacitance tables ... 
+Initializing multi-corner resistance tables ...
+AAE_INFO: 1 threads acquired from CTE.
+Total number of fetched objects 8172
+AAE_INFO-618: Total number of nets in the design is 7088,  100.0 percent of the nets selected for SI analysis
+End delay calculation. (MEM=1211.46 CPU=0:00:06.8 REAL=0:01:09)
+End delay calculation (fullDC). (MEM=1211.46 CPU=0:00:07.4 REAL=0:01:15)
+Loading CTE timing window with TwFlowType 0...(CPU = 0:00:00.0, REAL = 0:00:00.0, MEM = 1211.5M)
+Add other clocks and setupCteToAAEClockMapping during iter 1
+Loading CTE timing window is completed (CPU = 0:00:00.1, REAL = 0:00:01.0, MEM = 1211.5M)
+Starting SI iteration 2
+AAE_INFO: 1 threads acquired from CTE.
+Calculate late delays in OCV mode...
+Calculate early delays in OCV mode...
+Start delay calculation (fullDC) (1 T). (MEM=1219.51)
+Glitch Analysis: View MyAnView -- Total Number of Nets Skipped = 0. 
+Glitch Analysis: View MyAnView -- Total Number of Nets Analyzed = 100. 
+Total number of fetched objects 8172
+AAE_INFO-618: Total number of nets in the design is 7088,  0.0 percent of the nets selected for SI analysis
+End delay calculation. (MEM=1187.51 CPU=0:00:00.2 REAL=0:00:02.0)
+End delay calculation (fullDC). (MEM=1187.51 CPU=0:00:00.3 REAL=0:00:03.0)
+*** Done Building Timing Graph (cpu=0:00:09.5 real=0:01:36 totSessionCpu=0:02:03 mem=1187.5M)
+
+------------------------------------------------------------
+          timeDesign Summary                             
+------------------------------------------------------------
+
+Hold  views included:
+ MyAnView 
+
++--------------------+---------+---------+---------+
+|     Hold mode      |   all   | reg2reg | default |
++--------------------+---------+---------+---------+
+|           WNS (ns):| -0.001  | -0.001  |  0.000  |
+|           TNS (ns):| -0.005  | -0.005  |  0.000  |
+|    Violating Paths:|   14    |   14    |    0    |
+|          All Paths:|  1658   |  1658   |    0    |
++--------------------+---------+---------+---------+
+
+Density: 57.997%
+       (100.002% with Fillers)
+------------------------------------------------------------
+Reported timing to dir timingReports
+Total CPU time: 12.83 sec
+Total Real time: 132.0 sec
+Total Memory Usage: 1092.945312 Mbytes
+Reset AAE Options
+<CMD> selectInst reg_ALUout_MEM_WB_q_reg_22_
+<CMD> ecoChangeCell -inst reg_ALUout_MEM_WB_q_reg_22_ -cell DFFR_X4
+**WARN: (IMPOPT-3588):	DFFR_X4 is not a cell!
+Type 'man IMPOPT-3588' for more detail.
+
+<CMD> ecoChangeCell -inst reg_ALUout_MEM_WB_q_reg_22_ -cell DFFR_X2
+Starting SI iteration 1 using Infinite Timing Windows
+#################################################################################
+# Design Stage: PostRoute
+# Design Name: RISCV
+# Design Mode: 90nm
+# Analysis Mode: MMMC OCV 
+# Parasitics Mode: SPEF/RCDB
+# Signoff Settings: SI On 
+#################################################################################
+AAE_INFO: 1 threads acquired from CTE.
+Calculate early delays in OCV mode...
+Calculate late delays in OCV mode...
+Start delay calculation (fullDC) (1 T). (MEM=1096.46)
+Total number of fetched objects 8172
+AAE_INFO-618: Total number of nets in the design is 7088,  100.0 percent of the nets selected for SI analysis
+End delay calculation. (MEM=1211.46 CPU=0:00:06.5 REAL=0:01:03)
+End delay calculation (fullDC). (MEM=1211.46 CPU=0:00:07.0 REAL=0:01:08)
+Loading CTE timing window with TwFlowType 0...(CPU = 0:00:00.0, REAL = 0:00:00.0, MEM = 1211.5M)
+Add other clocks and setupCteToAAEClockMapping during iter 1
+Loading CTE timing window is completed (CPU = 0:00:00.1, REAL = 0:00:01.0, MEM = 1211.5M)
+Starting SI iteration 2
+AAE_INFO: 1 threads acquired from CTE.
+Calculate early delays in OCV mode...
+Calculate late delays in OCV mode...
+Start delay calculation (fullDC) (1 T). (MEM=1219.51)
+Glitch Analysis: View MyAnView -- Total Number of Nets Skipped = 0. 
+Glitch Analysis: View MyAnView -- Total Number of Nets Analyzed = 8172. 
+Total number of fetched objects 8172
+AAE_INFO-618: Total number of nets in the design is 7088,  0.0 percent of the nets selected for SI analysis
+End delay calculation. (MEM=1187.5 CPU=0:00:00.2 REAL=0:00:02.0)
+End delay calculation (fullDC). (MEM=1187.5 CPU=0:00:00.3 REAL=0:00:03.0)
+Design State:
+    #signal nets       :  7080
+    #routed signal nets:  7009
+    #clock nets        :  1
+    #routed clock nets :  1
+#################################################################################
+# Design Stage: PostRoute
+# Design Name: RISCV
+# Design Mode: 90nm
+# Analysis Mode: MMMC OCV 
+# Parasitics Mode: SPEF/RCDB
+# Signoff Settings: SI On 
+#################################################################################
+*** Starting refinePlace (0:03:17 mem=1187.5M) ***
+Total net bbox length = 9.520e+04 (4.147e+04 5.373e+04) (ext = 2.017e+04)
+**ERROR: (IMPSP-2002):	Density too high (100.0%), stopping detail placement.
+Type 'man IMPSP-2002' for more detail.
+Total net bbox length = 9.520e+04 (4.147e+04 5.373e+04) (ext = 2.017e+04)
+Runtime: CPU: 0:00:00.1 REAL: 0:00:00.0 MEM: 1187.5MB
+*** Finished refinePlace (0:03:17 mem=1187.5M) ***
+**WARN: (IMPOPT-3549):	Timing updation on term reg_ALUout_MEM_WB_q_reg_22_/RN will only happen in the late mode. Updation in both min/max modes cannot be done by ECO commands. This might cause inconsistency in timing number if you are in OCV mode and updation required for both the modes.
+Resize reg_ALUout_MEM_WB_q_reg_22_ (DFFR_X2) to DFFR_X2.
+<CMD> ecoChangeCell -inst reg_ALUout_MEM_WB_q_reg_22_ -cell DFFR_X8
+**WARN: (IMPOPT-3588):	DFFR_X8 is not a cell!
+Type 'man IMPOPT-3588' for more detail.
+
+<CMD> selectInst reg_ALUout_EX_MEM_q_reg_22_
+<CMD> ecoChangeCell -inst reg_ALUout_EX_MEM_q_reg_22_ -cell SDFFR_X2
+Design State:
+    #signal nets       :  7080
+    #routed signal nets:  7009
+    #clock nets        :  1
+    #routed clock nets :  1
+#################################################################################
+# Design Stage: PostRoute
+# Design Name: RISCV
+# Design Mode: 90nm
+# Analysis Mode: MMMC OCV 
+# Parasitics Mode: SPEF/RCDB
+# Signoff Settings: SI On 
+#################################################################################
+*** Starting refinePlace (0:03:20 mem=1260.0M) ***
+Total net bbox length = 9.520e+04 (4.147e+04 5.373e+04) (ext = 2.017e+04)
+**ERROR: (IMPSP-2002):	Density too high (100.0%), stopping detail placement.
+Type 'man IMPSP-2002' for more detail.
+Total net bbox length = 9.520e+04 (4.147e+04 5.373e+04) (ext = 2.017e+04)
+Runtime: CPU: 0:00:00.0 REAL: 0:00:01.0 MEM: 1260.0MB
+*** Finished refinePlace (0:03:20 mem=1260.0M) ***
+**WARN: (IMPOPT-3549):	Timing updation on term reg_ALUout_EX_MEM_q_reg_22_/RN will only happen in the late mode. Updation in both min/max modes cannot be done by ECO commands. This might cause inconsistency in timing number if you are in OCV mode and updation required for both the modes.
+Resize reg_ALUout_EX_MEM_q_reg_22_ (SDFFR_X1) to SDFFR_X2.
+<CMD> selectInst reg_ALUout_MEM_WB_q_reg_16_
+<CMD> ecoChangeCell -inst reg_ALUout_MEM_WB_q_reg_16_ -cell DFFR_X2
+Design State:
+    #signal nets       :  7080
+    #routed signal nets:  7009
+    #clock nets        :  1
+    #routed clock nets :  1
+#################################################################################
+# Design Stage: PostRoute
+# Design Name: RISCV
+# Design Mode: 90nm
+# Analysis Mode: MMMC OCV 
+# Parasitics Mode: SPEF/RCDB
+# Signoff Settings: SI On 
+#################################################################################
+*** Starting refinePlace (0:03:22 mem=1262.0M) ***
+Total net bbox length = 9.520e+04 (4.147e+04 5.373e+04) (ext = 2.017e+04)
+**ERROR: (IMPSP-2002):	Density too high (100.0%), stopping detail placement.
+Type 'man IMPSP-2002' for more detail.
+Total net bbox length = 9.520e+04 (4.147e+04 5.373e+04) (ext = 2.017e+04)
+Runtime: CPU: 0:00:00.0 REAL: 0:00:00.0 MEM: 1262.0MB
+*** Finished refinePlace (0:03:22 mem=1262.0M) ***
+**WARN: (IMPOPT-3549):	Timing updation on term reg_ALUout_MEM_WB_q_reg_16_/RN will only happen in the late mode. Updation in both min/max modes cannot be done by ECO commands. This might cause inconsistency in timing number if you are in OCV mode and updation required for both the modes.
+Resize reg_ALUout_MEM_WB_q_reg_16_ (DFFR_X1) to DFFR_X2.
+<CMD> deleteFiller -cell LOGIC1_X1 LOGIC0_X1 FILLCELL_X8 FILLCELL_X4 FILLCELL_X32 FILLCELL_X2 FILLCELL_X16 FILLCELL_X1
+Deleted 0 physical inst  (cell LOGIC1_X1 / prefix -).
+Deleted 0 physical inst  (cell LOGIC0_X1 / prefix -).
+Deleted 1867 physical insts (cell FILLCELL_X8 / prefix -).
+Deleted 3251 physical insts (cell FILLCELL_X4 / prefix -).
+Deleted 17 physical insts (cell FILLCELL_X32 / prefix -).
+Deleted 0 physical inst  (cell FILLCELL_X2 / prefix -).
+Deleted 170 physical insts (cell FILLCELL_X16 / prefix -).
+Deleted 9116 physical insts (cell FILLCELL_X1 / prefix -).
+Total physical insts deleted = 14421.
+<CMD> ecoChangeCell -inst reg_ALUout_MEM_WB_q_reg_16_ -cell DFFR_X2
+Design State:
+    #signal nets       :  7080
+    #routed signal nets:  7009
+    #clock nets        :  1
+    #routed clock nets :  1
+#################################################################################
+# Design Stage: PostRoute
+# Design Name: RISCV
+# Design Mode: 90nm
+# Analysis Mode: MMMC OCV 
+# Parasitics Mode: SPEF/RCDB
+# Signoff Settings: SI On 
+#################################################################################
+*** Starting refinePlace (0:03:24 mem=1262.0M) ***
+Total net bbox length = 9.520e+04 (4.147e+04 5.373e+04) (ext = 2.017e+04)
+Density distribution unevenness ratio = 6.227%
+Move report: Detail placement moves 3 insts, mean move: 0.25 um, max move: 0.38 um
+	Max move on inst (reg_immediate_MEM_WB_q_reg_31_): (61.18, 21.84) --> (61.56, 21.84)
+	Runtime: CPU: 0:00:00.2 REAL: 0:00:01.0 MEM: 1262.0MB
+Summary Report:
+Instances move: 3 (out of 6552 movable)
+Instances flipped: 0
+Mean displacement: 0.25 um
+Max displacement: 0.38 um (Instance: reg_immediate_MEM_WB_q_reg_31_) (61.18, 21.84) -> (61.56, 21.84)
+	Length: 20 sites, height: 1 rows, site name: FreePDK45_38x28_10R_NP_162NW_34O, cell type: DFFR_X1
+Total net bbox length = 9.520e+04 (4.147e+04 5.373e+04) (ext = 2.017e+04)
+Runtime: CPU: 0:00:00.2 REAL: 0:00:01.0 MEM: 1262.0MB
+*** Finished refinePlace (0:03:24 mem=1262.0M) ***
+**WARN: (IMPOPT-3549):	Timing updation on term reg_ALUout_MEM_WB_q_reg_16_/RN will only happen in the late mode. Updation in both min/max modes cannot be done by ECO commands. This might cause inconsistency in timing number if you are in OCV mode and updation required for both the modes.
+Resize reg_ALUout_MEM_WB_q_reg_16_ (DFFR_X2) to DFFR_X2.
+<CMD> ecoChangeCell -inst reg_ALUout_EX_MEM_q_reg_22_ -cell SDFFR_X2
+Design State:
+    #signal nets       :  7080
+    #routed signal nets:  7009
+    #clock nets        :  1
+    #routed clock nets :  1
+#################################################################################
+# Design Stage: PostRoute
+# Design Name: RISCV
+# Design Mode: 90nm
+# Analysis Mode: MMMC OCV 
+# Parasitics Mode: SPEF/RCDB
+# Signoff Settings: SI On 
+#################################################################################
+*** Starting refinePlace (0:03:25 mem=1262.0M) ***
+Total net bbox length = 9.520e+04 (4.147e+04 5.373e+04) (ext = 2.017e+04)
+Density distribution unevenness ratio = 6.227%
+Move report: Detail placement moves 0 insts, mean move: 0.00 um, max move: 0.00 um
+	Runtime: CPU: 0:00:00.2 REAL: 0:00:02.0 MEM: 1262.0MB
+Summary Report:
+Instances move: 0 (out of 6552 movable)
+Instances flipped: 0
+Mean displacement: 0.00 um
+Max displacement: 0.00 um 
+Total net bbox length = 9.520e+04 (4.147e+04 5.373e+04) (ext = 2.017e+04)
+Runtime: CPU: 0:00:00.2 REAL: 0:00:02.0 MEM: 1262.0MB
+*** Finished refinePlace (0:03:25 mem=1262.0M) ***
+**WARN: (IMPOPT-3549):	Timing updation on term reg_ALUout_EX_MEM_q_reg_22_/RN will only happen in the late mode. Updation in both min/max modes cannot be done by ECO commands. This might cause inconsistency in timing number if you are in OCV mode and updation required for both the modes.
+Resize reg_ALUout_EX_MEM_q_reg_22_ (SDFFR_X2) to SDFFR_X2.
+<CMD> selectInst reg_ALUout_MEM_WB_q_reg_11_
+<CMD> ecoChangeCell -inst reg_ALUout_MEM_WB_q_reg_11_ -cell DFFR_X2
+Design State:
+    #signal nets       :  7080
+    #routed signal nets:  7009
+    #clock nets        :  1
+    #routed clock nets :  1
+#################################################################################
+# Design Stage: PostRoute
+# Design Name: RISCV
+# Design Mode: 90nm
+# Analysis Mode: MMMC OCV 
+# Parasitics Mode: SPEF/RCDB
+# Signoff Settings: SI On 
+#################################################################################
+*** Starting refinePlace (0:03:27 mem=1262.0M) ***
+Total net bbox length = 9.520e+04 (4.147e+04 5.373e+04) (ext = 2.017e+04)
+Density distribution unevenness ratio = 6.228%
+Move report: Detail placement moves 0 insts, mean move: 0.00 um, max move: 0.00 um
+	Runtime: CPU: 0:00:00.2 REAL: 0:00:01.0 MEM: 1262.0MB
+Summary Report:
+Instances move: 0 (out of 6552 movable)
+Instances flipped: 0
+Mean displacement: 0.00 um
+Max displacement: 0.00 um 
+Total net bbox length = 9.520e+04 (4.147e+04 5.373e+04) (ext = 2.017e+04)
+Runtime: CPU: 0:00:00.2 REAL: 0:00:02.0 MEM: 1262.0MB
+*** Finished refinePlace (0:03:27 mem=1262.0M) ***
+**WARN: (IMPOPT-3549):	Timing updation on term reg_ALUout_MEM_WB_q_reg_11_/RN will only happen in the late mode. Updation in both min/max modes cannot be done by ECO commands. This might cause inconsistency in timing number if you are in OCV mode and updation required for both the modes.
+Resize reg_ALUout_MEM_WB_q_reg_11_ (DFFR_X1) to DFFR_X2.
+<CMD> selectInst reg_ALUout_MEM_WB_q_reg_31_
+<CMD> ecoChangeCell -inst reg_ALUout_MEM_WB_q_reg_31_ -cell DFFR_X2
+Design State:
+    #signal nets       :  7080
+    #routed signal nets:  7009
+    #clock nets        :  1
+    #routed clock nets :  1
+#################################################################################
+# Design Stage: PostRoute
+# Design Name: RISCV
+# Design Mode: 90nm
+# Analysis Mode: MMMC OCV 
+# Parasitics Mode: SPEF/RCDB
+# Signoff Settings: SI On 
+#################################################################################
+*** Starting refinePlace (0:03:28 mem=1262.0M) ***
+Total net bbox length = 9.520e+04 (4.147e+04 5.373e+04) (ext = 2.017e+04)
+Density distribution unevenness ratio = 6.230%
+Move report: Detail placement moves 2 insts, mean move: 0.38 um, max move: 0.38 um
+	Max move on inst (ID_RF_registers_reg_10__27_): (67.45, 20.44) --> (67.83, 20.44)
+	Runtime: CPU: 0:00:00.2 REAL: 0:00:02.0 MEM: 1262.0MB
+Summary Report:
+Instances move: 2 (out of 6552 movable)
+Instances flipped: 0
+Mean displacement: 0.38 um
+Max displacement: 0.38 um (Instance: ID_RF_registers_reg_10__27_) (67.45, 20.44) -> (67.83, 20.44)
+	Length: 20 sites, height: 1 rows, site name: FreePDK45_38x28_10R_NP_162NW_34O, cell type: DFFR_X1
+Total net bbox length = 9.520e+04 (4.147e+04 5.373e+04) (ext = 2.017e+04)
+Runtime: CPU: 0:00:00.2 REAL: 0:00:03.0 MEM: 1262.0MB
+*** Finished refinePlace (0:03:28 mem=1262.0M) ***
+**WARN: (IMPOPT-3549):	Timing updation on term reg_ALUout_MEM_WB_q_reg_31_/RN will only happen in the late mode. Updation in both min/max modes cannot be done by ECO commands. This might cause inconsistency in timing number if you are in OCV mode and updation required for both the modes.
+Resize reg_ALUout_MEM_WB_q_reg_31_ (DFFR_X1) to DFFR_X2.
+<CMD> getFillerMode -quiet
+<CMD> addFiller -cell FILLCELL_X8 FILLCELL_X4 FILLCELL_X32 FILLCELL_X2 FILLCELL_X16 FILLCELL_X1 -prefix FILLER
+**WARN: (IMPSP-5217):	addFiller command is running on a postRoute database. It is recommended to be followed by ecoRoute -target command to make the DRC clean.
+Type 'man IMPSP-5217' for more detail.
+For 14414 new insts, *** Applied 2 GNC rules (cpu = 0:00:00.0)
+*INFO: Adding fillers to top-module.
+*INFO:   Added 17 filler insts (cell FILLCELL_X32 / prefix FILLER).
+*INFO:   Added 170 filler insts (cell FILLCELL_X16 / prefix FILLER).
+*INFO:   Added 1866 filler insts (cell FILLCELL_X8 / prefix FILLER).
+*INFO:   Added 3249 filler insts (cell FILLCELL_X4 / prefix FILLER).
+*INFO:   Added 10 filler insts (cell FILLCELL_X2 / prefix FILLER).
+*INFO:   Added 9113 filler insts (cell FILLCELL_X1 / prefix FILLER).
+*INFO: Total 14425 filler insts added - prefix FILLER (CPU: 0:00:01.7).
+For 11 new insts, *** Applied 2 GNC rules (cpu = 0:00:00.0)
+<CMD> deselectAll
+<CMD> saveDesign RISCV_postFix
+The in-memory database contained RC information but was not saved. To save 
+the RC information, use saveDesign's -rc option. Note: Saving RC information can be quite large, 
+so it should only be saved when it is really desired.
+#% Begin save design ... (date=01/31 13:39:21, mem=970.0M)
+% Begin Save netlist data ... (date=01/31 13:39:21, mem=970.5M)
+Writing Binary DB to RISCV_postFix.dat/RISCV.v.bin in single-threaded mode...
+% End Save netlist data ... (date=01/31 13:39:22, total cpu=0:00:00.1, real=0:00:01.0, peak res=971.2M, current mem=971.2M)
+% Begin Save AAE data ... (date=01/31 13:39:22, mem=971.2M)
+Saving AAE Data ...
+% End Save AAE data ... (date=01/31 13:39:23, total cpu=0:00:00.1, real=0:00:00.0, peak res=971.2M, current mem=971.2M)
+% Begin Save clock tree data ... (date=01/31 13:39:23, mem=972.0M)
+% End Save clock tree data ... (date=01/31 13:39:24, total cpu=0:00:00.0, real=0:00:01.0, peak res=972.0M, current mem=972.0M)
+Saving preference file RISCV_postFix.dat/gui.pref.tcl ...
+Saving mode setting ...
+Saving global file ...
+% Begin Save floorplan data ... (date=01/31 13:39:26, mem=972.1M)
+Saving floorplan file ...
+% End Save floorplan data ... (date=01/31 13:39:27, total cpu=0:00:00.1, real=0:00:01.0, peak res=972.3M, current mem=972.3M)
+Saving Drc markers ...
+... No Drc file written since there is no markers found.
+% Begin Save placement data ... (date=01/31 13:39:27, mem=972.3M)
+** Saving stdCellPlacement_binary (version# 1) ...
+% End Save placement data ... (date=01/31 13:39:28, total cpu=0:00:00.1, real=0:00:00.0, peak res=972.4M, current mem=972.4M)
+% Begin Save routing data ... (date=01/31 13:39:28, mem=972.4M)
+Saving route file ...
+*** Completed saveRoute (cpu=0:00:00.2 real=0:00:05.0 mem=1262.0M) ***
+% End Save routing data ... (date=01/31 13:39:34, total cpu=0:00:00.3, real=0:00:05.0, peak res=973.3M, current mem=973.3M)
+Saving property file RISCV_postFix.dat/RISCV.prop
+*** Completed saveProperty (cpu=0:00:00.0 real=0:00:00.0 mem=1262.0M) ***
+% Begin Save power constraints data ... (date=01/31 13:39:34, mem=973.5M)
+% End Save power constraints data ... (date=01/31 13:39:35, total cpu=0:00:00.1, real=0:00:01.0, peak res=973.5M, current mem=973.5M)
+my_rc
+Generated self-contained design RISCV_postFix.dat
+#% End save design ... (date=01/31 13:39:40, total cpu=0:00:01.4, real=0:00:19.0, peak res=973.5M, current mem=957.3M)
+*** Message Summary: 0 warning(s), 0 error(s)
+
+<CMD> redirect -quiet {set honorDomain [getAnalysisMode -honorClockDomains]} > /dev/null
+<CMD> timeDesign -postRoute -hold -pathReports -slackReports -numPaths 50 -prefix RISCV_postRoute -outDir timingReports
+ Reset EOS DB
+Ignoring AAE DB Resetting ...
+Extraction called for design 'RISCV' of instances=20977 and nets=7088 using extraction engine 'postRoute' at effort level 'low' .
+**WARN: (IMPEXT-3530):	The process node is not set. Use the command setDesignMode -process <process node> prior to extraction for maximum accuracy and optimal automatic threshold setting.
+Type 'man IMPEXT-3530' for more detail.
+PostRoute (effortLevel low) RC Extraction called for design RISCV.
+RC Extraction called in multi-corner(1) mode.
+Process corner(s) are loaded.
+ Corner: my_rc
+extractDetailRC Option : -outfile /tmp/innovus_temp_4768_localhost.localdomain_isa30_w1xMhY/RISCV_4768_ghCeg6.rcdb.d -maxResLength 200  -extended
+RC Mode: PostRoute -effortLevel low [Extended CapTable, RC Table Resistances]
+      RC Corner Indexes            0   
+Capacitance Scaling Factor   : 1.00000 
+Coupling Cap. Scaling Factor : 1.00000 
+Resistance Scaling Factor    : 1.00000 
+Clock Cap. Scaling Factor    : 1.00000 
+Clock Res. Scaling Factor    : 1.00000 
+Shrink Factor                : 1.00000
+Initializing multi-corner capacitance tables ... 
+Initializing multi-corner resistance tables ...
+Checking LVS Completed (CPU Time= 0:00:00.0  MEM= 1163.8M)
+Extracted 10.0015% (CPU Time= 0:00:00.3  MEM= 1241.9M)
+Extracted 20.0018% (CPU Time= 0:00:00.4  MEM= 1241.9M)
+Extracted 30.0021% (CPU Time= 0:00:00.4  MEM= 1241.9M)
+Extracted 40.0013% (CPU Time= 0:00:00.5  MEM= 1241.9M)
+Extracted 50.0017% (CPU Time= 0:00:00.7  MEM= 1241.9M)
+Extracted 60.002% (CPU Time= 0:00:00.8  MEM= 1241.9M)
+Extracted 70.0012% (CPU Time= 0:00:00.9  MEM= 1241.9M)
+Extracted 80.0016% (CPU Time= 0:00:01.0  MEM= 1241.9M)
+Extracted 90.0019% (CPU Time= 0:00:01.3  MEM= 1241.9M)
+Extracted 100% (CPU Time= 0:00:01.7  MEM= 1247.9M)
+Number of Extracted Resistors     : 136595
+Number of Extracted Ground Cap.   : 143437
+Number of Extracted Coupling Cap. : 221220
+Filtering XCap in 'relativeOnly' mode using values relative_c_threshold=0.03 and total_c_threshold=5fF.
+ Corner: my_rc
+Checking LVS Completed (CPU Time= 0:00:00.0  MEM= 1224.7M)
+PostRoute (effortLevel low) RC Extraction DONE (CPU Time: 0:00:02.1  Real Time: 0:00:23.0  MEM: 1224.652M)
+Starting SI iteration 1 using Infinite Timing Windows
+#################################################################################
+# Design Stage: PostRoute
+# Design Name: RISCV
+# Design Mode: 90nm
+# Analysis Mode: MMMC OCV 
+# Parasitics Mode: SPEF/RCDB
+# Signoff Settings: SI On 
+#################################################################################
+AAE_INFO: 1 threads acquired from CTE.
+Calculate late delays in OCV mode...
+Calculate early delays in OCV mode...
+Start delay calculation (fullDC) (1 T). (MEM=1159.33)
+Initializing multi-corner capacitance tables ... 
+Initializing multi-corner resistance tables ...
+AAE_INFO: 1 threads acquired from CTE.
+Total number of fetched objects 8172
+AAE_INFO-618: Total number of nets in the design is 7088,  100.0 percent of the nets selected for SI analysis
+End delay calculation. (MEM=1242.32 CPU=0:00:07.1 REAL=0:01:12)
+End delay calculation (fullDC). (MEM=1242.32 CPU=0:00:07.7 REAL=0:01:18)
+Loading CTE timing window with TwFlowType 0...(CPU = 0:00:00.0, REAL = 0:00:00.0, MEM = 1242.3M)
+Add other clocks and setupCteToAAEClockMapping during iter 1
+Loading CTE timing window is completed (CPU = 0:00:00.1, REAL = 0:00:01.0, MEM = 1242.3M)
+Starting SI iteration 2
+AAE_INFO: 1 threads acquired from CTE.
+Calculate late delays in OCV mode...
+Calculate early delays in OCV mode...
+Start delay calculation (fullDC) (1 T). (MEM=1250.37)
+Glitch Analysis: View MyAnView -- Total Number of Nets Skipped = 0. 
+Glitch Analysis: View MyAnView -- Total Number of Nets Analyzed = 100. 
+Total number of fetched objects 8172
+AAE_INFO-618: Total number of nets in the design is 7088,  0.0 percent of the nets selected for SI analysis
+End delay calculation. (MEM=1209.33 CPU=0:00:00.2 REAL=0:00:02.0)
+End delay calculation (fullDC). (MEM=1209.33 CPU=0:00:00.3 REAL=0:00:02.0)
+*** Done Building Timing Graph (cpu=0:00:10.0 real=0:01:42 totSessionCpu=0:03:51 mem=1209.3M)
+
+------------------------------------------------------------
+          timeDesign Summary                             
+------------------------------------------------------------
+
+Hold  views included:
+ MyAnView 
+
++--------------------+---------+---------+---------+
+|     Hold mode      |   all   | reg2reg | default |
++--------------------+---------+---------+---------+
+|           WNS (ns):| -0.000  |  0.000  |  0.000  |
+|           TNS (ns):| -0.003  | -0.003  |  0.000  |
+|    Violating Paths:|   13    |   13    |    0    |
+|          All Paths:|  1658   |  1658   |    0    |
++--------------------+---------+---------+---------+
+
+Density: 58.004%
+       (100.000% with Fillers)
+------------------------------------------------------------
+Reported timing to dir timingReports
+Total CPU time: 13.39 sec
+Total Real time: 139.0 sec
+Total Memory Usage: 1124.304688 Mbytes
+Reset AAE Options
+<CMD> gui_select -next -point {-46.7345 108.8485}
+<CMD> get_time_unit
+<CMD> report_timing -machine_readable -max_paths 10000 -max_slack 0.75 -path_exceptions all -early > top.mtarpt
+Starting SI iteration 1 using Infinite Timing Windows
+#################################################################################
+# Design Stage: PostRoute
+# Design Name: RISCV
+# Design Mode: 90nm
+# Analysis Mode: MMMC OCV 
+# Parasitics Mode: SPEF/RCDB
+# Signoff Settings: SI On 
+#################################################################################
+AAE_INFO: 1 threads acquired from CTE.
+Calculate late delays in OCV mode...
+Calculate early delays in OCV mode...
+Start delay calculation (fullDC) (1 T). (MEM=1127.82)
+Total number of fetched objects 8172
+AAE_INFO-618: Total number of nets in the design is 7088,  100.0 percent of the nets selected for SI analysis
+End delay calculation. (MEM=1242.82 CPU=0:00:06.7 REAL=0:01:07)
+End delay calculation (fullDC). (MEM=1242.82 CPU=0:00:07.2 REAL=0:01:12)
+Loading CTE timing window with TwFlowType 0...(CPU = 0:00:00.0, REAL = 0:00:00.0, MEM = 1242.8M)
+Add other clocks and setupCteToAAEClockMapping during iter 1
+Loading CTE timing window is completed (CPU = 0:00:00.1, REAL = 0:00:01.0, MEM = 1242.8M)
+Starting SI iteration 2
+AAE_INFO: 1 threads acquired from CTE.
+Calculate late delays in OCV mode...
+Calculate early delays in OCV mode...
+Start delay calculation (fullDC) (1 T). (MEM=1250.87)
+Glitch Analysis: View MyAnView -- Total Number of Nets Skipped = 0. 
+Glitch Analysis: View MyAnView -- Total Number of Nets Analyzed = 100. 
+Total number of fetched objects 8172
+AAE_INFO-618: Total number of nets in the design is 7088,  0.0 percent of the nets selected for SI analysis
+End delay calculation. (MEM=1218.87 CPU=0:00:00.2 REAL=0:00:02.0)
+End delay calculation (fullDC). (MEM=1218.87 CPU=0:00:00.3 REAL=0:00:02.0)
+<CMD> load_timing_debug_report -name default_report top.mtarpt
+Parsing file top.mtarpt...
+my_rc
+<CMD> reset_parasitics
+Performing RC Extraction ...
+<CMD> extractRC
+Extraction called for design 'RISCV' of instances=20977 and nets=7088 using extraction engine 'postRoute' at effort level 'low' .
+**WARN: (IMPEXT-3530):	The process node is not set. Use the command setDesignMode -process <process node> prior to extraction for maximum accuracy and optimal automatic threshold setting.
+Type 'man IMPEXT-3530' for more detail.
+PostRoute (effortLevel low) RC Extraction called for design RISCV.
+RC Extraction called in multi-corner(1) mode.
+Process corner(s) are loaded.
+ Corner: my_rc
+extractDetailRC Option : -outfile /tmp/innovus_temp_4768_localhost.localdomain_isa30_w1xMhY/RISCV_4768_MbXkRe.rcdb.d -maxResLength 200  -extended
+RC Mode: PostRoute -effortLevel low [Extended CapTable, RC Table Resistances]
+      RC Corner Indexes            0   
+Capacitance Scaling Factor   : 1.00000 
+Coupling Cap. Scaling Factor : 1.00000 
+Resistance Scaling Factor    : 1.00000 
+Clock Cap. Scaling Factor    : 1.00000 
+Clock Res. Scaling Factor    : 1.00000 
+Shrink Factor                : 1.00000
+Initializing multi-corner capacitance tables ... 
+Initializing multi-corner resistance tables ...
+Checking LVS Completed (CPU Time= 0:00:00.0  MEM= 1157.6M)
+Extracted 10.0015% (CPU Time= 0:00:00.3  MEM= 1234.7M)
+Extracted 20.0018% (CPU Time= 0:00:00.4  MEM= 1234.7M)
+Extracted 30.0021% (CPU Time= 0:00:00.4  MEM= 1234.7M)
+Extracted 40.0013% (CPU Time= 0:00:00.5  MEM= 1234.7M)
+Extracted 50.0017% (CPU Time= 0:00:00.6  MEM= 1234.7M)
+Extracted 60.002% (CPU Time= 0:00:00.7  MEM= 1234.7M)
+Extracted 70.0012% (CPU Time= 0:00:00.8  MEM= 1234.7M)
+Extracted 80.0016% (CPU Time= 0:00:01.0  MEM= 1234.7M)
+Extracted 90.0019% (CPU Time= 0:00:01.2  MEM= 1234.7M)
+Extracted 100% (CPU Time= 0:00:01.6  MEM= 1239.7M)
+Number of Extracted Resistors     : 136595
+Number of Extracted Ground Cap.   : 143437
+Number of Extracted Coupling Cap. : 221220
+Filtering XCap in 'relativeOnly' mode using values relative_c_threshold=0.03 and total_c_threshold=5fF.
+ Corner: my_rc
+Checking LVS Completed (CPU Time= 0:00:00.0  MEM= 1223.7M)
+PostRoute (effortLevel low) RC Extraction DONE (CPU Time: 0:00:02.1  Real Time: 0:00:22.0  MEM: 1223.652M)
+<CMD> rcOut -setload RISCV.setload -rc_corner my_rc
+RC Out has the following PVT Info:
+   RC:my_rc, Operating temperature 25 C
+RC Out from RCDB Completed (CPU Time= 0:00:00.1  MEM= 1201.4M)
+<CMD> rcOut -setres RISCV.setres -rc_corner my_rc
+RC Out has the following PVT Info:
+   RC:my_rc, Operating temperature 25 C
+RC Out from RCDB Completed (CPU Time= 0:00:00.1  MEM= 1201.4M)
+<CMD> rcOut -spf RISCV.spf -rc_corner my_rc
+RC Out has the following PVT Info:
+   RC:my_rc, Operating temperature 25 C
+Printing *|NET...
+RC Out from RCDB Completed (CPU Time= 0:00:01.4  MEM= 1201.4M)
+<CMD> rcOut -spef RISCV.spef -rc_corner my_rc
+RC Out has the following PVT Info:
+   RC:my_rc, Operating temperature 25 C
+Dumping Spef file.....
+Printing D_NET...
+RC Out from RCDB Completed (CPU Time= 0:00:00.6  MEM= 1201.4M)
+<CMD> redirect -quiet {set honorDomain [getAnalysisMode -honorClockDomains]} > /dev/null
+<CMD> timeDesign -postRoute -hold -pathReports -slackReports -numPaths 50 -prefix RISCV_postRoute -outDir timingReports
+ Reset EOS DB
+Ignoring AAE DB Resetting ...
+Extraction called for design 'RISCV' of instances=20977 and nets=7088 using extraction engine 'postRoute' at effort level 'low' .
+**WARN: (IMPEXT-3530):	The process node is not set. Use the command setDesignMode -process <process node> prior to extraction for maximum accuracy and optimal automatic threshold setting.
+Type 'man IMPEXT-3530' for more detail.
+PostRoute (effortLevel low) RC Extraction called for design RISCV.
+RC Extraction called in multi-corner(1) mode.
+Process corner(s) are loaded.
+ Corner: my_rc
+extractDetailRC Option : -outfile /tmp/innovus_temp_4768_localhost.localdomain_isa30_w1xMhY/RISCV_4768_MbXkRe.rcdb.d -maxResLength 200  -extended
+RC Mode: PostRoute -effortLevel low [Extended CapTable, RC Table Resistances]
+      RC Corner Indexes            0   
+Capacitance Scaling Factor   : 1.00000 
+Coupling Cap. Scaling Factor : 1.00000 
+Resistance Scaling Factor    : 1.00000 
+Clock Cap. Scaling Factor    : 1.00000 
+Clock Res. Scaling Factor    : 1.00000 
+Shrink Factor                : 1.00000
+Initializing multi-corner capacitance tables ... 
+Initializing multi-corner resistance tables ...
+Checking LVS Completed (CPU Time= 0:00:00.0  MEM= 1156.8M)
+Extracted 10.0015% (CPU Time= 0:00:00.3  MEM= 1206.9M)
+Extracted 20.0018% (CPU Time= 0:00:00.4  MEM= 1206.9M)
+Extracted 30.0021% (CPU Time= 0:00:00.4  MEM= 1206.9M)
+Extracted 40.0013% (CPU Time= 0:00:00.5  MEM= 1206.9M)
+Extracted 50.0017% (CPU Time= 0:00:00.6  MEM= 1206.9M)
+Extracted 60.002% (CPU Time= 0:00:00.7  MEM= 1206.9M)
+Extracted 70.0012% (CPU Time= 0:00:00.9  MEM= 1206.9M)
+Extracted 80.0016% (CPU Time= 0:00:01.0  MEM= 1206.9M)
+Extracted 90.0019% (CPU Time= 0:00:01.2  MEM= 1206.9M)
+Extracted 100% (CPU Time= 0:00:01.6  MEM= 1210.9M)
+Number of Extracted Resistors     : 136595
+Number of Extracted Ground Cap.   : 143437
+Number of Extracted Coupling Cap. : 221220
+Filtering XCap in 'relativeOnly' mode using values relative_c_threshold=0.03 and total_c_threshold=5fF.
+ Corner: my_rc
+Checking LVS Completed (CPU Time= 0:00:00.0  MEM= 1194.9M)
+PostRoute (effortLevel low) RC Extraction DONE (CPU Time: 0:00:02.1  Real Time: 0:00:25.0  MEM: 1194.859M)
+Starting SI iteration 1 using Infinite Timing Windows
+#################################################################################
+# Design Stage: PostRoute
+# Design Name: RISCV
+# Design Mode: 90nm
+# Analysis Mode: MMMC OCV 
+# Parasitics Mode: SPEF/RCDB
+# Signoff Settings: SI On 
+#################################################################################
+AAE_INFO: 1 threads acquired from CTE.
+Calculate late delays in OCV mode...
+Calculate early delays in OCV mode...
+Start delay calculation (fullDC) (1 T). (MEM=1161.34)
+Initializing multi-corner capacitance tables ... 
+Initializing multi-corner resistance tables ...
+AAE_INFO: 1 threads acquired from CTE.
+Total number of fetched objects 8172
+AAE_INFO-618: Total number of nets in the design is 7088,  100.0 percent of the nets selected for SI analysis
+End delay calculation. (MEM=1244.32 CPU=0:00:06.8 REAL=0:01:07)
+End delay calculation (fullDC). (MEM=1244.32 CPU=0:00:07.4 REAL=0:01:13)
+Loading CTE timing window with TwFlowType 0...(CPU = 0:00:00.0, REAL = 0:00:00.0, MEM = 1244.3M)
+Add other clocks and setupCteToAAEClockMapping during iter 1
+Loading CTE timing window is completed (CPU = 0:00:00.1, REAL = 0:00:00.0, MEM = 1244.3M)
+Starting SI iteration 2
+AAE_INFO: 1 threads acquired from CTE.
+Calculate late delays in OCV mode...
+Calculate early delays in OCV mode...
+Start delay calculation (fullDC) (1 T). (MEM=1252.37)
+Glitch Analysis: View MyAnView -- Total Number of Nets Skipped = 0. 
+Glitch Analysis: View MyAnView -- Total Number of Nets Analyzed = 100. 
+Total number of fetched objects 8172
+AAE_INFO-618: Total number of nets in the design is 7088,  0.0 percent of the nets selected for SI analysis
+End delay calculation. (MEM=1220.37 CPU=0:00:00.2 REAL=0:00:01.0)
+End delay calculation (fullDC). (MEM=1220.37 CPU=0:00:00.3 REAL=0:00:02.0)
+*** Done Building Timing Graph (cpu=0:00:09.4 real=0:01:32 totSessionCpu=0:04:43 mem=1220.4M)
+
+------------------------------------------------------------
+          timeDesign Summary                             
+------------------------------------------------------------
+
+Hold  views included:
+ MyAnView 
+
++--------------------+---------+---------+---------+
+|     Hold mode      |   all   | reg2reg | default |
++--------------------+---------+---------+---------+
+|           WNS (ns):| -0.000  |  0.000  |  0.000  |
+|           TNS (ns):| -0.003  | -0.003  |  0.000  |
+|    Violating Paths:|   13    |   13    |    0    |
+|          All Paths:|  1658   |  1658   |    0    |
++--------------------+---------+---------+---------+
+
+Density: 58.004%
+       (100.000% with Fillers)
+------------------------------------------------------------
+Reported timing to dir timingReports
+Total CPU time: 12.61 sec
+Total Real time: 128.0 sec
+Total Memory Usage: 1126.3125 Mbytes
+Reset AAE Options
+<CMD> redirect -quiet {set honorDomain [getAnalysisMode -honorClockDomains]} > /dev/null
+<CMD> timeDesign -postRoute -pathReports -drvReports -slackReports -numPaths 50 -prefix RISCV_postRoute -outDir timingReports
+ Reset EOS DB
+Ignoring AAE DB Resetting ...
+Extraction called for design 'RISCV' of instances=20977 and nets=7088 using extraction engine 'postRoute' at effort level 'low' .
+**WARN: (IMPEXT-3530):	The process node is not set. Use the command setDesignMode -process <process node> prior to extraction for maximum accuracy and optimal automatic threshold setting.
+Type 'man IMPEXT-3530' for more detail.
+PostRoute (effortLevel low) RC Extraction called for design RISCV.
+RC Extraction called in multi-corner(1) mode.
+Process corner(s) are loaded.
+ Corner: my_rc
+extractDetailRC Option : -outfile /tmp/innovus_temp_4768_localhost.localdomain_isa30_w1xMhY/RISCV_4768_MbXkRe.rcdb.d -maxResLength 200  -extended
+RC Mode: PostRoute -effortLevel low [Extended CapTable, RC Table Resistances]
+      RC Corner Indexes            0   
+Capacitance Scaling Factor   : 1.00000 
+Coupling Cap. Scaling Factor : 1.00000 
+Resistance Scaling Factor    : 1.00000 
+Clock Cap. Scaling Factor    : 1.00000 
+Clock Res. Scaling Factor    : 1.00000 
+Shrink Factor                : 1.00000
+Initializing multi-corner capacitance tables ... 
+Initializing multi-corner resistance tables ...
+Checking LVS Completed (CPU Time= 0:00:00.0  MEM= 1132.3M)
+Extracted 10.0015% (CPU Time= 0:00:00.3  MEM= 1206.4M)
+Extracted 20.0018% (CPU Time= 0:00:00.4  MEM= 1206.4M)
+Extracted 30.0021% (CPU Time= 0:00:00.4  MEM= 1206.4M)
+Extracted 40.0013% (CPU Time= 0:00:00.5  MEM= 1206.4M)
+Extracted 50.0017% (CPU Time= 0:00:00.6  MEM= 1206.4M)
+Extracted 60.002% (CPU Time= 0:00:00.7  MEM= 1206.4M)
+Extracted 70.0012% (CPU Time= 0:00:00.8  MEM= 1206.4M)
+Extracted 80.0016% (CPU Time= 0:00:01.0  MEM= 1206.4M)
+Extracted 90.0019% (CPU Time= 0:00:01.2  MEM= 1206.4M)
+Extracted 100% (CPU Time= 0:00:01.6  MEM= 1210.4M)
+Number of Extracted Resistors     : 136595
+Number of Extracted Ground Cap.   : 143437
+Number of Extracted Coupling Cap. : 221220
+Filtering XCap in 'relativeOnly' mode using values relative_c_threshold=0.03 and total_c_threshold=5fF.
+ Corner: my_rc
+Checking LVS Completed (CPU Time= 0:00:00.0  MEM= 1194.4M)
+PostRoute (effortLevel low) RC Extraction DONE (CPU Time: 0:00:02.1  Real Time: 0:00:22.0  MEM: 1194.359M)
+Starting SI iteration 1 using Infinite Timing Windows
+#################################################################################
+# Design Stage: PostRoute
+# Design Name: RISCV
+# Design Mode: 90nm
+# Analysis Mode: MMMC OCV 
+# Parasitics Mode: SPEF/RCDB
+# Signoff Settings: SI On 
+#################################################################################
+AAE_INFO: 1 threads acquired from CTE.
+Calculate early delays in OCV mode...
+Calculate late delays in OCV mode...
+Start delay calculation (fullDC) (1 T). (MEM=1192.36)
+Initializing multi-corner capacitance tables ... 
+Initializing multi-corner resistance tables ...
+AAE_INFO: 1 threads acquired from CTE.
+Total number of fetched objects 8172
+AAE_INFO-618: Total number of nets in the design is 7088,  100.0 percent of the nets selected for SI analysis
+End delay calculation. (MEM=1246.73 CPU=0:00:06.8 REAL=0:01:09)
+End delay calculation (fullDC). (MEM=1246.73 CPU=0:00:07.3 REAL=0:01:14)
+Loading CTE timing window with TwFlowType 0...(CPU = 0:00:00.0, REAL = 0:00:00.0, MEM = 1246.7M)
+Add other clocks and setupCteToAAEClockMapping during iter 1
+Loading CTE timing window is completed (CPU = 0:00:00.1, REAL = 0:00:01.0, MEM = 1246.7M)
+Starting SI iteration 2
+AAE_INFO: 1 threads acquired from CTE.
+Calculate early delays in OCV mode...
+Calculate late delays in OCV mode...
+Start delay calculation (fullDC) (1 T). (MEM=1254.77)
+Glitch Analysis: View MyAnView -- Total Number of Nets Skipped = 0. 
+Glitch Analysis: View MyAnView -- Total Number of Nets Analyzed = 8172. 
+Total number of fetched objects 8172
+AAE_INFO-618: Total number of nets in the design is 7088,  0.0 percent of the nets selected for SI analysis
+End delay calculation. (MEM=1222.77 CPU=0:00:00.2 REAL=0:00:01.0)
+End delay calculation (fullDC). (MEM=1222.77 CPU=0:00:00.3 REAL=0:00:02.0)
+
+------------------------------------------------------------
+          timeDesign Summary                             
+------------------------------------------------------------
+
+Setup views included:
+ MyAnView 
+
++--------------------+---------+---------+---------+
+|     Setup mode     |   all   | reg2reg | default |
++--------------------+---------+---------+---------+
+|           WNS (ns):|  0.004  |  0.937  |  0.004  |
+|           TNS (ns):|  0.000  |  0.000  |  0.000  |
+|    Violating Paths:|    0    |    0    |    0    |
+|          All Paths:|  3299   |  1658   |  2919   |
++--------------------+---------+---------+---------+
+
++----------------+-------------------------------+------------------+
+|                |              Real             |       Total      |
+|    DRVs        +------------------+------------+------------------|
+|                |  Nr nets(terms)  | Worst Vio  |  Nr nets(terms)  |
++----------------+------------------+------------+------------------+
+|   max_cap      |      0 (0)       |   0.000    |      0 (0)       |
+|   max_tran     |      0 (0)       |   0.000    |      0 (0)       |
+|   max_fanout   |      0 (0)       |     0      |      0 (0)       |
+|   max_length   |      0 (0)       |     0      |      0 (0)       |
++----------------+------------------+------------+------------------+
+
+Density: 58.004%
+       (100.000% with Fillers)
+Total number of glitch violations: 0
+------------------------------------------------------------
+Reported timing to dir timingReports
+Total CPU time: 14.11 sec
+Total Real time: 144.0 sec
+Total Memory Usage: 1157.925781 Mbytes
+Reset AAE Options
+<CMD> selectInst reg_ALUout_MEM_WB_q_reg_6_
+<CMD> deselectInst reg_ALUout_MEM_WB_q_reg_6_
+<CMD> selectInst reg_ALUout_EX_MEM_q_reg_6_
+<CMD> deselectInst reg_ALUout_EX_MEM_q_reg_6_
+<CMD> selectInst reg_ALUout_MEM_WB_q_reg_6_
+<CMD> deselectInst reg_ALUout_MEM_WB_q_reg_6_
+<CMD> selectInst reg_ALUout_EX_MEM_q_reg_6_
+<CMD> deselectInst reg_ALUout_EX_MEM_q_reg_6_
+<CMD> selectInst reg_ALUout_EX_MEM_q_reg_6_
+<CMD> selectObject Net clk
+<CMD> selectObject Net {ALU_backward_MEM_out_s[8]}
+<CMD> selectInst reg_ALUout_MEM_WB_q_reg_8_
+<CMD> selectInst reg_ALUout_EX_MEM_q_reg_8_
+<CMD> selectObject IO_Pin clk
+<CMD> deselectObject Net clk
+<CMD> deselectObject Net {ALU_backward_MEM_out_s[8]}
+<CMD> deselectInst reg_ALUout_MEM_WB_q_reg_8_
+<CMD> deselectInst reg_ALUout_EX_MEM_q_reg_8_
+<CMD> deselectObject IO_Pin clk
+<CMD> selectObject Net clk
+<CMD> deselectObject Net clk
+<CMD> saveDesign RISCV_postFix
+The in-memory database contained RC information but was not saved. To save 
+the RC information, use saveDesign's -rc option. Note: Saving RC information can be quite large, 
+so it should only be saved when it is really desired.
+#% Begin save design ... (date=01/31 14:20:41, mem=955.6M)
+% Begin Save netlist data ... (date=01/31 14:20:42, mem=955.8M)
+Writing Binary DB to RISCV_postFix.dat.tmp/RISCV.v.bin in single-threaded mode...
+% End Save netlist data ... (date=01/31 14:20:43, total cpu=0:00:00.1, real=0:00:01.0, peak res=956.5M, current mem=956.5M)
+% Begin Save AAE data ... (date=01/31 14:20:44, mem=956.5M)
+Saving AAE Data ...
+% End Save AAE data ... (date=01/31 14:20:44, total cpu=0:00:00.0, real=0:00:00.0, peak res=956.5M, current mem=956.5M)
+% Begin Save clock tree data ... (date=01/31 14:20:44, mem=956.7M)
+% End Save clock tree data ... (date=01/31 14:20:45, total cpu=0:00:00.0, real=0:00:00.0, peak res=956.7M, current mem=956.7M)
+Saving preference file RISCV_postFix.dat.tmp/gui.pref.tcl ...
+Saving mode setting ...
+Saving global file ...
+% Begin Save floorplan data ... (date=01/31 14:20:46, mem=956.7M)
+Saving floorplan file ...
+% End Save floorplan data ... (date=01/31 14:20:48, total cpu=0:00:00.1, real=0:00:01.0, peak res=956.7M, current mem=956.7M)
+Saving Drc markers ...
+... No Drc file written since there is no markers found.
+% Begin Save placement data ... (date=01/31 14:20:48, mem=956.7M)
+** Saving stdCellPlacement_binary (version# 1) ...
+% End Save placement data ... (date=01/31 14:20:49, total cpu=0:00:00.1, real=0:00:00.0, peak res=957.1M, current mem=957.1M)
+% Begin Save routing data ... (date=01/31 14:20:49, mem=957.1M)
+Saving route file ...
+*** Completed saveRoute (cpu=0:00:00.3 real=0:00:05.0 mem=1165.9M) ***
+% End Save routing data ... (date=01/31 14:20:55, total cpu=0:00:00.3, real=0:00:05.0, peak res=958.0M, current mem=958.0M)
+Saving property file RISCV_postFix.dat.tmp/RISCV.prop
+*** Completed saveProperty (cpu=0:00:00.0 real=0:00:01.0 mem=1165.9M) ***
+% Begin Save power constraints data ... (date=01/31 14:20:56, mem=958.0M)
+% End Save power constraints data ... (date=01/31 14:20:56, total cpu=0:00:00.0, real=0:00:01.0, peak res=958.0M, current mem=958.0M)
+my_rc
+Generated self-contained design RISCV_postFix.dat.tmp
+#% End save design ... (date=01/31 14:21:01, total cpu=0:00:01.4, real=0:00:20.0, peak res=958.0M, current mem=953.1M)
+*** Message Summary: 0 warning(s), 0 error(s)
+
+Starting snapshot creation...
+<CMD> getDrawView
+<CMD> setDrawView fplan
+<CMD> win
+<CMD> dumpToGIF ./ss_riscv_snap.fplan.gif
+<CMD> getDrawView
+<CMD> setDrawView amoeba
+<CMD> win
+<CMD> dumpToGIF ./ss_riscv_snap.amoeba.gif
+<CMD> getDrawView
+<CMD> setDrawView place
+<CMD> win
+<CMD> dumpToGIF ./ss_riscv_snap.place.gif
+Completed snapshot creation (cpu = 0:0:1, real = 0:0:14, mem = 1159.57M, memory increment = 3.62M)
+Saving snapshot for fplan view to ss_riscv_snap.fplan.gif
+Saving snapshot for amoeba view to ss_riscv_snap.amoeba.gif
+Saving snapshot for place view to ss_riscv_snap.place.gif
+
+*** Memory Usage v#1 (Current mem = 1159.566M, initial mem = 179.684M) ***
+*** Message Summary: 41 warning(s), 4 error(s)
+
+--- Ending "Innovus" (totcpu=0:05:42, real=2:01:35, mem=1159.6M) ---

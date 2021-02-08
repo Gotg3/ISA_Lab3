@@ -1,0 +1,265 @@
+# //  ModelSim SE 6.2g Feb 21 2007 Linux 3.10.0-957.5.1.el7.x86_64
+# //
+# //  Copyright 1991-2007 Mentor Graphics Corporation
+# //              All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND 
+# //  PROPRIETARY INFORMATION WHICH IS THE PROPERTY
+# //  OF MENTOR GRAPHICS CORPORATION OR ITS LICENSORS
+# //  AND IS SUBJECT TO LICENSE TERMS.
+# //
+do /home/isa30/Desktop/Lab_3/RISCV_ENHANCED_v5/sim/script_soruce_riscv.do
+# Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package numeric_std
+# -- Compiling package risc_package
+# Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package numeric_std
+# -- Loading package risc_package
+# -- Compiling entity addsum
+# -- Compiling architecture structural of addsum
+# Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package numeric_std
+# -- Loading package risc_package
+# -- Compiling entity alu
+# -- Compiling architecture behavioural of alu
+# Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package numeric_std
+# -- Loading package risc_package
+# -- Compiling entity alu_control
+# -- Compiling architecture structural of alu_control
+# Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package numeric_std
+# -- Loading package risc_package
+# -- Compiling entity and_gate
+# -- Compiling architecture behavioural of and_gate
+# Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package numeric_std
+# -- Loading package risc_package
+# -- Compiling entity or_gate
+# -- Compiling architecture behavioural of or_gate
+# Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package numeric_std
+# -- Loading package risc_package
+# -- Compiling entity cu
+# -- Compiling architecture arch of cu
+# Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package numeric_std
+# -- Loading package risc_package
+# -- Compiling entity forwarding_unit
+# -- Compiling architecture structural of forwarding_unit
+# Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package numeric_std
+# -- Loading package risc_package
+# -- Compiling entity hdu
+# -- Compiling architecture arch of hdu
+# Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package numeric_std
+# -- Loading package risc_package
+# -- Compiling entity imm_gen
+# -- Compiling architecture structural of imm_gen
+# Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package numeric_std
+# -- Loading package risc_package
+# -- Compiling entity instruction_memory
+# -- Compiling architecture behavioral of instruction_memory
+# Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package numeric_std
+# -- Loading package risc_package
+# -- Compiling entity mux_id
+# -- Compiling architecture behavioural of mux_id
+# Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package numeric_std
+# -- Loading package risc_package
+# -- Compiling entity mux21
+# -- Compiling architecture structural of mux21
+# Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package numeric_std
+# -- Loading package risc_package
+# -- Compiling entity mux31
+# -- Compiling architecture structural of mux31
+# Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package numeric_std
+# -- Loading package risc_package
+# -- Compiling entity pc
+# -- Compiling architecture behavioural of pc
+# Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package numeric_std
+# -- Loading package risc_package
+# -- Compiling entity pc_instr_mem
+# -- Compiling architecture behavioural of pc_instr_mem
+# Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package numeric_std
+# -- Loading package risc_package
+# -- Compiling entity reg
+# -- Compiling architecture behavioural of reg
+# Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package numeric_std
+# -- Loading package risc_package
+# -- Compiling entity reg_zero
+# -- Compiling architecture behavioural of reg_zero
+# Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package numeric_std
+# -- Loading package risc_package
+# -- Compiling entity reg_nop
+# -- Compiling architecture behavioural of reg_nop
+# Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package numeric_std
+# -- Loading package risc_package
+# -- Compiling entity reg_jal_pc_if_id
+# -- Compiling architecture behavioural of reg_jal_pc_if_id
+# Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package numeric_std
+# -- Loading package risc_package
+# -- Compiling entity register_file
+# -- Compiling architecture behavioural of register_file
+# Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package numeric_std
+# -- Loading package risc_package
+# -- Compiling entity ex_stage
+# -- Compiling architecture structural of ex_stage
+# Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package numeric_std
+# -- Loading package risc_package
+# -- Compiling entity id_stage
+# -- Compiling architecture behavioural of id_stage
+# Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package numeric_std
+# -- Loading package risc_package
+# -- Compiling entity if_stage
+# -- Compiling architecture behavioral of if_stage
+# Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package numeric_std
+# -- Loading package risc_package
+# -- Compiling entity mem_stage
+# -- Compiling architecture behavioural of mem_stage
+# Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package numeric_std
+# -- Loading package risc_package
+# -- Compiling entity wb_stage
+# -- Compiling architecture behavior of wb_stage
+# Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package numeric_std
+# -- Loading package risc_package
+# -- Compiling entity riscv
+# -- Compiling architecture structural of riscv
+do /home/isa30/Desktop/Lab_3/RISCV_ENHANCED_v5/sim/script_mem_tb.do
+# Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package numeric_std
+# -- Compiling package risc_package
+# Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package numeric_std
+# -- Loading package risc_package
+# -- Compiling entity instruction_memory
+# -- Compiling architecture behavioral of instruction_memory
+# Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package numeric_std
+# -- Loading package risc_package
+# -- Compiling entity data_memory
+# -- Compiling architecture behavioral of data_memory
+# Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package numeric_std
+# -- Loading package risc_package
+# -- Compiling entity tb_riscv
+# -- Compiling architecture dut of tb_riscv
+# vsim work.tb_RISCV 
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading /software/mentor/modelsim_6.2g/linux/../std.standard
+# Loading /software/mentor/modelsim_6.2g/linux/../ieee.std_logic_1164(body)
+# Loading /software/mentor/modelsim_6.2g/linux/../ieee.numeric_std(body)
+# Loading work.risc_package
+# Loading work.tb_riscv(dut)#1
+# Loading work.riscv(structural)#1
+# Loading work.if_stage(behavioral)#1
+# Loading work.mux21(structural)#1
+# Loading work.reg_jal_pc_if_id(behavioural)
+# Loading work.reg_zero(behavioural)
+# Loading work.id_stage(behavioural)
+# Loading work.imm_gen(structural)
+# Loading work.register_file(behavioural)
+# Loading work.hdu(arch)
+# Loading work.mux_id(behavioural)
+# Loading work.cu(arch)
+# Loading work.or_gate(behavioural)
+# Loading work.reg_nop(behavioural)#1
+# Loading work.reg_nop(behavioural)#2
+# Loading work.reg_nop(behavioural)#3
+# Loading work.reg_nop(behavioural)#4
+# Loading work.reg_nop(behavioural)#5
+# Loading work.ex_stage(structural)
+# Loading work.mux31(structural)
+# Loading work.alu(behavioural)
+# Loading work.alu_control(structural)
+# Loading work.addsum(structural)
+# Loading work.forwarding_unit(structural)
+# Loading work.mem_stage(behavioural)
+# Loading work.and_gate(behavioural)
+# Loading work.reg(behavioural)#1
+# Loading work.reg(behavioural)#2
+# Loading work.wb_stage(behavior)
+# Loading work.instruction_memory(behavioral)
+# Loading work.data_memory(behavioral)
+add wave sim:/tb_riscv/dm_comp/ram
+restart
+run 5.4 us

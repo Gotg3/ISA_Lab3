@@ -1,0 +1,56 @@
+m255
+cModel Technology Builtin Library
+13
+dD:\qa\buildsites\6.2g\builds\win32\modeltech
+Pvl_resolve
+OL;C;6.2g;35
+31
+b1
+OP;C;6.2g;35
+d.
+8$MODEL_TECH/../vhdl_src/verilog/vlresolve.vhd
+F$MODEL_TECH/../vhdl_src/verilog/vlresolve.vhd
+l0
+L9
+V?GckcDU8_EkiBzeFQFJ203
+OE;C;6.2g;35
+o-93 -work verilog -path $MODEL_TECH/../vhdl_src/verilog/vlresolve.vhd
+tExplicit 1
+Bbody
+DB work vl_resolve ?GckcDU8_EkiBzeFQFJ203
+OL;C;6.2g;35
+31
+OP;C;6.2g;35
+l0
+L9
+VB2T>5lW9_]oCAaQD64C2n3
+OE;C;6.2g;35
+o-93 -work verilog -path $MODEL_TECH/../vhdl_src/verilog/vlresolve.vhd
+tExplicit 1
+nbody
+Pvl_types
+OL;C;6.2g;35
+31
+b1
+OP;C;6.2g;35
+d.
+8$MODEL_TECH/../vhdl_src/verilog/vltypes.vhd
+F$MODEL_TECH/../vhdl_src/verilog/vltypes.vhd
+l0
+L9
+VEL`7Km5528[`SUe@0N=SW0
+OE;C;6.2g;35
+o-93 -work verilog -path $MODEL_TECH/../vhdl_src/verilog/vltypes.vhd
+tExplicit 1
+Bbody
+DB work vl_types EL`7Km5528[`SUe@0N=SW0
+OL;C;6.2g;35
+31
+OP;C;6.2g;35
+l0
+L9
+VRVba`dZz<efKd;P8Y<8B10
+OE;C;6.2g;35
+o-93 -work verilog -path $MODEL_TECH/../vhdl_src/verilog/vltypes.vhd
+tExplicit 1
+nbody
