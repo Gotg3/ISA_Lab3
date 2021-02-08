@@ -11,7 +11,7 @@ port (
     clk: in std_logic;
 	rst: in std_logic;
     d :  in std_logic_vector(n-1 downto 0);
-	N_en: in std_logic;--enable attivo basso
+	N_en: in std_logic;--attivo basso
 	q :  out std_logic_vector(n-1 downto 0));
 end reg_NOP;
 

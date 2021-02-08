@@ -247,7 +247,7 @@ architecture structural of RISCV is
 	reg_jal_IF_ID: reg_jal_PC_IF_ID port map (
 											clk	=>	clk,	
 	                                        rst	=>	rst,	
-	                                        IF_ID_write => PCWrite_IF_ID_Write_s,
+	                                        IF_ID_write => PCWrite_IF_ID_Write_s, --NOP quando è asserito, mette l'uscita del registro tutta a zero
 	                                        d => JAL_IF_out_s,		
 	                                        q => JAL_ID_in_s
 											);
@@ -255,7 +255,7 @@ architecture structural of RISCV is
 	reg_PC_IF_ID: reg_jal_PC_IF_ID port map (
 											clk	=>	clk,	
 	                                        rst	=>	rst,	
-	                                        IF_ID_write => PCWrite_IF_ID_Write_s,
+	                                        IF_ID_write => PCWrite_IF_ID_Write_s, --NOP quando è asserito, mette l'uscita del registro tutta a zero
 	                                        d => PC_IF_out_s,		
 	                                        q => PC_ID_in_s
 											);
@@ -308,14 +308,14 @@ architecture structural of RISCV is
 												clk => clk,
 	                                            rst => rst,
 	                                            d   => JAL_ID_out_s,
-												N_en=> or_OUTPUT_ID_out_s,
+												N_en=> or_OUTPUT_ID_out_s, --due salti consecutivi, quando è asserito mette l'uscita a zero
 	                                            q  	=> JAL_EX_in_s
 												);
 	reg_pc_ID_EX: reg_NOP generic map(32) port map (
 												clk => clk,
 	                                            rst => rst,
 	                                            d   => PC_ID_out_s,
-												N_en=> or_OUTPUT_ID_out_s,
+												N_en=> or_OUTPUT_ID_out_s, --due salti consecutivi, quando è asserito mette l'uscita a zero
 	                                            q  	=> PC_EX_in_s
 												);	
 	
@@ -323,7 +323,7 @@ architecture structural of RISCV is
 												clk 		=> clk,
 	                                            rst 		=> rst,
 	                                            d   		=> read_data_1_ID_out_s,
-												N_en 		=> or_IF_ID_Write_s,
+												N_en 		=> or_IF_ID_Write_s, -- da in uscita tutti zeri se ci sono due salti consecutivi o c'è un hazard od entrambi
 	                                            q  			=> Read_data1_EX_in_s
 												);
 	
@@ -331,7 +331,7 @@ architecture structural of RISCV is
 												clk => clk,
 	                                            rst => rst,
 	                                            d   => read_data_2_ID_out_s,
-												N_en=> or_OUTPUT_ID_out_s,
+												N_en=> or_OUTPUT_ID_out_s, --due salti consecutivi, quando è asserito mette l'uscita a zero
 	                                            q  	=> Read_data2_EX_in_s
 												);	
 	
@@ -339,7 +339,7 @@ architecture structural of RISCV is
 												clk => clk,
 	                                            rst => rst,
 	                                            d   => immediate_ID_out_s,
-												N_en => or_IF_ID_Write_s,
+												N_en => or_IF_ID_Write_s, -- da in uscita tutti zeri se ci sono due salti consecutivi o c'è un hazard od entrambi
 	                                            q  	=> imm_EX_in_s
 												);	
 	 
@@ -347,7 +347,7 @@ architecture structural of RISCV is
 												clk => clk,
 	                                            rst => rst,
 	                                            d   => to_ALU_control_ID_out_s,
-												N_en=> or_OUTPUT_ID_out_s,
+												N_en=> or_OUTPUT_ID_out_s,--due salti consecutivi, quando è asserito mette l'uscita a zero
 	                                            q  	=> to_ALU_ctrl_EX_in_s
 												);	
 	
@@ -355,7 +355,7 @@ architecture structural of RISCV is
 												clk => clk,
 	                                            rst => rst,
 	                                            d   => rd_ID_out_s,
-												N_en => or_IF_ID_Write_s,
+												N_en => or_IF_ID_Write_s, -- da in uscita tutti zeri se ci sono due salti consecutivi o c'è un hazard od entrambi
 	                                            q  	=> rd_EX_in_s
 												);	
 	
@@ -363,7 +363,7 @@ architecture structural of RISCV is
 												clk => clk,
 	                                            rst => rst,
 	                                            d   => WB_ID_out_s,
-												N_en=> or_OUTPUT_ID_out_s,
+												N_en=> or_OUTPUT_ID_out_s, --due salti consecutivi, quando è asserito mette l'uscita a zero
 	                                            q  	=> WB_EX_in_s
 												);
 	
@@ -371,14 +371,14 @@ architecture structural of RISCV is
 												clk => clk,
 	                                            rst => rst,
 	                                            d   => M_ID_out_s,
-												N_en=> or_OUTPUT_ID_out_s,
+												N_en=> or_OUTPUT_ID_out_s, --due salti consecutivi, quando è asserito mette l'uscita a zero
 	                                            q  	=> M_EX_in_s
 												);
 	reg_EX_ID_EX: reg_NOP generic map(6) port map (
 												clk => clk,
 	                                            rst => rst,
 	                                            d   => EX_ID_out_s,
-												N_en=> or_OUTPUT_ID_out_s,
+												N_en=> or_OUTPUT_ID_out_s, --due salti consecutivi, quando è asserito mette l'uscita a zero
 	                                            q  	=> EX_EX_in_s
 												);	
 	
@@ -386,7 +386,7 @@ architecture structural of RISCV is
 												clk => clk,
 	                                            rst => rst,
 	                                            d   => rs1_ID_out_s,
-												N_en => or_IF_ID_Write_s,
+												N_en => or_IF_ID_Write_s, -- da in uscita tutti zeri se ci sono due salti consecutivi o c'è un hazard od entrambi
 	                                            q  	=> rs1_EX_in_s
 												);	
 												
@@ -394,7 +394,7 @@ architecture structural of RISCV is
 												clk => clk,
 	                                            rst => rst,
 	                                            d   => rs2_ID_out_s,
-												N_en => or_IF_ID_Write_s,
+												N_en => or_IF_ID_Write_s, -- da in uscita tutti zeri se ci sono due salti consecutivi o c'è un hazard od entrambi
 	                                            q  	=> rs2_EX_in_s
 												);
 												
@@ -460,7 +460,7 @@ architecture structural of RISCV is
 												clk => clk,
 	                                            rst => rst,
 	                                            d   => WB_EX_out_s,
-												N_en=> or_OUTPUT_ID_out_s,
+												N_en=> or_OUTPUT_ID_out_s, --due salti consecutivi, quando è asserito mette l'uscita a zero
 	                                            q  	=> WB_MEM_in_s
 												);
 												
@@ -468,7 +468,7 @@ architecture structural of RISCV is
 												clk => clk,
 	                                            rst => rst,
 	                                            d   => M_EX_out_s,
-												N_en=> or_OUTPUT_ID_out_s,
+												N_en=> or_OUTPUT_ID_out_s, --due salti consecutivi, quando è asserito mette l'uscita a zero
 	                                            q  	=> M_MEM_in_s
 												);	
     
@@ -476,7 +476,7 @@ architecture structural of RISCV is
 												clk => clk,
 	                                            rst => rst,
 	                                            d   => JAL_PC_4_EX_out_s,
-												N_en=> or_OUTPUT_ID_out_s,
+												N_en=> or_OUTPUT_ID_out_s, --due salti consecutivi, quando è asserito mette l'uscita a zero
 	                                            q  	=> JAL_PC_4_MEM_in_s
 												);
 												
@@ -484,7 +484,7 @@ architecture structural of RISCV is
 												clk => clk,
 	                                            rst => rst,
 	                                            d   => rd_backward_ID_in_s,
-												N_en=> or_OUTPUT_ID_out_s,
+												N_en=> or_OUTPUT_ID_out_s, --due salti consecutivi, quando è asserito mette l'uscita a zero
 	                                            q  	=> rd_MEM_in_s
 												);	
 												
@@ -492,7 +492,7 @@ architecture structural of RISCV is
 												clk => clk,
 	                                            rst => rst,
 	                                            d   => TAddr_EX_out_s,
-												N_en=> or_OUTPUT_ID_out_s,
+												N_en=> or_OUTPUT_ID_out_s, --due salti consecutivi, quando è asserito mette l'uscita a zero
 	                                            q  	=> TAddr_MEM_in_s
 												);
 	
@@ -500,7 +500,7 @@ architecture structural of RISCV is
 									clk => clk,
 									rst => rst,
 									d   => z_EX_out_s,
-									N_en=> or_OUTPUT_ID_out_s,
+									N_en=> or_OUTPUT_ID_out_s, --due salti consecutivi, quando è asserito mette l'uscita a zero
 									q  	=> z_MEM_in_s
 									);
 												
@@ -508,7 +508,7 @@ architecture structural of RISCV is
 												clk => clk,
 	                                            rst => rst,
 	                                            d   => ALUout_EX_out_s,
-												N_en=> or_OUTPUT_ID_out_s,
+												N_en=> or_OUTPUT_ID_out_s, --un salto o due salti consecutivi, quando è asserito mette l'uscita a zero
 	                                            q  	=> ALUout_MEM_in_s
 												);
 												
@@ -516,7 +516,7 @@ architecture structural of RISCV is
 												clk => clk,
 	                                            rst => rst,
 	                                            d   => immediate_EX_out_s,
-												N_en=> or_OUTPUT_ID_out_s,
+												N_en=> or_OUTPUT_ID_out_s, --due salti consecutivi, quando è asserito mette l'uscita a zero
 	                                            q  	=> immediate_MEM_in_s
 												);
 	
