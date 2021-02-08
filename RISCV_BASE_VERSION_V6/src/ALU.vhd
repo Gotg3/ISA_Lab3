@@ -7,8 +7,8 @@ use work.risc_package.all;
 
 entity ALU is
 port(
-	in1    :in std_logic_vector(data_parallelism-1 downto 0); --rs1
-	in2    :in std_logic_vector(data_parallelism-1 downto 0); --rs2,IMM,PC
+	in1    :in std_logic_vector(data_parallelism-1 downto 0); --rs1, PC
+	in2    :in std_logic_vector(data_parallelism-1 downto 0); --rs2,IMM
 	output :out std_logic_vector(data_parallelism-1 downto 0);
 	z      :out std_logic;
 	ctrl   :in std_logic_vector(alu_ctrl-1 downto 0);
@@ -100,16 +100,7 @@ end entity;
 									end if;
 									
 									--if(signed(in1_s) = signed(in2_s)) then
-									--
-									--	z_s<='1'; --1 = take branch
-									--	output_s<=(others=>'0');
-									--	
-									--	
-									--else
-									--	z_s<='0';
-									--	output_s<=(others=>'0');
-									--	
-									--end if;
+
 
 					when "1011" => --LUI
 

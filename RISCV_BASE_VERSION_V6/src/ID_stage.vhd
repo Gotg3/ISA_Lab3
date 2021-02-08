@@ -116,7 +116,6 @@ signal write_data_in_s, read_data_1_out_s, read_data_2_out_s   : std_logic_vecto
 signal q_s, ctrl_s                                             : std_logic_vector(out_ctrl -1 downto 0); --signal for the mux_ID output
 signal instruction_s                                           : std_logic_vector(instruction_parallelism -1 downto 0);
 signal immediate_s                                             : std_logic_vector(data_parallelism -1 downto 0);
---signal zeros_s                                                 : std_logic_vector(out_ctrl -1 downto 0);
 signal opcode_s                                                : std_logic_vector(opcode_size -1 downto 0);
 signal funct3_s                                                : std_logic_vector(funct -1 downto 0);
 constant read_en_s                                             : std_logic:='1';
@@ -145,7 +144,7 @@ immediate_ID_out <= immediate_s;
 ID_EX_MemRead_s<=ID_EX_MemRead_ID_in;
 rd_backward_s<=rd_backward_ID_in;
 PCWrite_IF_ID_Write<=PCWrite_IF_ID_Write_s; -- signle output
---IF_ID_Write_ID_out<=PCWrite_IF_ID_Write_s;
+
 
 --CU
 opcode_s<=instruction_ID_in(6 downto 0);
@@ -178,8 +177,6 @@ Hazard: HDU port map(
                     read_register_1_s,
 					read_register_2_s,
 					rd_backward_s,
-					--PCWrite_s,
-					--IF_ID_Write_s,
 					PCWrite_IF_ID_Write_s,
 					sel_s
 					);

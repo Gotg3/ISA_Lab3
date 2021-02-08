@@ -96,16 +96,4 @@ end process;
 
 
 
-
---process(clk,rst) begin			--in pipe stage
---	if(rst='1') then 
---		data_out<=(others=>'0');
---	else
---		if(CLK'EVENT AND CLK='1') then 
---		data_out<=data_out_s;
---		end if;
---	end if;
---		
---end process;
-
 end Behavioral;

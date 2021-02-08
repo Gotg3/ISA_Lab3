@@ -29,15 +29,13 @@ begin
 
 		if ((ID_EX_MemRead = '1' AND ((rs1=rd) or (rs2=rd))) ) then
 			
-			--PCWrite<='1' ;
-			--IF_ID_Write<='1';
+
 			PCWrite_IF_ID_Write<='1';
 			sel_mux<='1';--gira il mux sull'ingresso tutti zero
 				
 		else
 				
-			--PCWrite<='0';
-			--IF_ID_Write<='0';
+			
 			PCWrite_IF_ID_Write<='0';
 			sel_mux<='0'; --gira il mux sull'ingresso a cui arrivano i controlli della control unit			
 				
