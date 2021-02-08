@@ -28,8 +28,6 @@ entity ID_stage is
 		immediate_ID_out     : out std_logic_vector(data_parallelism - 1 downto 0);
 		to_ALU_control_ID_out: out std_logic_vector(alu_ctrl - 1 downto 0);
 		rd_ID_out			 : out std_logic_vector(rd_length - 1 downto 0);
-		--PCWrite_ID_out       : out std_logic; --
-		--IF_ID_Write_ID_out   : out std_logic; --
 		PCWrite_IF_ID_Write	: out std_logic;
 		WB_ID_out            : out std_logic_vector(WB_length -1 downto 0);
 		M_ID_out             : out std_logic_vector(M_length -1 downto 0);
@@ -73,9 +71,7 @@ port(
 		ID_EX_MemRead: in std_logic;-- attivo alto                                             --v
 		rs1: in std_logic_vector(length_in_RF - 1 downto 0);-- instruction bits from 19 to 15  --v
 		rs2: in std_logic_vector(length_in_RF - 1 downto 0);-- instruction bits from 24 to 20  --v
-		rd : in std_logic_vector(length_in_RF - 1 downto 0);-- instruction bits from 11 to 7   --v
-		--PCWrite: out std_logic;                                                                --v
-		--IF_ID_Write: out std_logic;                                                            --v
+		rd : in std_logic_vector(length_in_RF - 1 downto 0);-- instruction bits from 11 to 7   --v                                                           --v
 		PCWrite_IF_ID_Write: out std_logic;
 		sel_mux: out std_logic                                                                 --v
 		
@@ -128,7 +124,6 @@ rst_s <= rst;
 
 --register file signals
 RegWrite_s <= RegWrite_ID_in;
---read_en_s  <= read_en_ID_in;
 read_register_1_s <=instruction_ID_in(19 downto 15);
 read_register_2_s <=instruction_ID_in(24 downto 20);
 write_register_s  <= write_register_ID_in;

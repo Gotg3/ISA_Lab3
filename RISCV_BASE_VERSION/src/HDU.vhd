@@ -11,8 +11,6 @@ entity HDU is --hazard detection unit
 		rs1: in std_logic_vector(length_in_RF - 1 downto 0);-- instruction bits from 19 to 15
 		rs2: in std_logic_vector(length_in_RF - 1 downto 0);-- instruction bits from 24 to 20
 		rd : in std_logic_vector(length_in_RF - 1 downto 0);-- instruction bits from 11 to 6
-		--PCWrite: out std_logic;
-		--IF_ID_Write: out std_logic;
 		PCWrite_IF_ID_Write: out std_logic;
 		sel_mux: out std_logic
 		
