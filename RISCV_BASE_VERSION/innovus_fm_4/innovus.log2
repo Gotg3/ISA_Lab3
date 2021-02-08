@@ -1,0 +1,1108 @@
+
+Cadence Innovus(TM) Implementation System.
+Copyright 2017 Cadence Design Systems, Inc. All rights reserved worldwide.
+
+Version:	v17.11-s080_1, built Fri Aug 4 11:13:11 PDT 2017
+Options:	
+Date:		Sun Jan 24 21:28:43 2021
+Host:		localhost.localdomain (x86_64 w/Linux 3.10.0-957.5.1.el7.x86_64) (1core*2cpus*Westmere E56xx/L56xx/X56xx (Nehalem-C) 4096KB)
+OS:		CentOS Linux release 7.6.1810 (Core) 
+
+License:
+		invs	Innovus Implementation System	17.1	checkout succeeded
+		8 CPU jobs allowed with the current license(s). Use setMultiCpuUsage to set your required CPU count.
+Change the soft stacksize limit to 0.2%RAM (31 mbytes). Set global soft_stack_size_limit to change the value.
+
+**INFO:  MMMC transition support version v31-84 
+
+<CMD> set_global _enable_mmmc_by_default_flow      $CTE::mmmc_default
+<CMD> suppressMessage ENCEXT-2799
+<CMD> getDrawView
+<CMD> loadWorkspace -name Physical
+<CMD> win
+<CMD> encMessage warning 0
+Suppress "**WARN ..." messages.
+<CMD> encMessage debug 0
+<CMD> encMessage info 0
+**WARN: (GLOBAL-100):	Global 'timing_enable_default_delay_arc' has become obsolete. It will be removed in the next release.
+my_rc
+Loading view definition file from /home/isa30/Desktop/Lab_3/RISCV_BASE_VERSION_V5/innovus/RISCV.enc.dat/viewDefinition.tcl
+**WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'ZN' of cell 'AND2_X1' is not defined in the library. (File /software/dk/nangate45/liberty/NangateOpenCellLibrary_typical_ecsm_nowlm.lib)
+**WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'ZN' of cell 'AND2_X2' is not defined in the library. (File /software/dk/nangate45/liberty/NangateOpenCellLibrary_typical_ecsm_nowlm.lib)
+**WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'ZN' of cell 'AND2_X4' is not defined in the library. (File /software/dk/nangate45/liberty/NangateOpenCellLibrary_typical_ecsm_nowlm.lib)
+**WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'ZN' of cell 'AND3_X1' is not defined in the library. (File /software/dk/nangate45/liberty/NangateOpenCellLibrary_typical_ecsm_nowlm.lib)
+**WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'ZN' of cell 'AND3_X2' is not defined in the library. (File /software/dk/nangate45/liberty/NangateOpenCellLibrary_typical_ecsm_nowlm.lib)
+**WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'ZN' of cell 'AND3_X4' is not defined in the library. (File /software/dk/nangate45/liberty/NangateOpenCellLibrary_typical_ecsm_nowlm.lib)
+**WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'ZN' of cell 'AND4_X1' is not defined in the library. (File /software/dk/nangate45/liberty/NangateOpenCellLibrary_typical_ecsm_nowlm.lib)
+**WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'ZN' of cell 'AND4_X2' is not defined in the library. (File /software/dk/nangate45/liberty/NangateOpenCellLibrary_typical_ecsm_nowlm.lib)
+**WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'ZN' of cell 'AND4_X4' is not defined in the library. (File /software/dk/nangate45/liberty/NangateOpenCellLibrary_typical_ecsm_nowlm.lib)
+**WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'ZN' of cell 'AOI21_X1' is not defined in the library. (File /software/dk/nangate45/liberty/NangateOpenCellLibrary_typical_ecsm_nowlm.lib)
+**WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'ZN' of cell 'AOI21_X2' is not defined in the library. (File /software/dk/nangate45/liberty/NangateOpenCellLibrary_typical_ecsm_nowlm.lib)
+**WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'ZN' of cell 'AOI21_X4' is not defined in the library. (File /software/dk/nangate45/liberty/NangateOpenCellLibrary_typical_ecsm_nowlm.lib)
+**WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'ZN' of cell 'AOI22_X1' is not defined in the library. (File /software/dk/nangate45/liberty/NangateOpenCellLibrary_typical_ecsm_nowlm.lib)
+**WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'ZN' of cell 'AOI22_X2' is not defined in the library. (File /software/dk/nangate45/liberty/NangateOpenCellLibrary_typical_ecsm_nowlm.lib)
+**WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'ZN' of cell 'AOI22_X4' is not defined in the library. (File /software/dk/nangate45/liberty/NangateOpenCellLibrary_typical_ecsm_nowlm.lib)
+**WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'ZN' of cell 'AOI211_X1' is not defined in the library. (File /software/dk/nangate45/liberty/NangateOpenCellLibrary_typical_ecsm_nowlm.lib)
+**WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'ZN' of cell 'AOI211_X2' is not defined in the library. (File /software/dk/nangate45/liberty/NangateOpenCellLibrary_typical_ecsm_nowlm.lib)
+**WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'ZN' of cell 'AOI211_X4' is not defined in the library. (File /software/dk/nangate45/liberty/NangateOpenCellLibrary_typical_ecsm_nowlm.lib)
+**WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'ZN' of cell 'AOI221_X1' is not defined in the library. (File /software/dk/nangate45/liberty/NangateOpenCellLibrary_typical_ecsm_nowlm.lib)
+**WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'ZN' of cell 'AOI221_X2' is not defined in the library. (File /software/dk/nangate45/liberty/NangateOpenCellLibrary_typical_ecsm_nowlm.lib)
+*** End library_loading (cpu=0.04min, real=0.38min, mem=21.3M, fe_cpu=0.53min, fe_real=7.90min, fe_mem=530.8M) ***
+*** Netlist is unique.
+Loading preference file /home/isa30/Desktop/Lab_3/RISCV_BASE_VERSION_V5/innovus/RISCV.enc.dat/gui.pref.tcl ...
+**WARN: (IMPTCM-77):	Option "-drouteStartIteration" for command setNanoRouteMode is obsolete and will be removed in a future release. The obsolete option still works in this release but to avoid this warning and to ensure compatibility with future releases, remove the obsolete option from your script.
+**WARN: (GLOBAL-100):	Global 'timing_enable_default_delay_arc' has become obsolete. It will be removed in the next release.
+'set_default_switching_activity' finished successfully.
+<CMD> setDrawView place
+my_rc
+<CMD> reset_parasitics
+Performing RC Extraction ...
+<CMD> extractRC
+Extraction called for design 'RISCV' of instances=20804 and nets=7101 using extraction engine 'postRoute' at effort level 'low' .
+**WARN: (IMPEXT-3530):	The process node is not set. Use the command setDesignMode -process <process node> prior to extraction for maximum accuracy and optimal automatic threshold setting.
+Type 'man IMPEXT-3530' for more detail.
+PostRoute (effortLevel low) RC Extraction called for design RISCV.
+RC Extraction called in multi-corner(1) mode.
+Process corner(s) are loaded.
+ Corner: my_rc
+extractDetailRC Option : -outfile /tmp/innovus_temp_21165_localhost.localdomain_isa30_FH63HD/RISCV_21165_WilJkw.rcdb.d  -extended
+RC Mode: PostRoute -effortLevel low [Extended CapTable, RC Table Resistances]
+      RC Corner Indexes            0   
+Capacitance Scaling Factor   : 1.00000 
+Coupling Cap. Scaling Factor : 1.00000 
+Resistance Scaling Factor    : 1.00000 
+Clock Cap. Scaling Factor    : 1.00000 
+Clock Res. Scaling Factor    : 1.00000 
+Shrink Factor                : 1.00000
+Initializing multi-corner capacitance tables ... 
+Initializing multi-corner resistance tables ...
+Checking LVS Completed (CPU Time= 0:00:00.0  MEM= 823.2M)
+Extracted 10.0017% (CPU Time= 0:00:00.3  MEM= 906.2M)
+Extracted 20.0013% (CPU Time= 0:00:00.4  MEM= 909.2M)
+Extracted 30.0019% (CPU Time= 0:00:00.4  MEM= 909.2M)
+Extracted 40.0015% (CPU Time= 0:00:00.5  MEM= 910.2M)
+Extracted 50.0022% (CPU Time= 0:00:00.6  MEM= 911.2M)
+Extracted 60.0017% (CPU Time= 0:00:00.7  MEM= 913.2M)
+Extracted 70.0013% (CPU Time= 0:00:00.8  MEM= 914.2M)
+Extracted 80.0019% (CPU Time= 0:00:01.0  MEM= 915.2M)
+Extracted 90.0015% (CPU Time= 0:00:01.2  MEM= 915.2M)
+Extracted 100% (CPU Time= 0:00:01.6  MEM= 922.3M)
+Number of Extracted Resistors     : 141189
+Number of Extracted Ground Cap.   : 148085
+Number of Extracted Coupling Cap. : 232000
+Filtering XCap in 'relativeOnly' mode using values relative_c_threshold=0.03 and total_c_threshold=5fF.
+ Corner: my_rc
+Checking LVS Completed (CPU Time= 0:00:00.0  MEM= 906.2M)
+PostRoute (effortLevel low) RC Extraction DONE (CPU Time: 0:00:02.0  Real Time: 0:00:25.0  MEM: 906.234M)
+<CMD> rcOut -setload RISCV.setload -rc_corner my_rc
+RC Out has the following PVT Info:
+   RC:my_rc, Operating temperature 25 C
+RC Out from RCDB Completed (CPU Time= 0:00:00.1  MEM= 906.2M)
+<CMD> rcOut -setres RISCV.setres -rc_corner my_rc
+RC Out has the following PVT Info:
+   RC:my_rc, Operating temperature 25 C
+RC Out from RCDB Completed (CPU Time= 0:00:00.0  MEM= 906.2M)
+<CMD> rcOut -spf RISCV.spf -rc_corner my_rc
+RC Out has the following PVT Info:
+   RC:my_rc, Operating temperature 25 C
+Printing *|NET...
+RC Out from RCDB Completed (CPU Time= 0:00:01.4  MEM= 906.2M)
+<CMD> rcOut -spef RISCV.spef -rc_corner my_rc
+RC Out has the following PVT Info:
+   RC:my_rc, Operating temperature 25 C
+Dumping Spef file.....
+Printing D_NET...
+RC Out from RCDB Completed (CPU Time= 0:00:00.7  MEM= 906.2M)
+<CMD> set_power_analysis_mode -reset
+<CMD> set_power_analysis_mode -method static -corner max -create_binary_db true -write_static_currents true -honor_negative_energy true -ignore_control_signals true
+<CMD> set_power_output_dir -reset
+<CMD> set_power_output_dir ./
+<CMD> set_default_switching_activity -reset
+<CMD> set_default_switching_activity -input_activity 0.2 -period 10.0
+'set_default_switching_activity' finished successfully.
+<CMD> read_activity_file -reset
+<CMD> set_power -reset
+<CMD> set_powerup_analysis -reset
+<CMD> set_dynamic_power_simulation -reset
+<CMD> report_power -rail_analysis_format VS -outfile .//RISCV.rpt
+
+Power Net Detected:
+    Voltage	    Name
+    0.00V	    VSS
+    1.10V	    VDD
+Starting SI iteration 1 using Infinite Timing Windows
+#################################################################################
+# Design Stage: PostRoute
+# Design Name: RISCV
+# Design Mode: 90nm
+# Analysis Mode: MMMC OCV 
+# Parasitics Mode: SPEF/RCDB
+# Signoff Settings: SI On 
+#################################################################################
+AAE_INFO: 1 threads acquired from CTE.
+Calculate early delays in OCV mode...
+Calculate late delays in OCV mode...
+Start delay calculation (fullDC) (1 T). (MEM=906.234)
+Initializing multi-corner capacitance tables ... 
+Initializing multi-corner resistance tables ...
+AAE_INFO: 1 threads acquired from CTE.
+Total number of fetched objects 8113
+AAE_INFO-618: Total number of nets in the design is 7101,  100.0 percent of the nets selected for SI analysis
+End delay calculation. (MEM=1143.82 CPU=0:00:07.0 REAL=0:01:22)
+End delay calculation (fullDC). (MEM=1046.45 CPU=0:00:07.8 REAL=0:01:32)
+Loading CTE timing window with TwFlowType 0...(CPU = 0:00:00.0, REAL = 0:00:00.0, MEM = 1046.5M)
+Add other clocks and setupCteToAAEClockMapping during iter 1
+Loading CTE timing window is completed (CPU = 0:00:00.1, REAL = 0:00:01.0, MEM = 1046.5M)
+Starting SI iteration 2
+Calculate early delays in OCV mode...
+Calculate late delays in OCV mode...
+Start delay calculation (fullDC) (1 T). (MEM=1054.5)
+Glitch Analysis: View MyAnView -- Total Number of Nets Skipped = 0. 
+Glitch Analysis: View MyAnView -- Total Number of Nets Analyzed = 8113. 
+Total number of fetched objects 8113
+AAE_INFO-618: Total number of nets in the design is 7101,  0.0 percent of the nets selected for SI analysis
+End delay calculation. (MEM=1022.5 CPU=0:00:00.2 REAL=0:00:02.0)
+End delay calculation (fullDC). (MEM=1022.5 CPU=0:00:00.3 REAL=0:00:03.0)
+
+Begin Power Analysis
+
+    0.00V	    VSS
+    1.10V	    VDD
+
+Begin Processing Timing Library for Power Calculation
+
+Begin Processing Timing Library for Power Calculation
+
+
+
+Begin Processing Power Net/Grid for Power Calculation
+
+Ended Processing Power Net/Grid for Power Calculation: (cpu=0:00:00, real=0:00:00, mem(process/total)=785.41MB/785.41MB)
+
+Begin Processing Timing Window Data for Power Calculation
+
+MY_CLK(133.69MHz) Ended Processing Timing Window Data for Power Calculation: (cpu=0:00:00, real=0:00:01, mem(process/total)=785.52MB/785.52MB)
+
+Begin Processing User Attributes
+
+Ended Processing User Attributes: (cpu=0:00:00, real=0:00:00, mem(process/total)=785.57MB/785.57MB)
+
+Begin Processing Signal Activity
+
+
+Starting Levelizing
+2021-Jan-24 21:42:14 (2021-Jan-24 20:42:14 GMT)
+2021-Jan-24 21:42:14 (2021-Jan-24 20:42:14 GMT): 10%
+2021-Jan-24 21:42:14 (2021-Jan-24 20:42:14 GMT): 20%
+2021-Jan-24 21:42:15 (2021-Jan-24 20:42:15 GMT): 30%
+2021-Jan-24 21:42:15 (2021-Jan-24 20:42:15 GMT): 40%
+2021-Jan-24 21:42:15 (2021-Jan-24 20:42:15 GMT): 50%
+2021-Jan-24 21:42:15 (2021-Jan-24 20:42:15 GMT): 60%
+2021-Jan-24 21:42:16 (2021-Jan-24 20:42:16 GMT): 70%
+2021-Jan-24 21:42:16 (2021-Jan-24 20:42:16 GMT): 80%
+2021-Jan-24 21:42:16 (2021-Jan-24 20:42:16 GMT): 90%
+
+Finished Levelizing
+2021-Jan-24 21:42:16 (2021-Jan-24 20:42:16 GMT)
+
+Starting Activity Propagation
+2021-Jan-24 21:42:17 (2021-Jan-24 20:42:17 GMT)
+2021-Jan-24 21:42:21 (2021-Jan-24 20:42:21 GMT): 10%
+2021-Jan-24 21:42:21 (2021-Jan-24 20:42:21 GMT): 20%
+2021-Jan-24 21:42:22 (2021-Jan-24 20:42:22 GMT): 30%
+2021-Jan-24 21:42:23 (2021-Jan-24 20:42:23 GMT): 40%
+2021-Jan-24 21:42:24 (2021-Jan-24 20:42:24 GMT): 50%
+2021-Jan-24 21:42:25 (2021-Jan-24 20:42:25 GMT): 60%
+2021-Jan-24 21:42:25 (2021-Jan-24 20:42:25 GMT): 70%
+2021-Jan-24 21:42:26 (2021-Jan-24 20:42:26 GMT): 80%
+2021-Jan-24 21:42:27 (2021-Jan-24 20:42:27 GMT): 90%
+
+Finished Activity Propagation
+2021-Jan-24 21:42:28 (2021-Jan-24 20:42:28 GMT)
+Ended Processing Signal Activity: (cpu=0:00:01, real=0:00:15, mem(process/total)=785.84MB/785.84MB)
+
+Begin Power Computation
+
+      ----------------------------------------------------------
+      # of cell(s) missing both power/leakage table: 0
+      # of cell(s) missing power table: 0
+      # of cell(s) missing leakage table: 0
+      # of MSMV cell(s) missing power_level: 0
+      ----------------------------------------------------------
+
+
+
+Starting Calculating power
+2021-Jan-24 21:42:28 (2021-Jan-24 20:42:28 GMT)
+ ... Calculating switching power
+2021-Jan-24 21:42:29 (2021-Jan-24 20:42:29 GMT): 10%
+2021-Jan-24 21:42:29 (2021-Jan-24 20:42:29 GMT): 20%
+2021-Jan-24 21:42:30 (2021-Jan-24 20:42:30 GMT): 30%
+2021-Jan-24 21:42:31 (2021-Jan-24 20:42:31 GMT): 40%
+2021-Jan-24 21:42:31 (2021-Jan-24 20:42:31 GMT): 50%
+ ... Calculating internal and leakage power
+2021-Jan-24 21:42:40 (2021-Jan-24 20:42:40 GMT): 60%
+2021-Jan-24 21:42:52 (2021-Jan-24 20:42:52 GMT): 70%
+2021-Jan-24 21:43:04 (2021-Jan-24 20:43:04 GMT): 80%
+2021-Jan-24 21:43:15 (2021-Jan-24 20:43:15 GMT): 90%
+
+Finished Calculating power
+2021-Jan-24 21:43:20 (2021-Jan-24 20:43:20 GMT)
+Ended Power Computation: (cpu=0:00:04, real=0:00:52, mem(process/total)=786.21MB/786.21MB)
+
+Begin Processing User Attributes
+
+Ended Processing User Attributes: (cpu=0:00:00, real=0:00:00, mem(process/total)=786.21MB/786.21MB)
+
+Ended Power Analysis: (cpu=0:00:05, real=0:01:09, mem(process/total)=786.27MB/786.27MB)
+
+Begin Static Power Report Generation
+*
+
+
+
+Total Power
+-----------------------------------------------------------------------------------------
+Total Internal Power:        1.42893927 	   67.8149%
+Total Switching Power:       0.40443738 	   19.1939%
+Total Leakage Power:         0.27374044 	   12.9912%
+Total Power:                 2.10711710
+-----------------------------------------------------------------------------------------
+Ended Static Power Report Generation: (cpu=0:00:00, real=0:00:03,
+mem(process/total)=786.55MB/786.55MB)
+
+Begin Creating Binary Database
+Ended Creating Binary Database: (cpu=0:00:01, real=0:00:12,
+mem(process/total)=786.64MB/786.64MB)
+
+Output file is .//RISCV.rpt.
+<CMD> selectInst FILLER_2441
+<CMD> report_power -outfile report_power_P_R -sort { total }
+Begin Static Power Report Generation
+*
+
+
+
+Total Power
+-----------------------------------------------------------------------------------------
+Total Internal Power:        1.42893927 	   67.8149%
+Total Switching Power:       0.40443738 	   19.1939%
+Total Leakage Power:         0.27374044 	   12.9912%
+Total Power:                 2.10711710
+-----------------------------------------------------------------------------------------
+Ended Static Power Report Generation: (cpu=0:00:00, real=0:00:02,
+mem(process/total)=787.85MB/787.85MB)
+
+
+Output file is .//report_power_P_R.
+<CMD> encMessage warning 0
+Suppress "**WARN ..." messages.
+<CMD> encMessage debug 0
+<CMD> encMessage info 0
+Free PSO.
+**WARN: (IMPCK-8086):	The command setCTSMode is obsolete and will be removed in the next release. This command still works in this release, but by the next release you must transition to the CCOpt-based CTS flow.
+
+
+Info (SM2C): Status of key globals:
+	 MMMC-by-default flow     : 1
+	 Default MMMC objs envvar : 0
+	 Data portability         : 0
+	 MMMC PV Emulation        : 0
+	 MMMC debug               : 0
+	 Init_Design flow         : 1
+
+
+	 CTE SM2C global          : false
+	 Reporting view filter    : false
+**WARN: (GLOBAL-100):	Global 'timing_enable_default_delay_arc' has become obsolete. It will be removed in the next release.
+my_rc
+Loading view definition file from /home/isa30/Desktop/Lab_3/RISCV_BASE_VERSION_V5/innovus/RISCV.enc.dat/viewDefinition.tcl
+*** End library_loading (cpu=0.04min, real=0.42min, mem=7.0M, fe_cpu=1.53min, fe_real=30.68min, fe_mem=703.9M) ***
+*** Netlist is unique.
+Loading preference file /home/isa30/Desktop/Lab_3/RISCV_BASE_VERSION_V5/innovus/RISCV.enc.dat/gui.pref.tcl ...
+**WARN: (IMPTCM-77):	Option "-drouteStartIteration" for command setNanoRouteMode is obsolete and will be removed in a future release. The obsolete option still works in this release but to avoid this warning and to ensure compatibility with future releases, remove the obsolete option from your script.
+**WARN: analysis view MyAnView not found, use default_view_setup
+**WARN: (GLOBAL-100):	Global 'timing_enable_default_delay_arc' has become obsolete. It will be removed in the next release.
+'set_default_switching_activity' finished successfully.
+<CMD> setDrawView place
+my_rc
+<CMD> reset_parasitics
+Performing RC Extraction ...
+<CMD> extractRC
+Extraction called for design 'RISCV' of instances=20804 and nets=7101 using extraction engine 'postRoute' at effort level 'low' .
+**WARN: (IMPEXT-3530):	The process node is not set. Use the command setDesignMode -process <process node> prior to extraction for maximum accuracy and optimal automatic threshold setting.
+Type 'man IMPEXT-3530' for more detail.
+PostRoute (effortLevel low) RC Extraction called for design RISCV.
+RC Extraction called in multi-corner(1) mode.
+Process corner(s) are loaded.
+ Corner: my_rc
+extractDetailRC Option : -outfile /tmp/innovus_temp_21165_localhost.localdomain_isa30_FH63HD/RISCV_21165_7ThqRV.rcdb.d  -extended
+RC Mode: PostRoute -effortLevel low [Extended CapTable, RC Table Resistances]
+      RC Corner Indexes            0   
+Capacitance Scaling Factor   : 1.00000 
+Coupling Cap. Scaling Factor : 1.00000 
+Resistance Scaling Factor    : 1.00000 
+Clock Cap. Scaling Factor    : 1.00000 
+Clock Res. Scaling Factor    : 1.00000 
+Shrink Factor                : 1.00000
+Initializing multi-corner capacitance tables ... 
+Initializing multi-corner resistance tables ...
+Checking LVS Completed (CPU Time= 0:00:00.0  MEM= 876.7M)
+Extracted 10.0017% (CPU Time= 0:00:00.3  MEM= 934.6M)
+Extracted 20.0013% (CPU Time= 0:00:00.3  MEM= 935.6M)
+Extracted 30.0019% (CPU Time= 0:00:00.4  MEM= 935.6M)
+Extracted 40.0015% (CPU Time= 0:00:00.5  MEM= 937.6M)
+Extracted 50.0022% (CPU Time= 0:00:00.6  MEM= 938.6M)
+Extracted 60.0017% (CPU Time= 0:00:00.7  MEM= 939.6M)
+Extracted 70.0013% (CPU Time= 0:00:00.8  MEM= 940.6M)
+Extracted 80.0019% (CPU Time= 0:00:01.0  MEM= 941.6M)
+Extracted 90.0015% (CPU Time= 0:00:01.2  MEM= 942.6M)
+Extracted 100% (CPU Time= 0:00:01.6  MEM= 948.6M)
+Number of Extracted Resistors     : 141189
+Number of Extracted Ground Cap.   : 148085
+Number of Extracted Coupling Cap. : 232000
+Filtering XCap in 'relativeOnly' mode using values relative_c_threshold=0.03 and total_c_threshold=5fF.
+ Corner: my_rc
+Checking LVS Completed (CPU Time= 0:00:00.0  MEM= 933.6M)
+PostRoute (effortLevel low) RC Extraction DONE (CPU Time: 0:00:02.0  Real Time: 0:00:26.0  MEM: 933.629M)
+<CMD> rcOut -setload RISCV.setload -rc_corner my_rc
+RC Out has the following PVT Info:
+   RC:my_rc, Operating temperature 25 C
+RC Out from RCDB Completed (CPU Time= 0:00:00.0  MEM= 933.6M)
+<CMD> rcOut -setres RISCV.setres -rc_corner my_rc
+RC Out has the following PVT Info:
+   RC:my_rc, Operating temperature 25 C
+RC Out from RCDB Completed (CPU Time= 0:00:00.0  MEM= 933.6M)
+<CMD> rcOut -spf RISCV.spf -rc_corner my_rc
+RC Out has the following PVT Info:
+   RC:my_rc, Operating temperature 25 C
+Printing *|NET...
+RC Out from RCDB Completed (CPU Time= 0:00:01.4  MEM= 933.6M)
+<CMD> rcOut -spef RISCV.spef -rc_corner my_rc
+RC Out has the following PVT Info:
+   RC:my_rc, Operating temperature 25 C
+Dumping Spef file.....
+Printing D_NET...
+RC Out from RCDB Completed (CPU Time= 0:00:00.6  MEM= 933.6M)
+<CMD> reset_parasitics
+Performing RC Extraction ...
+<CMD> extractRC
+Extraction called for design 'RISCV' of instances=20804 and nets=7101 using extraction engine 'postRoute' at effort level 'low' .
+**WARN: (IMPEXT-3530):	The process node is not set. Use the command setDesignMode -process <process node> prior to extraction for maximum accuracy and optimal automatic threshold setting.
+Type 'man IMPEXT-3530' for more detail.
+PostRoute (effortLevel low) RC Extraction called for design RISCV.
+RC Extraction called in multi-corner(1) mode.
+Process corner(s) are loaded.
+ Corner: my_rc
+extractDetailRC Option : -outfile /tmp/innovus_temp_21165_localhost.localdomain_isa30_FH63HD/RISCV_21165_Dr7GPg.rcdb.d -maxResLength 200  -extended
+RC Mode: PostRoute -effortLevel low [Extended CapTable, RC Table Resistances]
+      RC Corner Indexes            0   
+Capacitance Scaling Factor   : 1.00000 
+Coupling Cap. Scaling Factor : 1.00000 
+Resistance Scaling Factor    : 1.00000 
+Clock Cap. Scaling Factor    : 1.00000 
+Clock Res. Scaling Factor    : 1.00000 
+Shrink Factor                : 1.00000
+Initializing multi-corner capacitance tables ... 
+Initializing multi-corner resistance tables ...
+Checking LVS Completed (CPU Time= 0:00:00.0  MEM= 933.6M)
+Extracted 10.0017% (CPU Time= 0:00:00.3  MEM= 957.6M)
+Extracted 20.0013% (CPU Time= 0:00:00.4  MEM= 957.6M)
+Extracted 30.0019% (CPU Time= 0:00:00.4  MEM= 957.6M)
+Extracted 40.0015% (CPU Time= 0:00:00.5  MEM= 957.6M)
+Extracted 50.0022% (CPU Time= 0:00:00.6  MEM= 957.6M)
+Extracted 60.0017% (CPU Time= 0:00:00.8  MEM= 957.6M)
+Extracted 70.0013% (CPU Time= 0:00:00.9  MEM= 957.6M)
+Extracted 80.0019% (CPU Time= 0:00:01.1  MEM= 957.6M)
+Extracted 90.0015% (CPU Time= 0:00:01.2  MEM= 957.6M)
+Extracted 100% (CPU Time= 0:00:01.6  MEM= 957.6M)
+Number of Extracted Resistors     : 141189
+Number of Extracted Ground Cap.   : 148085
+Number of Extracted Coupling Cap. : 232000
+Filtering XCap in 'relativeOnly' mode using values relative_c_threshold=0.03 and total_c_threshold=5fF.
+ Corner: my_rc
+Checking LVS Completed (CPU Time= 0:00:00.0  MEM= 926.2M)
+PostRoute (effortLevel low) RC Extraction DONE (CPU Time: 0:00:02.1  Real Time: 0:00:23.0  MEM: 926.230M)
+<CMD> rcOut -setload RISCV.setload -rc_corner my_rc
+RC Out has the following PVT Info:
+   RC:my_rc, Operating temperature 25 C
+RC Out from RCDB Completed (CPU Time= 0:00:00.1  MEM= 926.2M)
+<CMD> rcOut -setres RISCV.setres -rc_corner my_rc
+RC Out has the following PVT Info:
+   RC:my_rc, Operating temperature 25 C
+RC Out from RCDB Completed (CPU Time= 0:00:00.0  MEM= 926.2M)
+<CMD> rcOut -spf RISCV.spf -rc_corner my_rc
+RC Out has the following PVT Info:
+   RC:my_rc, Operating temperature 25 C
+Printing *|NET...
+RC Out from RCDB Completed (CPU Time= 0:00:01.4  MEM= 926.2M)
+<CMD> rcOut -spef RISCV.spef -rc_corner my_rc
+RC Out has the following PVT Info:
+   RC:my_rc, Operating temperature 25 C
+Dumping Spef file.....
+Printing D_NET...
+RC Out from RCDB Completed (CPU Time= 0:00:00.6  MEM= 926.2M)
+<CMD> set_power_analysis_mode -reset
+<CMD> set_power_analysis_mode -method static -corner max -create_binary_db true -write_static_currents true -honor_negative_energy true -ignore_control_signals true
+<CMD> set_power_output_dir -reset
+<CMD> set_power_output_dir ./
+<CMD> set_default_switching_activity -reset
+<CMD> set_default_switching_activity -input_activity 0.2 -period 10.0
+'set_default_switching_activity' finished successfully.
+<CMD> read_activity_file -reset
+<CMD> read_activity_file -format VCD -scope /tb_RISCV/RISCV_comp -start {} -end {} -block {} ../vcd/design.vcd
+'read_activity_file' finished successfully.
+<CMD> set_power -reset
+<CMD> set_powerup_analysis -reset
+<CMD> set_dynamic_power_simulation -reset
+<CMD> report_power -rail_analysis_format VS -outfile .//RISCV.rpt
+Starting SI iteration 1 using Infinite Timing Windows
+#################################################################################
+# Design Stage: PostRoute
+# Design Name: RISCV
+# Design Mode: 90nm
+# Analysis Mode: MMMC OCV 
+# Parasitics Mode: SPEF/RCDB
+# Signoff Settings: SI On 
+#################################################################################
+AAE_INFO: 1 threads acquired from CTE.
+Calculate early delays in OCV mode...
+Calculate late delays in OCV mode...
+Start delay calculation (fullDC) (1 T). (MEM=926.23)
+Initializing multi-corner capacitance tables ... 
+Initializing multi-corner resistance tables ...
+AAE_INFO: 1 threads acquired from CTE.
+Total number of fetched objects 8113
+AAE_INFO-618: Total number of nets in the design is 7101,  100.0 percent of the nets selected for SI analysis
+End delay calculation. (MEM=1259.19 CPU=0:00:07.0 REAL=0:01:13)
+End delay calculation (fullDC). (MEM=1161.82 CPU=0:00:07.7 REAL=0:01:20)
+Loading CTE timing window with TwFlowType 0...(CPU = 0:00:00.0, REAL = 0:00:00.0, MEM = 1161.8M)
+Add other clocks and setupCteToAAEClockMapping during iter 1
+Loading CTE timing window is completed (CPU = 0:00:00.1, REAL = 0:00:00.0, MEM = 1161.8M)
+Starting SI iteration 2
+AAE_INFO: 1 threads acquired from CTE.
+Calculate early delays in OCV mode...
+Calculate late delays in OCV mode...
+Start delay calculation (fullDC) (1 T). (MEM=1169.87)
+Glitch Analysis: View MyAnView -- Total Number of Nets Skipped = 0. 
+Glitch Analysis: View MyAnView -- Total Number of Nets Analyzed = 8113. 
+Total number of fetched objects 8113
+AAE_INFO-618: Total number of nets in the design is 7101,  0.0 percent of the nets selected for SI analysis
+End delay calculation. (MEM=1137.86 CPU=0:00:00.2 REAL=0:00:02.0)
+End delay calculation (fullDC). (MEM=1137.86 CPU=0:00:00.3 REAL=0:00:03.0)
+
+Begin Power Analysis
+
+    0.00V	    VSS
+    1.10V	    VDD
+
+Begin Processing Timing Library for Power Calculation
+
+Begin Processing Timing Library for Power Calculation
+
+
+
+Begin Processing Power Net/Grid for Power Calculation
+
+Ended Processing Power Net/Grid for Power Calculation: (cpu=0:00:00, real=0:00:00, mem(process/total)=798.98MB/798.98MB)
+
+Begin Processing Timing Window Data for Power Calculation
+
+Ended Processing Timing Window Data for Power Calculation: (cpu=0:00:00, real=0:00:01, mem(process/total)=798.98MB/798.98MB)
+
+Parsing VCD file ../vcd/design.vcd
+
+Starting Reading VCD variables
+2021-Jan-24 22:05:26 (2021-Jan-24 21:05:26 GMT)
+
+Finished Reading VCD variables
+2021-Jan-24 22:05:26 (2021-Jan-24 21:05:26 GMT)
+   
+The vcd command required:
+   		0.04 user, 0.01 system, and 0.70 real seconds
+
+   Total number of value changes: 0.
+
+   Total simulation time: 5.38e-06s.
+
+   With this vcd command,  0 value changes and 5.38e-06 second simulation
+time were counted for power consumption calculation.
+
+  Filename (activity)                    : ../vcd/design.vcd
+  Names in file that matched to design   : 0/0
+  Annotation coverage for this file      : 0/7098 = 0%
+
+
+  Total annotation coverage for all files of type VCD: 0/7098 = 0%
+  Percent of VCD annotated nets with zero toggles: 0/7098 = 0%
+
+Begin Processing User Attributes
+
+Ended Processing User Attributes: (cpu=0:00:00, real=0:00:00, mem(process/total)=811.05MB/811.05MB)
+
+Begin Processing Signal Activity
+
+
+Starting Levelizing
+2021-Jan-24 22:05:28 (2021-Jan-24 21:05:28 GMT)
+2021-Jan-24 22:05:28 (2021-Jan-24 21:05:28 GMT): 10%
+2021-Jan-24 22:05:28 (2021-Jan-24 21:05:28 GMT): 20%
+2021-Jan-24 22:05:28 (2021-Jan-24 21:05:28 GMT): 30%
+2021-Jan-24 22:05:28 (2021-Jan-24 21:05:28 GMT): 40%
+2021-Jan-24 22:05:30 (2021-Jan-24 21:05:30 GMT): 50%
+2021-Jan-24 22:05:30 (2021-Jan-24 21:05:30 GMT): 60%
+2021-Jan-24 22:05:30 (2021-Jan-24 21:05:30 GMT): 70%
+2021-Jan-24 22:05:30 (2021-Jan-24 21:05:30 GMT): 80%
+2021-Jan-24 22:05:30 (2021-Jan-24 21:05:30 GMT): 90%
+
+Finished Levelizing
+2021-Jan-24 22:05:31 (2021-Jan-24 21:05:31 GMT)
+
+Starting Activity Propagation
+2021-Jan-24 22:05:31 (2021-Jan-24 21:05:31 GMT)
+2021-Jan-24 22:05:34 (2021-Jan-24 21:05:34 GMT): 10%
+2021-Jan-24 22:05:35 (2021-Jan-24 21:05:35 GMT): 20%
+2021-Jan-24 22:05:35 (2021-Jan-24 21:05:35 GMT): 30%
+2021-Jan-24 22:05:37 (2021-Jan-24 21:05:37 GMT): 40%
+2021-Jan-24 22:05:37 (2021-Jan-24 21:05:37 GMT): 50%
+2021-Jan-24 22:05:38 (2021-Jan-24 21:05:38 GMT): 60%
+2021-Jan-24 22:05:39 (2021-Jan-24 21:05:39 GMT): 70%
+2021-Jan-24 22:05:39 (2021-Jan-24 21:05:39 GMT): 80%
+2021-Jan-24 22:05:39 (2021-Jan-24 21:05:39 GMT): 90%
+
+Finished Activity Propagation
+2021-Jan-24 22:05:40 (2021-Jan-24 21:05:40 GMT)
+
+Activity annotation summary:
+        Primary Inputs : 1/66 = 1.51515%
+          Flop outputs : 0/2039 = 0%
+  Memory/Macro outputs : 0/0 = 0%
+      Tristate outputs : 0/0 = 0%
+            Total Nets : 1/7098 = 0.0140885%
+
+Ended Processing Signal Activity: (cpu=0:00:01, real=0:00:12, mem(process/total)=811.11MB/811.11MB)
+
+Begin Power Computation
+
+      ----------------------------------------------------------
+      # of cell(s) missing both power/leakage table: 0
+      # of cell(s) missing power table: 0
+      # of cell(s) missing leakage table: 0
+      # of MSMV cell(s) missing power_level: 0
+      ----------------------------------------------------------
+
+
+
+Starting Calculating power
+2021-Jan-24 22:05:40 (2021-Jan-24 21:05:40 GMT)
+ ... Calculating switching power
+2021-Jan-24 22:05:42 (2021-Jan-24 21:05:42 GMT): 10%
+2021-Jan-24 22:05:43 (2021-Jan-24 21:05:43 GMT): 20%
+2021-Jan-24 22:05:44 (2021-Jan-24 21:05:44 GMT): 30%
+2021-Jan-24 22:05:44 (2021-Jan-24 21:05:44 GMT): 40%
+2021-Jan-24 22:05:45 (2021-Jan-24 21:05:45 GMT): 50%
+ ... Calculating internal and leakage power
+2021-Jan-24 22:05:52 (2021-Jan-24 21:05:52 GMT): 60%
+2021-Jan-24 22:06:04 (2021-Jan-24 21:06:04 GMT): 70%
+2021-Jan-24 22:06:16 (2021-Jan-24 21:06:16 GMT): 80%
+2021-Jan-24 22:06:26 (2021-Jan-24 21:06:26 GMT): 90%
+
+Finished Calculating power
+2021-Jan-24 22:06:32 (2021-Jan-24 21:06:32 GMT)
+Ended Power Computation: (cpu=0:00:04, real=0:00:52, mem(process/total)=811.11MB/811.11MB)
+
+Begin Processing User Attributes
+
+Ended Processing User Attributes: (cpu=0:00:00, real=0:00:00, mem(process/total)=811.11MB/811.11MB)
+
+Ended Power Analysis: (cpu=0:00:06, real=0:01:08, mem(process/total)=811.11MB/811.11MB)
+
+Begin Static Power Report Generation
+*
+
+
+
+Total Power
+-----------------------------------------------------------------------------------------
+Total Internal Power:        1.42893927 	   67.8149%
+Total Switching Power:       0.40443738 	   19.1939%
+Total Leakage Power:         0.27374044 	   12.9912%
+Total Power:                 2.10711710
+-----------------------------------------------------------------------------------------
+Ended Static Power Report Generation: (cpu=0:00:00, real=0:00:03,
+mem(process/total)=811.11MB/811.11MB)
+
+Begin Creating Binary Database
+Ended Creating Binary Database: (cpu=0:00:01, real=0:00:11,
+mem(process/total)=811.14MB/811.14MB)
+
+Output file is .//RISCV.rpt.
+<CMD> report_power -outfile report_power_P_R -sort { total }
+Begin Static Power Report Generation
+*
+
+
+
+Total Power
+-----------------------------------------------------------------------------------------
+Total Internal Power:        1.42893927 	   67.8149%
+Total Switching Power:       0.40443738 	   19.1939%
+Total Leakage Power:         0.27374044 	   12.9912%
+Total Power:                 2.10711710
+-----------------------------------------------------------------------------------------
+Ended Static Power Report Generation: (cpu=0:00:00, real=0:00:02,
+mem(process/total)=811.26MB/811.26MB)
+
+
+Output file is .//report_power_P_R.
+<CMD> encMessage warning 0
+Suppress "**WARN ..." messages.
+<CMD> encMessage debug 0
+<CMD> encMessage info 0
+Free PSO.
+**WARN: (IMPCK-8086):	The command setCTSMode is obsolete and will be removed in the next release. This command still works in this release, but by the next release you must transition to the CCOpt-based CTS flow.
+
+
+Info (SM2C): Status of key globals:
+	 MMMC-by-default flow     : 1
+	 Default MMMC objs envvar : 0
+	 Data portability         : 0
+	 MMMC PV Emulation        : 0
+	 MMMC debug               : 0
+	 Init_Design flow         : 1
+
+
+	 CTE SM2C global          : false
+	 Reporting view filter    : false
+**WARN: (GLOBAL-100):	Global 'timing_enable_default_delay_arc' has become obsolete. It will be removed in the next release.
+my_rc
+Loading view definition file from /home/isa30/Desktop/Lab_3/RISCV_BASE_VERSION_V5/innovus/RISCV.enc.dat/viewDefinition.tcl
+*** End library_loading (cpu=0.04min, real=0.43min, mem=16.0M, fe_cpu=2.23min, fe_real=41.57min, fe_mem=835.0M) ***
+*** Netlist is unique.
+Loading preference file /home/isa30/Desktop/Lab_3/RISCV_BASE_VERSION_V5/innovus/RISCV.enc.dat/gui.pref.tcl ...
+**WARN: (IMPTCM-77):	Option "-drouteStartIteration" for command setNanoRouteMode is obsolete and will be removed in a future release. The obsolete option still works in this release but to avoid this warning and to ensure compatibility with future releases, remove the obsolete option from your script.
+**WARN: analysis view MyAnView not found, use default_view_setup
+**WARN: analysis view MyAnView not found, use default_view_setup
+**WARN: (GLOBAL-100):	Global 'timing_enable_default_delay_arc' has become obsolete. It will be removed in the next release.
+'set_default_switching_activity' finished successfully.
+<CMD> setDrawView place
+my_rc
+<CMD> reset_parasitics
+Performing RC Extraction ...
+<CMD> extractRC
+Extraction called for design 'RISCV' of instances=20804 and nets=7101 using extraction engine 'postRoute' at effort level 'low' .
+**WARN: (IMPEXT-3530):	The process node is not set. Use the command setDesignMode -process <process node> prior to extraction for maximum accuracy and optimal automatic threshold setting.
+Type 'man IMPEXT-3530' for more detail.
+PostRoute (effortLevel low) RC Extraction called for design RISCV.
+RC Extraction called in multi-corner(1) mode.
+Process corner(s) are loaded.
+ Corner: my_rc
+extractDetailRC Option : -outfile /tmp/innovus_temp_21165_localhost.localdomain_isa30_FH63HD/RISCV_21165_EFErsG.rcdb.d  -extended
+RC Mode: PostRoute -effortLevel low [Extended CapTable, RC Table Resistances]
+      RC Corner Indexes            0   
+Capacitance Scaling Factor   : 1.00000 
+Coupling Cap. Scaling Factor : 1.00000 
+Resistance Scaling Factor    : 1.00000 
+Clock Cap. Scaling Factor    : 1.00000 
+Clock Res. Scaling Factor    : 1.00000 
+Shrink Factor                : 1.00000
+Initializing multi-corner capacitance tables ... 
+Initializing multi-corner resistance tables ...
+Checking LVS Completed (CPU Time= 0:00:00.0  MEM= 1001.5M)
+Extracted 10.0017% (CPU Time= 0:00:00.3  MEM= 1059.5M)
+Extracted 20.0013% (CPU Time= 0:00:00.3  MEM= 1059.5M)
+Extracted 30.0019% (CPU Time= 0:00:00.4  MEM= 1059.5M)
+Extracted 40.0015% (CPU Time= 0:00:00.5  MEM= 1059.5M)
+Extracted 50.0022% (CPU Time= 0:00:00.6  MEM= 1059.5M)
+Extracted 60.0017% (CPU Time= 0:00:00.7  MEM= 1059.5M)
+Extracted 70.0013% (CPU Time= 0:00:00.8  MEM= 1059.5M)
+Extracted 80.0019% (CPU Time= 0:00:01.0  MEM= 1059.5M)
+Extracted 90.0015% (CPU Time= 0:00:01.2  MEM= 1059.5M)
+Extracted 100% (CPU Time= 0:00:01.6  MEM= 1065.5M)
+Number of Extracted Resistors     : 141189
+Number of Extracted Ground Cap.   : 148085
+Number of Extracted Coupling Cap. : 232000
+Filtering XCap in 'relativeOnly' mode using values relative_c_threshold=0.03 and total_c_threshold=5fF.
+ Corner: my_rc
+Checking LVS Completed (CPU Time= 0:00:00.0  MEM= 1049.4M)
+PostRoute (effortLevel low) RC Extraction DONE (CPU Time: 0:00:02.1  Real Time: 0:00:24.0  MEM: 1049.449M)
+<CMD> rcOut -setload RISCV.setload -rc_corner my_rc
+RC Out has the following PVT Info:
+   RC:my_rc, Operating temperature 25 C
+RC Out from RCDB Completed (CPU Time= 0:00:00.0  MEM= 1049.5M)
+<CMD> rcOut -setres RISCV.setres -rc_corner my_rc
+RC Out has the following PVT Info:
+   RC:my_rc, Operating temperature 25 C
+RC Out from RCDB Completed (CPU Time= 0:00:00.0  MEM= 1049.5M)
+<CMD> rcOut -spf RISCV.spf -rc_corner my_rc
+RC Out has the following PVT Info:
+   RC:my_rc, Operating temperature 25 C
+Printing *|NET...
+RC Out from RCDB Completed (CPU Time= 0:00:01.4  MEM= 1049.5M)
+<CMD> rcOut -spef RISCV.spef -rc_corner my_rc
+RC Out has the following PVT Info:
+   RC:my_rc, Operating temperature 25 C
+Dumping Spef file.....
+Printing D_NET...
+RC Out from RCDB Completed (CPU Time= 0:00:00.7  MEM= 1049.5M)
+<CMD> set_power_analysis_mode -reset
+<CMD> set_power_analysis_mode -method static -corner max -create_binary_db true -write_static_currents true -honor_negative_energy true -ignore_control_signals true
+<CMD> set_power_output_dir -reset
+<CMD> set_power_output_dir ./
+<CMD> set_default_switching_activity -reset
+<CMD> set_default_switching_activity -input_activity 0.2 -period 10.0
+'set_default_switching_activity' finished successfully.
+<CMD> read_activity_file -reset
+<CMD> read_activity_file -format VCD -scope tb_RISCV/RISCV_comp -start {} -end {} -block {} ../vcd/design.vcd
+'read_activity_file' finished successfully.
+<CMD> set_power -reset
+<CMD> set_powerup_analysis -reset
+<CMD> set_dynamic_power_simulation -reset
+<CMD> report_power -rail_analysis_format VS -outfile .//RISCV.rpt
+Starting SI iteration 1 using Infinite Timing Windows
+#################################################################################
+# Design Stage: PostRoute
+# Design Name: RISCV
+# Design Mode: 90nm
+# Analysis Mode: MMMC OCV 
+# Parasitics Mode: SPEF/RCDB
+# Signoff Settings: SI On 
+#################################################################################
+AAE_INFO: 1 threads acquired from CTE.
+Calculate early delays in OCV mode...
+Calculate late delays in OCV mode...
+Start delay calculation (fullDC) (1 T). (MEM=1049.45)
+Initializing multi-corner capacitance tables ... 
+Initializing multi-corner resistance tables ...
+AAE_INFO: 1 threads acquired from CTE.
+Total number of fetched objects 8113
+AAE_INFO-618: Total number of nets in the design is 7101,  100.0 percent of the nets selected for SI analysis
+End delay calculation. (MEM=1374.87 CPU=0:00:06.9 REAL=0:01:19)
+End delay calculation (fullDC). (MEM=1277.5 CPU=0:00:07.6 REAL=0:01:28)
+Loading CTE timing window with TwFlowType 0...(CPU = 0:00:00.0, REAL = 0:00:00.0, MEM = 1277.5M)
+Add other clocks and setupCteToAAEClockMapping during iter 1
+Loading CTE timing window is completed (CPU = 0:00:00.1, REAL = 0:00:00.0, MEM = 1277.5M)
+Starting SI iteration 2
+AAE_INFO: 1 threads acquired from CTE.
+Calculate early delays in OCV mode...
+Calculate late delays in OCV mode...
+Start delay calculation (fullDC) (1 T). (MEM=1285.55)
+Glitch Analysis: View MyAnView -- Total Number of Nets Skipped = 0. 
+Glitch Analysis: View MyAnView -- Total Number of Nets Analyzed = 8113. 
+Total number of fetched objects 8113
+AAE_INFO-618: Total number of nets in the design is 7101,  0.0 percent of the nets selected for SI analysis
+End delay calculation. (MEM=1253.54 CPU=0:00:00.2 REAL=0:00:03.0)
+End delay calculation (fullDC). (MEM=1253.54 CPU=0:00:00.3 REAL=0:00:04.0)
+
+Begin Power Analysis
+
+    0.00V	    VSS
+    1.10V	    VDD
+
+Begin Processing Timing Library for Power Calculation
+
+Begin Processing Timing Library for Power Calculation
+
+
+
+Begin Processing Power Net/Grid for Power Calculation
+
+Ended Processing Power Net/Grid for Power Calculation: (cpu=0:00:00, real=0:00:00, mem(process/total)=818.26MB/818.26MB)
+
+Begin Processing Timing Window Data for Power Calculation
+
+Ended Processing Timing Window Data for Power Calculation: (cpu=0:00:00, real=0:00:01, mem(process/total)=818.26MB/818.26MB)
+
+Parsing VCD file ../vcd/design.vcd
+
+Starting Reading VCD variables
+2021-Jan-24 22:16:13 (2021-Jan-24 21:16:13 GMT)
+
+Finished Reading VCD variables
+2021-Jan-24 22:16:13 (2021-Jan-24 21:16:13 GMT)
+   
+The vcd command required:
+   		0.04 user, 0.01 system, and 0.75 real seconds
+
+   Total number of value changes: 0.
+
+   Total simulation time: 5.38e-06s.
+
+   With this vcd command,  0 value changes and 5.38e-06 second simulation
+time were counted for power consumption calculation.
+
+  Filename (activity)                    : ../vcd/design.vcd
+  Names in file that matched to design   : 0/0
+  Annotation coverage for this file      : 0/7098 = 0%
+
+
+  Total annotation coverage for all files of type VCD: 0/7098 = 0%
+  Percent of VCD annotated nets with zero toggles: 0/7098 = 0%
+
+Begin Processing User Attributes
+
+Ended Processing User Attributes: (cpu=0:00:00, real=0:00:00, mem(process/total)=826.66MB/826.66MB)
+
+Begin Processing Signal Activity
+
+
+Starting Levelizing
+2021-Jan-24 22:16:15 (2021-Jan-24 21:16:15 GMT)
+2021-Jan-24 22:16:16 (2021-Jan-24 21:16:16 GMT): 10%
+2021-Jan-24 22:16:16 (2021-Jan-24 21:16:16 GMT): 20%
+2021-Jan-24 22:16:16 (2021-Jan-24 21:16:16 GMT): 30%
+2021-Jan-24 22:16:16 (2021-Jan-24 21:16:16 GMT): 40%
+2021-Jan-24 22:16:16 (2021-Jan-24 21:16:16 GMT): 50%
+2021-Jan-24 22:16:16 (2021-Jan-24 21:16:16 GMT): 60%
+2021-Jan-24 22:16:16 (2021-Jan-24 21:16:16 GMT): 70%
+2021-Jan-24 22:16:17 (2021-Jan-24 21:16:17 GMT): 80%
+2021-Jan-24 22:16:17 (2021-Jan-24 21:16:17 GMT): 90%
+
+Finished Levelizing
+2021-Jan-24 22:16:17 (2021-Jan-24 21:16:17 GMT)
+
+Starting Activity Propagation
+2021-Jan-24 22:16:18 (2021-Jan-24 21:16:18 GMT)
+2021-Jan-24 22:16:21 (2021-Jan-24 21:16:21 GMT): 10%
+2021-Jan-24 22:16:22 (2021-Jan-24 21:16:22 GMT): 20%
+2021-Jan-24 22:16:23 (2021-Jan-24 21:16:23 GMT): 30%
+2021-Jan-24 22:16:24 (2021-Jan-24 21:16:24 GMT): 40%
+2021-Jan-24 22:16:24 (2021-Jan-24 21:16:24 GMT): 50%
+2021-Jan-24 22:16:25 (2021-Jan-24 21:16:25 GMT): 60%
+2021-Jan-24 22:16:25 (2021-Jan-24 21:16:25 GMT): 70%
+2021-Jan-24 22:16:26 (2021-Jan-24 21:16:26 GMT): 80%
+2021-Jan-24 22:16:27 (2021-Jan-24 21:16:27 GMT): 90%
+
+Finished Activity Propagation
+2021-Jan-24 22:16:28 (2021-Jan-24 21:16:28 GMT)
+
+Activity annotation summary:
+        Primary Inputs : 1/66 = 1.51515%
+          Flop outputs : 0/2039 = 0%
+  Memory/Macro outputs : 0/0 = 0%
+      Tristate outputs : 0/0 = 0%
+            Total Nets : 1/7098 = 0.0140885%
+
+Ended Processing Signal Activity: (cpu=0:00:01, real=0:00:14, mem(process/total)=826.71MB/826.71MB)
+
+Begin Power Computation
+
+      ----------------------------------------------------------
+      # of cell(s) missing both power/leakage table: 0
+      # of cell(s) missing power table: 0
+      # of cell(s) missing leakage table: 0
+      # of MSMV cell(s) missing power_level: 0
+      ----------------------------------------------------------
+
+
+
+Starting Calculating power
+2021-Jan-24 22:16:28 (2021-Jan-24 21:16:28 GMT)
+ ... Calculating switching power
+2021-Jan-24 22:16:29 (2021-Jan-24 21:16:29 GMT): 10%
+2021-Jan-24 22:16:30 (2021-Jan-24 21:16:30 GMT): 20%
+2021-Jan-24 22:16:31 (2021-Jan-24 21:16:31 GMT): 30%
+2021-Jan-24 22:16:32 (2021-Jan-24 21:16:32 GMT): 40%
+2021-Jan-24 22:16:33 (2021-Jan-24 21:16:33 GMT): 50%
+ ... Calculating internal and leakage power
+2021-Jan-24 22:16:40 (2021-Jan-24 21:16:40 GMT): 60%
+2021-Jan-24 22:16:53 (2021-Jan-24 21:16:53 GMT): 70%
+2021-Jan-24 22:17:06 (2021-Jan-24 21:17:06 GMT): 80%
+2021-Jan-24 22:17:16 (2021-Jan-24 21:17:16 GMT): 90%
+
+Finished Calculating power
+2021-Jan-24 22:17:21 (2021-Jan-24 21:17:21 GMT)
+Ended Power Computation: (cpu=0:00:04, real=0:00:52, mem(process/total)=826.71MB/826.71MB)
+
+Begin Processing User Attributes
+
+Ended Processing User Attributes: (cpu=0:00:00, real=0:00:00, mem(process/total)=826.71MB/826.71MB)
+
+Ended Power Analysis: (cpu=0:00:05, real=0:01:10, mem(process/total)=826.71MB/826.71MB)
+
+Begin Static Power Report Generation
+*
+
+
+
+Total Power
+-----------------------------------------------------------------------------------------
+Total Internal Power:        1.42893927 	   67.8149%
+Total Switching Power:       0.40443738 	   19.1939%
+Total Leakage Power:         0.27374044 	   12.9912%
+Total Power:                 2.10711710
+-----------------------------------------------------------------------------------------
+Ended Static Power Report Generation: (cpu=0:00:00, real=0:00:03,
+mem(process/total)=826.71MB/826.71MB)
+
+Begin Creating Binary Database
+Ended Creating Binary Database: (cpu=0:00:01, real=0:00:11,
+mem(process/total)=826.78MB/826.78MB)
+
+Output file is .//RISCV.rpt.
+<CMD> set_power_output_dir -reset
+<CMD> set_power_output_dir ./
+<CMD> set_default_switching_activity -reset
+<CMD> set_default_switching_activity -input_activity 0.2 -period 10.0
+'set_default_switching_activity' finished successfully.
+<CMD> read_activity_file -reset
+<CMD> read_activity_file -format VCD -scope tb_RISCV/RISCV_comp -start {} -end {} -block {} ../vcd/design.vcd
+'read_activity_file' finished successfully.
+<CMD> set_power -reset
+<CMD> set_powerup_analysis -reset
+<CMD> set_dynamic_power_simulation -reset
+<CMD> report_power -rail_analysis_format VS -outfile .//RISCV.rpt
+
+Begin Power Analysis
+
+    0.00V	    VSS
+    1.10V	    VDD
+Begin Processing Timing Library for Power Calculation
+
+Begin Processing Timing Library for Power Calculation
+
+
+
+Begin Processing Power Net/Grid for Power Calculation
+
+Ended Processing Power Net/Grid for Power Calculation: (cpu=0:00:00, real=0:00:00, mem(process/total)=826.78MB/826.78MB)
+
+Begin Processing Timing Window Data for Power Calculation
+
+Ended Processing Timing Window Data for Power Calculation: (cpu=0:00:00, real=0:00:01, mem(process/total)=826.78MB/826.78MB)
+
+Parsing VCD file ../vcd/design.vcd
+
+Starting Reading VCD variables
+2021-Jan-24 22:17:50 (2021-Jan-24 21:17:50 GMT)
+
+Finished Reading VCD variables
+2021-Jan-24 22:17:50 (2021-Jan-24 21:17:50 GMT)
+   
+The vcd command required:
+   		0.04 user, 0.00 system, and 0.31 real seconds
+
+   Total number of value changes: 0.
+
+   Total simulation time: 5.38e-06s.
+
+   With this vcd command,  0 value changes and 5.38e-06 second simulation
+time were counted for power consumption calculation.
+
+  Filename (activity)                    : ../vcd/design.vcd
+  Names in file that matched to design   : 0/0
+  Annotation coverage for this file      : 0/7098 = 0%
+
+
+  Total annotation coverage for all files of type VCD: 0/7098 = 0%
+  Percent of VCD annotated nets with zero toggles: 0/7098 = 0%
+
+Begin Processing User Attributes
+
+Ended Processing User Attributes: (cpu=0:00:00, real=0:00:00, mem(process/total)=826.78MB/826.78MB)
+
+Begin Processing Signal Activity
+
+
+Starting Activity Propagation
+2021-Jan-24 22:17:51 (2021-Jan-24 21:17:51 GMT)
+2021-Jan-24 22:17:56 (2021-Jan-24 21:17:56 GMT): 10%
+2021-Jan-24 22:17:57 (2021-Jan-24 21:17:57 GMT): 20%
+2021-Jan-24 22:17:58 (2021-Jan-24 21:17:58 GMT): 30%
+2021-Jan-24 22:17:59 (2021-Jan-24 21:17:59 GMT): 40%
+2021-Jan-24 22:18:00 (2021-Jan-24 21:18:00 GMT): 50%
+2021-Jan-24 22:18:01 (2021-Jan-24 21:18:01 GMT): 60%
+2021-Jan-24 22:18:01 (2021-Jan-24 21:18:01 GMT): 70%
+2021-Jan-24 22:18:02 (2021-Jan-24 21:18:02 GMT): 80%
+2021-Jan-24 22:18:03 (2021-Jan-24 21:18:03 GMT): 90%
+
+Finished Activity Propagation
+2021-Jan-24 22:18:05 (2021-Jan-24 21:18:05 GMT)
+
+Activity annotation summary:
+        Primary Inputs : 1/66 = 1.51515%
+          Flop outputs : 0/2039 = 0%
+  Memory/Macro outputs : 0/0 = 0%
+      Tristate outputs : 0/0 = 0%
+            Total Nets : 1/7098 = 0.0140885%
+
+Ended Processing Signal Activity: (cpu=0:00:00, real=0:00:14, mem(process/total)=826.78MB/826.78MB)
+
+Begin Power Computation
+
+      ----------------------------------------------------------
+      # of cell(s) missing both power/leakage table: 0
+      # of cell(s) missing power table: 0
+      # of cell(s) missing leakage table: 0
+      # of MSMV cell(s) missing power_level: 0
+      ----------------------------------------------------------
+
+
+
+Starting Calculating power
+2021-Jan-24 22:18:05 (2021-Jan-24 21:18:05 GMT)
+ ... Calculating switching power
+2021-Jan-24 22:18:06 (2021-Jan-24 21:18:06 GMT): 10%
+2021-Jan-24 22:18:07 (2021-Jan-24 21:18:07 GMT): 20%
+2021-Jan-24 22:18:08 (2021-Jan-24 21:18:08 GMT): 30%
+2021-Jan-24 22:18:09 (2021-Jan-24 21:18:09 GMT): 40%
+2021-Jan-24 22:18:10 (2021-Jan-24 21:18:10 GMT): 50%
+ ... Calculating internal and leakage power
+2021-Jan-24 22:18:20 (2021-Jan-24 21:18:20 GMT): 60%
+2021-Jan-24 22:18:32 (2021-Jan-24 21:18:32 GMT): 70%
+2021-Jan-24 22:18:46 (2021-Jan-24 21:18:46 GMT): 80%
+2021-Jan-24 22:18:56 (2021-Jan-24 21:18:56 GMT): 90%
+
+Finished Calculating power
+2021-Jan-24 22:19:01 (2021-Jan-24 21:19:01 GMT)
+Ended Power Computation: (cpu=0:00:04, real=0:00:56, mem(process/total)=826.78MB/826.78MB)
+
+Begin Processing User Attributes
+
+Ended Processing User Attributes: (cpu=0:00:00, real=0:00:00, mem(process/total)=826.78MB/826.78MB)
+
+Ended Power Analysis: (cpu=0:00:05, real=0:01:14, mem(process/total)=826.78MB/826.78MB)
+
+Begin Static Power Report Generation
+*
+
+
+
+Total Power
+-----------------------------------------------------------------------------------------
+Total Internal Power:        1.42893927 	   67.8149%
+Total Switching Power:       0.40443738 	   19.1939%
+Total Leakage Power:         0.27374044 	   12.9912%
+Total Power:                 2.10711710
+-----------------------------------------------------------------------------------------
+Ended Static Power Report Generation: (cpu=0:00:00, real=0:00:03,
+mem(process/total)=826.78MB/826.78MB)
+
+Begin Creating Binary Database
+Ended Creating Binary Database: (cpu=0:00:01, real=0:00:08,
+mem(process/total)=826.78MB/826.78MB)
+
+Output file is .//RISCV.rpt.
+<CMD> report_power -outfile report_power_P_R -sort { total }
+Begin Static Power Report Generation
+*
+
+
+
+Total Power
+-----------------------------------------------------------------------------------------
+Total Internal Power:        1.42893927 	   67.8149%
+Total Switching Power:       0.40443738 	   19.1939%
+Total Leakage Power:         0.27374044 	   12.9912%
+Total Power:                 2.10711710
+-----------------------------------------------------------------------------------------
+Ended Static Power Report Generation: (cpu=0:00:00, real=0:00:02,
+mem(process/total)=827.36MB/827.36MB)
+
+
+Output file is .//report_power_P_R.
+
+*** Memory Usage v#1 (Current mem = 1257.551M, initial mem = 179.684M) ***
+*** Message Summary: 35 warning(s), 0 error(s)
+
+--- Ending "Innovus" (totcpu=0:03:02, real=0:56:18, mem=1257.6M) ---

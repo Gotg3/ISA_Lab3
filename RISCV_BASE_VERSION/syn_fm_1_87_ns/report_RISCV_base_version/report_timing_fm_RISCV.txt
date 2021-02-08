@@ -1,0 +1,69 @@
+Information: Updating design information... (UID-85)
+Warning: Design 'RISCV' contains 1 high-fanout nets. A fanout number of 1000 will be used for delay calculations involving these nets. (TIM-134)
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : RISCV
+Version: O-2018.06-SP4
+Date   : Sat Jan 23 08:59:25 2021
+****************************************
+
+ # A fanout number of 1000 was used for high fanout net computations.
+
+Operating Conditions: typical   Library: NangateOpenCellLibrary
+Wire Load Model Mode: top
+
+  Startpoint: Read_data_WB_in[23]
+              (input port clocked by MY_CLK)
+  Endpoint: ALUout_EX_out[31]
+            (output port clocked by MY_CLK)
+  Path Group: MY_CLK
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  RISCV              5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock MY_CLK (rise edge)                 0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  input external delay                     0.50       0.50 f
+  Read_data_WB_in[23] (in)                 0.00       0.50 f
+  U4222/ZN (AOI22_X1)                      0.05       0.55 r
+  U4223/ZN (NAND2_X1)                      0.03       0.59 f
+  U7046/ZN (AOI22_X1)                      0.05       0.63 r
+  U3878/ZN (NAND2_X1)                      0.04       0.67 f
+  U7047/ZN (INV_X1)                        0.04       0.71 r
+  U3991/ZN (OAI22_X1)                      0.04       0.75 f
+  r396/U327/ZN (NOR2_X1)                   0.06       0.81 r
+  r396/U360/ZN (NOR2_X1)                   0.03       0.85 f
+  r396/U409/ZN (AOI21_X1)                  0.04       0.89 r
+  r396/U537/ZN (OAI21_X1)                  0.04       0.92 f
+  r396/U562/ZN (AOI21_X1)                  0.04       0.96 r
+  r396/U560/ZN (OAI21_X1)                  0.04       1.01 f
+  r396/U375/ZN (AOI21_X1)                  0.04       1.05 r
+  r396/U565/ZN (OAI21_X1)                  0.03       1.08 f
+  r396/U578/ZN (AOI21_X1)                  0.05       1.13 r
+  r396/U504/ZN (XNOR2_X1)                  0.06       1.19 r
+  U6282/ZN (AOI22_X1)                      0.03       1.22 f
+  U4093/ZN (AOI21_X1)                      0.06       1.28 r
+  ALUout_EX_out[31] (out)                  0.02       1.30 r
+  data arrival time                                   1.30
+
+  clock MY_CLK (rise edge)                 1.87       1.87
+  clock network delay (ideal)              0.00       1.87
+  clock uncertainty                       -0.07       1.80
+  output external delay                   -0.50       1.30
+  data required time                                  1.30
+  -----------------------------------------------------------
+  data required time                                  1.30
+  data arrival time                                  -1.30
+  -----------------------------------------------------------
+  slack (MET)                                         0.00
+
+
+1
