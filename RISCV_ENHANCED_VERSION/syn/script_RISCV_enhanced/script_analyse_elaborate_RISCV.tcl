@@ -11,8 +11,6 @@ analyze -f vhdl -lib work ../src/imm_gen.vhd
 analyze -f vhdl -lib work ../src/mux_ID.vhd
 analyze -f vhdl -lib work ../src/mux21.vhd
 analyze -f vhdl -lib work ../src/mux31.vhd
-analyze -f vhdl -lib work ../src/PC.vhd
-analyze -f vhdl -lib work ../src/PC_instr_mem.vhd
 analyze -f vhdl -lib work ../src/reg.vhd
 analyze -f vhdl -lib work ../src/reg_zero.vhd
 analyze -f vhdl -lib work ../src/reg_NOP.vhd
