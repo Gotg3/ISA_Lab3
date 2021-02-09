@@ -12,8 +12,6 @@ vcom -93 -work ./work ../src/instruction_memory.vhd
 vcom -93 -work ./work ../src/mux_ID.vhd
 vcom -93 -work ./work ../src/mux21.vhd
 vcom -93 -work ./work ../src/mux31.vhd
-vcom -93 -work ./work ../src/PC.vhd
-vcom -93 -work ./work ../src/PC_instr_mem.vhd
 vcom -93 -work ./work ../src/reg.vhd
 vcom -93 -work ./work ../src/reg_zero.vhd
 vcom -93 -work ./work ../src/reg_NOP.vhd
